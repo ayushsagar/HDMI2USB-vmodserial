@@ -32,6 +32,8 @@ LIBS:valves
 LIBS:VHDCI
 LIBS:+5v_iso
 LIBS:gnd_iso
+LIBS:roe-0505s
+LIBS:si8660
 LIBS:Main-cache
 EELAYER 27 0
 EELAYER END

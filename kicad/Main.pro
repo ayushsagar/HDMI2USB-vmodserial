@@ -1,4 +1,4 @@
-update=6/22/2014 9:20:23 PM
+update=6/23/2014 12:10:42 AM
 last_client=eeschema
 [eeschema]
 version=1
@@ -42,3 +42,5 @@ LibName30=valves
 LibName31=VHDCI
 LibName32=+5v_iso
 LibName33=gnd_iso
+LibName34=roe-0505s
+LibName35=si8660

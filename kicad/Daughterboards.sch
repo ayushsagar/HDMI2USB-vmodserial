@@ -32,6 +32,8 @@ LIBS:valves
 LIBS:VHDCI
 LIBS:+5v_iso
 LIBS:gnd_iso
+LIBS:roe-0505s
+LIBS:si8660
 LIBS:Main-cache
 EELAYER 27 0
 EELAYER END
@@ -340,7 +342,7 @@ Wire Wire Line
 Wire Wire Line
 	7400 5150 7550 5150
 Text Notes 1000 1150 0    120  ~ 0
-To create customized design with preloaded daughterboards add the desired \ndaughterboard schematic as a hierarchical sheet and replace the slot connectors with it.
+To create customized design with preloaded daughterboards add the desired \ndaughterboard schematic as a hierarchical sheet and replace the slot connector with it.
 Wire Wire Line
 	5700 4950 5850 4950
 Text HLabel 4000 3350 0    60   Input ~ 0
