@@ -34,6 +34,7 @@ LIBS:+5v_iso
 LIBS:gnd_iso
 LIBS:roe-0505s
 LIBS:si8660
+LIBS:pic16f1704
 LIBS:Main-cache
 EELAYER 27 0
 EELAYER END
@@ -427,9 +428,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 5450 5200 5450
 Wire Wire Line
-	5550 1900 5350 1900
-Wire Wire Line
-	5350 1900 5200 1900
+	5200 1900 5550 1900
 Wire Wire Line
 	5550 2150 5200 2150
 Wire Wire Line
@@ -539,9 +538,7 @@ Wire Wire Line
 Wire Wire Line
 	6950 5550 6550 5550
 Wire Wire Line
-	6550 5750 6750 5750
-Wire Wire Line
-	6750 5750 6950 5750
+	6550 5750 6950 5750
 Wire Wire Line
 	7900 2050 8300 2050
 Wire Wire Line
@@ -565,9 +562,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 1900 8150 1550
 Wire Wire Line
-	6550 1900 6750 1900
-Wire Wire Line
-	6750 1900 6950 1900
+	6550 1900 6950 1900
 Connection ~ 6750 1900
 Wire Wire Line
 	6750 1900 6750 1550
@@ -581,9 +576,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 1900 2200 1900
 Wire Wire Line
-	1650 2050 2000 2050
-Wire Wire Line
-	2000 2050 2200 2050
+	1650 2050 2200 2050
 Wire Wire Line
 	2000 2050 2000 2450
 Wire Wire Line

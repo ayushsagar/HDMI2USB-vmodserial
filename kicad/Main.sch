@@ -34,6 +34,7 @@ LIBS:+5v_iso
 LIBS:gnd_iso
 LIBS:roe-0505s
 LIBS:si8660
+LIBS:pic16f1704
 LIBS:Main-cache
 EELAYER 27 0
 EELAYER END
@@ -190,8 +191,8 @@ F40 "CTS5" O R 6900 4350 60
 F41 "DTR5" I R 6900 4450 60 
 F42 "DSR5" O R 6900 4550 60 
 $EndSheet
-Text Notes 2650 6100 0    60   ~ 0
-The DTE is either Atlys VHDCI module or PIC18 USB modules, i.e. only of them stays populated on PCB.
+Text Notes 3300 6050 0    60   ~ 0
+The DTE is either Atlys VHDCI module or PIC18 USB modules.\nWhile both of them are shown connected on schematic, only one of them stays populated on PCB assumbly.
 Wire Wire Line
 	5350 2650 5200 2650
 Text Label 5200 2650 2    60   ~ 0
