@@ -1,7 +1,5 @@
-update=6/3/2014 6:58:24 AM
+update=6/22/2014 9:20:23 PM
 last_client=eeschema
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -42,4 +40,5 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=VHDCI
-LibName32=GSOT05C
+LibName32=+5v_iso
+LibName33=gnd_iso
