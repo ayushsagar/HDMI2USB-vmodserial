@@ -1,4 +1,4 @@
-update=6/23/2014 1:55:33 PM
+update=6/24/2014 12:52:49 AM
 last_client=eeschema
 [eeschema]
 version=1
@@ -49,3 +49,4 @@ LibName37=PIC18F85J94
 LibName38=24AA014
 LibName39=AAT3221IGV-3V3-T1
 LibName40=CONN_16
+LibName41=csmall
