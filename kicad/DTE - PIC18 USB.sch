@@ -215,9 +215,13 @@ F 3 "" H 2750 6950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2850 6000 3050 6000
+	2850 6000 2950 6000
 Wire Wire Line
-	7350 1600 7800 1600
+	2950 6000 3050 6000
+Wire Wire Line
+	7350 1600 7600 1600
+Wire Wire Line
+	7600 1600 7800 1600
 Wire Wire Line
 	7600 1600 7600 2000
 Connection ~ 7600 1600
@@ -226,7 +230,9 @@ Wire Wire Line
 Wire Wire Line
 	6900 1750 7000 1800
 Wire Wire Line
-	7000 1800 7800 1800
+	7000 1800 7400 1800
+Wire Wire Line
+	7400 1800 7800 1800
 Wire Wire Line
 	5950 1850 5800 1850
 Wire Wire Line
@@ -234,13 +240,17 @@ Wire Wire Line
 Wire Wire Line
 	5800 2150 6850 2150
 Wire Wire Line
-	6850 1850 6850 2300
+	6850 1850 6850 2150
+Wire Wire Line
+	6850 2150 6850 2300
 Wire Wire Line
 	6850 1850 6700 1850
 Wire Wire Line
 	6700 2350 6700 2300
 Wire Wire Line
-	6700 2300 7000 2300
+	6700 2300 6850 2300
+Wire Wire Line
+	6850 2300 7000 2300
 Wire Wire Line
 	7000 2300 7000 2400
 Wire Wire Line
@@ -254,7 +264,11 @@ Connection ~ 7400 2900
 Wire Wire Line
 	7600 2000 7800 2000
 Wire Wire Line
-	6700 2900 9400 2900
+	6700 2900 7000 2900
+Wire Wire Line
+	7000 2900 7400 2900
+Wire Wire Line
+	7400 2900 9400 2900
 Connection ~ 7000 2900
 Wire Wire Line
 	4900 1600 4800 1700
@@ -291,16 +305,10 @@ VCC
 Wire Wire Line
 	2850 6400 2850 6550
 Wire Wire Line
-	4500 4600 6250 4600
+	5800 4800 5650 4800
 Wire Wire Line
-	4500 4700 6250 4700
-Wire Wire Line
-	6250 4800 4500 4800
-Wire Wire Line
-	6250 4600 6250 4800
-Connection ~ 6250 4700
-Connection ~ 6250 4600
-Text Label 6250 4600 0    60   ~ 0
+	5500 4800 4500 4800
+Text Label 5800 4600 0    60   ~ 0
 VCC
 Text Label 2750 6400 1    60   ~ 0
 GND
@@ -335,20 +343,38 @@ Text Label 7600 1600 0    60   ~ 0
 Wire Wire Line
 	7400 2900 7400 1800
 Wire Wire Line
-	5500 4950 5500 4600
-Connection ~ 5500 4600
+	5500 4950 5500 4800
 Wire Wire Line
-	5650 4950 5650 4700
-Connection ~ 5650 4700
+	5650 4950 5650 4800
 Wire Wire Line
-	5800 4950 5800 4800
+	5800 4600 5800 4700
+Wire Wire Line
+	5800 4700 5800 4800
+Wire Wire Line
+	5800 4800 5800 4950
 Connection ~ 5800 4800
 Wire Wire Line
-	4500 5500 4500 6000
+	4500 5500 4500 5600
+Wire Wire Line
+	4500 5600 4500 5700
+Wire Wire Line
+	4500 5700 4500 5800
+Wire Wire Line
+	4500 5800 4500 6000
 Connection ~ 4500 5600
 Connection ~ 4500 5700
 Wire Wire Line
-	4500 5500 5800 5500
+	4500 5500 4800 5500
+Wire Wire Line
+	4800 5500 4950 5500
+Wire Wire Line
+	4950 5500 5250 5500
+Wire Wire Line
+	5250 5500 5500 5500
+Wire Wire Line
+	5500 5500 5650 5500
+Wire Wire Line
+	5650 5500 5800 5500
 Wire Wire Line
 	5800 5500 5800 5150
 Wire Wire Line
@@ -624,4 +650,16 @@ F 3 "~" H 5800 5050 60  0000 C CNN
 	1    5800 5050
 	1    0    0    -1  
 $EndComp
+Connection ~ 5800 4700
+Connection ~ 5800 4600
+Wire Wire Line
+	4500 4700 5800 4700
+Wire Wire Line
+	4500 4600 5500 4600
+Wire Wire Line
+	5500 4600 5800 4600
+Connection ~ 5650 4800
+Connection ~ 5500 4800
+Wire Wire Line
+	5650 4800 5500 4800
 $EndSCHEMATC
