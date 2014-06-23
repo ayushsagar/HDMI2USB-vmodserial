@@ -35,14 +35,16 @@ LIBS:gnd_iso
 LIBS:roe-0505s
 LIBS:si8660
 LIBS:pic16f1704
+LIBS:PIC18F85J94
+LIBS:24AA014
 LIBS:Main-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 8
+Sheet 6 7
 Title ""
-Date "22 jun 2014"
+Date "23 jun 2014"
 Rev ""
 Comp ""
 Comment1 ""

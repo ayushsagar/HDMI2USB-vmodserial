@@ -35,14 +35,16 @@ LIBS:gnd_iso
 LIBS:roe-0505s
 LIBS:si8660
 LIBS:pic16f1704
+LIBS:PIC18F85J94
+LIBS:24AA014
 LIBS:Main-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 8
+Sheet 3 7
 Title ""
-Date "22 jun 2014"
+Date "23 jun 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -154,4 +156,15 @@ Text HLabel 2250 1200 2    60   BiDi ~ 0
 SDA
 Text HLabel 2250 1300 2    60   BiDi ~ 0
 SCL
+$Comp
+L PIC18F85J94 U?
+U 1 1 53B3C345
+P 3850 4050
+F 0 "U?" H 3450 1600 60  0000 L CNN
+F 1 "PIC18F85J94" H 3450 6550 60  0000 L CNN
+F 2 "~" H 3850 4050 60  0000 C CNN
+F 3 "~" H 3850 4050 60  0000 C CNN
+	1    3850 4050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
