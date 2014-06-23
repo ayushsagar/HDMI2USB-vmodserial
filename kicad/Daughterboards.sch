@@ -82,39 +82,28 @@ Wire Wire Line
 	4000 3250 4150 3250
 Text HLabel 4000 3350 0    60   Input ~ 0
 GND
-Text HLabel 4000 3550 0    60   BiDi ~ 0
+Text HLabel 4000 3650 0    60   BiDi ~ 0
 ID_SDA
 Wire Wire Line
 	4000 3350 4150 3350
 Wire Wire Line
-	4000 3450 4150 3450
-Wire Wire Line
 	4000 3550 4150 3550
+Wire Wire Line
+	4000 3650 4150 3650
 Text Notes 1000 1150 0    120  ~ 0
 To create customized design with preloaded daughterboards add the desired \ndaughterboard schematic as a hierarchical sheet and replace the slot connector with it.
-Text HLabel 4000 3650 0    60   BiDi ~ 0
+Text HLabel 4000 3750 0    60   BiDi ~ 0
 ID_SCL
 Text Notes 3750 6650 0    60   ~ 0
 All pins at 5V TTL level
-$Comp
-L CONN_12 P?
-U 1 1 53B6335B
-P 4500 3200
-F 0 "P?" V 4450 3200 60  0000 C CNN
-F 1 "SLOT_A" V 4550 3200 60  0000 C CNN
-F 2 "" H 4500 3200 60  0000 C CNN
-F 3 "" H 4500 3200 60  0000 C CNN
-	1    4500 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4000 3650 4150 3650
-Text HLabel 4000 3450 0    60   Input ~ 0
-ID_3.3V
-Text HLabel 4000 3750 0    60   Input ~ 0
-ID_GND
 Wire Wire Line
 	4000 3750 4150 3750
+Text HLabel 4000 3550 0    60   Input ~ 0
+ID_3.3V
+Text HLabel 4000 3850 0    60   Input ~ 0
+ID_GND
+Wire Wire Line
+	4000 3850 4150 3850
 Text HLabel 5700 2750 0    60   Output ~ 0
 RX1
 Text HLabel 5700 2650 0    60   Input ~ 0
@@ -145,35 +134,24 @@ Wire Wire Line
 	5700 3250 5850 3250
 Text HLabel 5700 3350 0    60   Input ~ 0
 GND
-Text HLabel 5700 3550 0    60   BiDi ~ 0
+Text HLabel 5700 3650 0    60   BiDi ~ 0
 ID_SDA
 Wire Wire Line
 	5700 3350 5850 3350
 Wire Wire Line
-	5700 3450 5850 3450
-Wire Wire Line
 	5700 3550 5850 3550
-Text HLabel 5700 3650 0    60   BiDi ~ 0
-ID_SCL
-$Comp
-L CONN_12 P?
-U 1 1 53B634CC
-P 6200 3200
-F 0 "P?" V 6150 3200 60  0000 C CNN
-F 1 "SLOT_B" V 6250 3200 60  0000 C CNN
-F 2 "" H 6200 3200 60  0000 C CNN
-F 3 "" H 6200 3200 60  0000 C CNN
-	1    6200 3200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5700 3650 5850 3650
-Text HLabel 5700 3450 0    60   Input ~ 0
-ID_3.3V
-Text HLabel 5700 3750 0    60   Input ~ 0
-ID_GND
+Text HLabel 5700 3750 0    60   BiDi ~ 0
+ID_SCL
 Wire Wire Line
 	5700 3750 5850 3750
+Text HLabel 5700 3550 0    60   Input ~ 0
+ID_3.3V
+Text HLabel 5700 3850 0    60   Input ~ 0
+ID_GND
+Wire Wire Line
+	5700 3850 5850 3850
 Text HLabel 7400 2750 0    60   Output ~ 0
 RX2
 Text HLabel 7400 2650 0    60   Input ~ 0
@@ -204,35 +182,24 @@ Wire Wire Line
 	7400 3250 7550 3250
 Text HLabel 7400 3350 0    60   Input ~ 0
 GND
-Text HLabel 7400 3550 0    60   BiDi ~ 0
+Text HLabel 7400 3650 0    60   BiDi ~ 0
 ID_SDA
 Wire Wire Line
 	7400 3350 7550 3350
 Wire Wire Line
-	7400 3450 7550 3450
-Wire Wire Line
 	7400 3550 7550 3550
-Text HLabel 7400 3650 0    60   BiDi ~ 0
-ID_SCL
-$Comp
-L CONN_12 P?
-U 1 1 53B634F5
-P 7900 3200
-F 0 "P?" V 7850 3200 60  0000 C CNN
-F 1 "SLOT_C" V 7950 3200 60  0000 C CNN
-F 2 "" H 7900 3200 60  0000 C CNN
-F 3 "" H 7900 3200 60  0000 C CNN
-	1    7900 3200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7400 3650 7550 3650
-Text HLabel 7400 3450 0    60   Input ~ 0
-ID_3.3V
-Text HLabel 7400 3750 0    60   Input ~ 0
-ID_GND
+Text HLabel 7400 3750 0    60   BiDi ~ 0
+ID_SCL
 Wire Wire Line
 	7400 3750 7550 3750
+Text HLabel 7400 3550 0    60   Input ~ 0
+ID_3.3V
+Text HLabel 7400 3850 0    60   Input ~ 0
+ID_GND
+Wire Wire Line
+	7400 3850 7550 3850
 Text HLabel 4000 4350 0    60   Output ~ 0
 RX3
 Text HLabel 4000 4250 0    60   Input ~ 0
@@ -263,35 +230,24 @@ Wire Wire Line
 	4000 4850 4150 4850
 Text HLabel 4000 4950 0    60   Input ~ 0
 GND
-Text HLabel 4000 5150 0    60   BiDi ~ 0
+Text HLabel 4000 5250 0    60   BiDi ~ 0
 ID_SDA
 Wire Wire Line
 	4000 4950 4150 4950
 Wire Wire Line
-	4000 5050 4150 5050
-Wire Wire Line
 	4000 5150 4150 5150
-Text HLabel 4000 5250 0    60   BiDi ~ 0
-ID_SCL
-$Comp
-L CONN_12 P?
-U 1 1 53B63519
-P 4500 4800
-F 0 "P?" V 4450 4800 60  0000 C CNN
-F 1 "SLOT_D" V 4550 4800 60  0000 C CNN
-F 2 "" H 4500 4800 60  0000 C CNN
-F 3 "" H 4500 4800 60  0000 C CNN
-	1    4500 4800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4000 5250 4150 5250
-Text HLabel 4000 5050 0    60   Input ~ 0
-ID_3.3V
-Text HLabel 4000 5350 0    60   Input ~ 0
-ID_GND
+Text HLabel 4000 5350 0    60   BiDi ~ 0
+ID_SCL
 Wire Wire Line
 	4000 5350 4150 5350
+Text HLabel 4000 5150 0    60   Input ~ 0
+ID_3.3V
+Text HLabel 4000 5450 0    60   Input ~ 0
+ID_GND
+Wire Wire Line
+	4000 5450 4150 5450
 Text HLabel 5700 4350 0    60   Output ~ 0
 RX4
 Text HLabel 5700 4250 0    60   Input ~ 0
@@ -322,35 +278,24 @@ Wire Wire Line
 	5700 4850 5850 4850
 Text HLabel 5700 4950 0    60   Input ~ 0
 GND
-Text HLabel 5700 5150 0    60   BiDi ~ 0
+Text HLabel 5700 5250 0    60   BiDi ~ 0
 ID_SDA
 Wire Wire Line
 	5700 4950 5850 4950
 Wire Wire Line
-	5700 5050 5850 5050
-Wire Wire Line
 	5700 5150 5850 5150
-Text HLabel 5700 5250 0    60   BiDi ~ 0
-ID_SCL
-$Comp
-L CONN_12 P?
-U 1 1 53B6353D
-P 6200 4800
-F 0 "P?" V 6150 4800 60  0000 C CNN
-F 1 "SLOT_E" V 6250 4800 60  0000 C CNN
-F 2 "" H 6200 4800 60  0000 C CNN
-F 3 "" H 6200 4800 60  0000 C CNN
-	1    6200 4800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5700 5250 5850 5250
-Text HLabel 5700 5050 0    60   Input ~ 0
-ID_3.3V
-Text HLabel 5700 5350 0    60   Input ~ 0
-ID_GND
+Text HLabel 5700 5350 0    60   BiDi ~ 0
+ID_SCL
 Wire Wire Line
 	5700 5350 5850 5350
+Text HLabel 5700 5150 0    60   Input ~ 0
+ID_3.3V
+Text HLabel 5700 5450 0    60   Input ~ 0
+ID_GND
+Wire Wire Line
+	5700 5450 5850 5450
 Text HLabel 7400 4350 0    60   Output ~ 0
 RX5
 Text HLabel 7400 4250 0    60   Input ~ 0
@@ -381,33 +326,94 @@ Wire Wire Line
 	7400 4850 7550 4850
 Text HLabel 7400 4950 0    60   Input ~ 0
 GND
-Text HLabel 7400 5150 0    60   BiDi ~ 0
+Text HLabel 7400 5250 0    60   BiDi ~ 0
 ID_SDA
 Wire Wire Line
 	7400 4950 7550 4950
 Wire Wire Line
-	7400 5050 7550 5050
-Wire Wire Line
 	7400 5150 7550 5150
-Text HLabel 7400 5250 0    60   BiDi ~ 0
-ID_SCL
-$Comp
-L CONN_12 P?
-U 1 1 53B63567
-P 7900 4800
-F 0 "P?" V 7850 4800 60  0000 C CNN
-F 1 "SLOT_F" V 7950 4800 60  0000 C CNN
-F 2 "" H 7900 4800 60  0000 C CNN
-F 3 "" H 7900 4800 60  0000 C CNN
-	1    7900 4800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7400 5250 7550 5250
-Text HLabel 7400 5050 0    60   Input ~ 0
-ID_3.3V
-Text HLabel 7400 5350 0    60   Input ~ 0
-ID_GND
+Text HLabel 7400 5350 0    60   BiDi ~ 0
+ID_SCL
 Wire Wire Line
 	7400 5350 7550 5350
+Text HLabel 7400 5150 0    60   Input ~ 0
+ID_3.3V
+Text HLabel 7400 5450 0    60   Input ~ 0
+ID_GND
+Wire Wire Line
+	7400 5450 7550 5450
+$Comp
+L CONN_13 P?
+U 1 1 53B751DE
+P 4500 3250
+F 0 "P?" V 4460 3250 60  0000 C CNN
+F 1 "SLOT_A" V 4570 3250 60  0000 C CNN
+F 2 "" H 4500 3250 60  0000 C CNN
+F 3 "" H 4500 3250 60  0000 C CNN
+	1    4500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_13 P?
+U 1 1 53B751F7
+P 6200 3250
+F 0 "P?" V 6160 3250 60  0000 C CNN
+F 1 "SLOT_B" V 6270 3250 60  0000 C CNN
+F 2 "" H 6200 3250 60  0000 C CNN
+F 3 "" H 6200 3250 60  0000 C CNN
+	1    6200 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_13 P?
+U 1 1 53B75207
+P 7900 3250
+F 0 "P?" V 7860 3250 60  0000 C CNN
+F 1 "SLOT_C" V 7970 3250 60  0000 C CNN
+F 2 "" H 7900 3250 60  0000 C CNN
+F 3 "" H 7900 3250 60  0000 C CNN
+	1    7900 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_13 P?
+U 1 1 53B7520D
+P 4500 4850
+F 0 "P?" V 4460 4850 60  0000 C CNN
+F 1 "SLOT_D" V 4570 4850 60  0000 C CNN
+F 2 "" H 4500 4850 60  0000 C CNN
+F 3 "" H 4500 4850 60  0000 C CNN
+	1    4500 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_13 P?
+U 1 1 53B75213
+P 6200 4850
+F 0 "P?" V 6160 4850 60  0000 C CNN
+F 1 "SLOT_E" V 6270 4850 60  0000 C CNN
+F 2 "" H 6200 4850 60  0000 C CNN
+F 3 "" H 6200 4850 60  0000 C CNN
+	1    6200 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_13 P?
+U 1 1 53B75219
+P 7900 4850
+F 0 "P?" V 7860 4850 60  0000 C CNN
+F 1 "SLOT_F" V 7970 4850 60  0000 C CNN
+F 2 "" H 7900 4850 60  0000 C CNN
+F 3 "" H 7900 4850 60  0000 C CNN
+	1    7900 4850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4150 3450
+NoConn ~ 5850 3450
+NoConn ~ 7550 3450
+NoConn ~ 4150 5050
+NoConn ~ 5850 5050
+NoConn ~ 7550 5050
 $EndSCHEMATC
