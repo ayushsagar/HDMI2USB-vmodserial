@@ -48,7 +48,7 @@ Sheet 2 7
 Title ""
 Date "23 jun 2014"
 Rev ""
-Comp ""
+Comp "TimVideos"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -381,4 +381,6 @@ Wire Wire Line
 	6800 1900 5000 1900
 Connection ~ 5000 2350
 Connection ~ 6800 2350
+Text Notes 1900 7250 0    60   ~ 0
+VHDCI connector gives access to FPGA pins on Digilent Atlys FPGA development board
 $EndSCHEMATC

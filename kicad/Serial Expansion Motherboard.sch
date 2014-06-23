@@ -45,10 +45,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 7
-Title ""
+Title "Serial Expansion Module"
 Date "23 jun 2014"
 Rev ""
-Comp ""
+Comp "TimVideos"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -753,4 +753,6 @@ F 3 "" H 9250 1600 60  0000 C CNN
 	1    9250 1600
 	1    0    0    -1  
 $EndComp
+Text Notes 8250 3700 0    60   ~ 0
+Motherboard ID EEPROM address set to 0 (000) by \nshorting A0, A1 and A2 to ground.
 $EndSCHEMATC

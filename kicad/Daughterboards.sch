@@ -45,10 +45,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 7
-Title ""
+Title "Daughterboard interface"
 Date "23 jun 2014"
 Rev ""
-Comp ""
+Comp "TimVideos"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -507,5 +507,5 @@ Wire Wire Line
 	8450 6000 8450 5700
 Connection ~ 8450 5700
 Text Notes 2550 7050 0    60   ~ 0
-Pins 14, 15, 16 correspond to A0, A1, A2 address lines of daughterboard EEPROM \nwhich sets its address on I2C bus depending on the slot.
+Pins 14, 15, 16 correspond to A0, A1, A2 address lines of daughterboard's \nID EEPROM. \n\nThe addresses are pre-assigned in the slots starting from 1 (001) through 6 (110).\n\nAddress 0 (000) is used by motherboard ID EEPROM
 $EndSCHEMATC

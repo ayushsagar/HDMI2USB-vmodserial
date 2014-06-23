@@ -45,10 +45,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 7
-Title "noname.sch"
+Title "Serial Expansion Module and DTE interface"
 Date "23 jun 2014"
 Rev ""
-Comp ""
+Comp "TimVideos"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -195,8 +195,8 @@ F40 "CTS5" O R 6900 4350 60
 F41 "DTR5" I R 6900 4450 60 
 F42 "DSR5" O R 6900 4550 60 
 $EndSheet
-Text Notes 3300 6050 0    60   ~ 0
-The DTE is either Atlys VHDCI module or PIC18 USB modules.\nWhile both of them are shown connected on schematic, only one of them stays populated on PCB assumbly.
+Text Notes 950  7550 0    60   ~ 0
+The serial DTE (Data Terminal Equipment) is either Atlys VHDCI module or PIC18 USB module.\nWhile both of them are shown connected on schematic, only one of them should stay populated on PCB assembly.
 Wire Wire Line
 	5350 2650 5200 2650
 Text Label 5200 2650 2    60   ~ 0

@@ -45,10 +45,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 7
-Title ""
+Title "Power isolation"
 Date "23 jun 2014"
 Rev ""
-Comp ""
+Comp "TimVideos"
 Comment1 ""
 Comment2 ""
 Comment3 ""
