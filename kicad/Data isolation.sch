@@ -1969,4 +1969,6 @@ F 3 "" H 9100 1500 60  0000 C CNN
 	1    9100 1500
 	-1   0    0    -1  
 $EndComp
+Text Notes 1400 7450 0    60   ~ 0
+Postfix A refers to DTE side and postfix B refers to daughterboard side.\ne.g. IN12_A in an input from DTE side and OUT12_B is the output connected to daughterboard side.\n
 $EndSCHEMATC
