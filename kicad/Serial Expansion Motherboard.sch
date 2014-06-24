@@ -228,8 +228,8 @@ $EndSheet
 $Sheet
 S 6700 1850 950  4150
 U 53A52260
-F0 "Daughterboards" 50
-F1 "Daughterboards.sch" 50
+F0 "Daughterboard slots" 43
+F1 "Daughterboard slots.sch" 43
 F2 "RX0" O L 6700 2250 60 
 F3 "TX0" I L 6700 2150 60 
 F4 "RTS0" I L 6700 2350 60 
