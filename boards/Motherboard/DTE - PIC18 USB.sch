@@ -144,9 +144,9 @@ Text HLabel 8350 3400 2    60   Input ~ 0
 GND
 Text HLabel 8350 3200 2    60   Output ~ 0
 VCC_3V3
-Text HLabel 3950 1850 2    60   BiDi ~ 0
+Text HLabel 3950 2150 2    60   BiDi ~ 0
 SDA
-Text HLabel 3950 1750 2    60   BiDi ~ 0
+Text HLabel 3950 2050 2    60   BiDi ~ 0
 SCL
 $Comp
 L R R301
@@ -230,8 +230,6 @@ GND
 Text Label 3900 4950 0    60   ~ 0
 VCC_3V3
 NoConn ~ 3800 5050
-NoConn ~ 3800 1650
-NoConn ~ 3800 2050
 NoConn ~ 3800 2350
 NoConn ~ 3800 2450
 NoConn ~ 3800 1350
@@ -591,9 +589,9 @@ Wire Wire Line
 Wire Wire Line
 	4100 1450 4250 1600
 Wire Wire Line
-	3950 1850 3800 1850
+	3950 2150 3800 2150
 Wire Wire Line
-	3950 1750 3800 1750
+	3950 2050 3800 2050
 Wire Wire Line
 	2250 6400 2250 5850
 Connection ~ 2250 5850
@@ -839,12 +837,11 @@ NoConn ~ 2350 3350
 NoConn ~ 2350 3450
 NoConn ~ 2350 4250
 NoConn ~ 2350 4350
-NoConn ~ 3800 2150
 NoConn ~ 3800 2250
 Wire Wire Line
 	6800 1100 6500 1100
 Text Notes 5150 5900 0    60   ~ 0
-- First 4 serial ports use the 4 available hardware UARTs. Remaining serial ports need to be bitbanged\n\n- I2C is chosen to be bitbanged from RF6,7 \nbecause hardware I2C on RC5,6 and RD6,5 share pins with hardware UART. \n\n- It is preferable to have hardware support for UART since the I2C port will not be as heavily used as UART ports.\n\n- Crystal (and capactors) is optional.\nPIC18F85J94 has FRC internal clock, which is accurate enough to support USB 2.0 and UART.\n\n- LEDs on port H are optional and for debugging.
+- First 4 serial ports use the 4 available hardware UARTs. Remaining serial ports need to be bitbanged\n\n- I2C is chosen to be bitbanged from RG0,1 \nbecause hardware I2C on RC5,6 and RD6,5 share pins with hardware UART. \n\n- It is preferable to have hardware support for UART since the I2C port will not be as heavily used as UART ports.\n\n- Crystal (and capactors) is optional.\nPIC18F85J94 has FRC internal clock, which is accurate enough to support USB 2.0 and UART.\n\n- LEDs on port H are optional and for debugging.
 $Comp
 L CRYSTAL X301
 U 1 1 53AB2413
@@ -918,4 +915,7 @@ Connection ~ 6800 1450
 Wire Wire Line
 	6800 2400 6800 2750
 Connection ~ 6800 2750
+NoConn ~ 3800 1650
+NoConn ~ 3800 1750
+NoConn ~ 3800 1850
 $EndSCHEMATC
