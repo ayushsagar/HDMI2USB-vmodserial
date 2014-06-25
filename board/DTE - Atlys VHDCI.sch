@@ -106,7 +106,7 @@ DSR1
 Text HLabel 3650 1700 0    60   Output ~ 0
 5V
 Text HLabel 3650 1800 0    60   Output ~ 0
-VCC
+VCC_3V3
 Text HLabel 4450 4450 0    60   Output ~ 0
 TX2
 Text HLabel 4450 4950 0    60   Input ~ 0

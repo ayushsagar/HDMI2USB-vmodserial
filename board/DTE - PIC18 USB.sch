@@ -143,7 +143,7 @@ Text HLabel 6500 1100 0    60   Output ~ 0
 Text HLabel 8350 3400 2    60   Input ~ 0
 GND
 Text HLabel 8350 3200 2    60   Output ~ 0
-VCC
+VCC_3V3
 Text HLabel 3950 1850 2    60   BiDi ~ 0
 SDA
 Text HLabel 3950 1750 2    60   BiDi ~ 0
@@ -227,7 +227,7 @@ Text Label 8700 1450 0    60   ~ 0
 VCC_3V3
 Text Label 6550 2750 2    60   ~ 0
 GND
-Text Label 4250 5000 0    60   ~ 0
+Text Label 3900 4950 0    60   ~ 0
 VCC_3V3
 NoConn ~ 3800 5050
 NoConn ~ 3800 1650

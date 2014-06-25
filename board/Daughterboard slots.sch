@@ -68,7 +68,7 @@ DTR0
 Text HLabel 3250 2400 0    60   Output ~ 0
 DSR0
 Text HLabel 3250 2500 0    60   Input ~ 0
-VCC
+VCC_5V_ISO
 Text HLabel 3250 2600 0    60   Input ~ 0
 GND
 Text HLabel 3250 2800 0    60   BiDi ~ 0
@@ -78,7 +78,7 @@ To create customized design with preloaded daughterboards add the desired \ndaug
 Text HLabel 3250 2900 0    60   BiDi ~ 0
 ID_SCL
 Text HLabel 2900 3000 0    60   Input ~ 0
-ID_3.3V
+ID_3V3
 Text HLabel 2900 3100 0    60   Input ~ 0
 ID_GND
 Text HLabel 5700 2000 0    60   Output ~ 0
@@ -94,7 +94,7 @@ DTR1
 Text HLabel 5700 2400 0    60   Output ~ 0
 DSR1
 Text HLabel 5700 2500 0    60   Input ~ 0
-VCC
+VCC_5V_ISO
 Text HLabel 5700 2600 0    60   Input ~ 0
 GND
 Text HLabel 8450 2000 0    60   Output ~ 0
@@ -110,7 +110,7 @@ DTR2
 Text HLabel 8450 2400 0    60   Output ~ 0
 DSR2
 Text HLabel 8450 2500 0    60   Input ~ 0
-VCC
+VCC_5V_ISO
 Text HLabel 8450 2600 0    60   Input ~ 0
 GND
 Text HLabel 3250 4600 0    60   Output ~ 0
@@ -126,7 +126,7 @@ DTR3
 Text HLabel 3250 5000 0    60   Output ~ 0
 DSR3
 Text HLabel 3250 5100 0    60   Input ~ 0
-VCC
+VCC_5V_ISO
 Text HLabel 3250 5200 0    60   Input ~ 0
 GND
 Text HLabel 5700 4600 0    60   Output ~ 0
@@ -142,7 +142,7 @@ DTR4
 Text HLabel 5700 5000 0    60   Output ~ 0
 DSR4
 Text HLabel 5700 5100 0    60   Input ~ 0
-VCC
+VCC_5V_ISO
 Text HLabel 5700 5200 0    60   Input ~ 0
 GND
 Text HLabel 8450 4600 0    60   Output ~ 0
@@ -158,7 +158,7 @@ DTR5
 Text HLabel 8450 5000 0    60   Output ~ 0
 DSR5
 Text HLabel 8450 5100 0    60   Input ~ 0
-VCC
+VCC_5V_ISO
 Text HLabel 8450 5200 0    60   Input ~ 0
 GND
 NoConn ~ 3400 2700
@@ -238,7 +238,7 @@ ID_SDA
 Text HLabel 5700 2900 0    60   BiDi ~ 0
 ID_SCL
 Text HLabel 5350 3000 0    60   Input ~ 0
-ID_3.3V
+ID_3V3
 Text HLabel 5350 3100 0    60   Input ~ 0
 ID_GND
 Text HLabel 8450 2800 0    60   BiDi ~ 0
@@ -246,7 +246,7 @@ ID_SDA
 Text HLabel 8450 2900 0    60   BiDi ~ 0
 ID_SCL
 Text HLabel 8100 3000 0    60   Input ~ 0
-ID_3.3V
+ID_3V3
 Text HLabel 8100 3100 0    60   Input ~ 0
 ID_GND
 Text HLabel 3250 5400 0    60   BiDi ~ 0
@@ -254,7 +254,7 @@ ID_SDA
 Text HLabel 3250 5500 0    60   BiDi ~ 0
 ID_SCL
 Text HLabel 2900 5600 0    60   Input ~ 0
-ID_3.3V
+ID_3V3
 Text HLabel 2900 5700 0    60   Input ~ 0
 ID_GND
 Text HLabel 5700 5400 0    60   BiDi ~ 0
@@ -262,7 +262,7 @@ ID_SDA
 Text HLabel 5700 5500 0    60   BiDi ~ 0
 ID_SCL
 Text HLabel 5350 5600 0    60   Input ~ 0
-ID_3.3V
+ID_3V3
 Text HLabel 5350 5700 0    60   Input ~ 0
 ID_GND
 Text HLabel 8450 5400 0    60   BiDi ~ 0
@@ -270,7 +270,7 @@ ID_SDA
 Text HLabel 8450 5500 0    60   BiDi ~ 0
 ID_SCL
 Text HLabel 8100 5600 0    60   Input ~ 0
-ID_3.3V
+ID_3V3
 Text HLabel 8100 5700 0    60   Input ~ 0
 ID_GND
 Wire Wire Line
