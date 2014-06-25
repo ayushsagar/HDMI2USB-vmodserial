@@ -2,7 +2,7 @@ update=6/25/2014 6:24:34 AM
 last_client=eeschema
 [eeschema]
 version=1
-LibDir=../libraries
+LibDir=../../libraries
 NetFmtName=
 RptD_X=0
 RptD_Y=100
