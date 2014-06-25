@@ -1,4 +1,4 @@
-update=6/26/2014 5:00:39 AM
+update=6/26/2014 5:08:53 AM
 last_client=eeschema
 [eeschema]
 version=1
@@ -50,4 +50,3 @@ LibName38=24AA014
 LibName39=AAT3221IGV-3V3-T1
 LibName40=CONN_16
 LibName41=csmall
-LibName42=dboardheader-22

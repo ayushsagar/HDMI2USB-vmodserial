@@ -82,7 +82,7 @@ Text HLabel 3100 2750 2    60   Input ~ 0
 VCC_3V3
 Text HLabel 3100 2850 2    60   Input ~ 0
 GND
-Text Notes 2550 6950 0    60   ~ 0
+Text Notes 1550 6600 0    60   ~ 0
 Pins 14, 15, 16 correspond to A0, A1, A2 address lines of daughterboard's \nID EEPROM. \n\nThe addresses are pre-assigned in the slots starting from 1 (001) through 6 (110).\n\nAddress 0 (000) is used by motherboard ID EEPROM\n\nNote that EEPROMs power and signal pins are electrically isolated from serial port pins
 Text Label 2100 2850 2    60   ~ 0
 SLOT-A_A0
