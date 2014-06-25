@@ -138,7 +138,7 @@ Text HLabel 3950 3950 2    60   Output ~ 0
 DTR5
 Text HLabel 3950 4050 2    60   Input ~ 0
 DSR5
-Text HLabel 6750 1100 0    60   Output ~ 0
+Text HLabel 6500 1100 0    60   Output ~ 0
 5V
 Text HLabel 8350 3400 2    60   Input ~ 0
 GND
@@ -206,11 +206,11 @@ $EndComp
 Text Label 8200 3400 2    60   ~ 0
 GND
 Text Label 8150 3200 2    60   ~ 0
-VCC
+VCC_3V3
 Text Label 2150 6250 1    60   ~ 0
-VCC
+VCC_3v3
 Text Label 5100 4450 0    60   ~ 0
-VCC
+VCC_3V3
 Text Label 2050 6250 1    60   ~ 0
 GND
 Text Label 1750 2950 2    60   ~ 0
@@ -222,13 +222,13 @@ PGD
 Text Label 1850 6250 1    60   ~ 0
 PGC
 Text Label 1550 5850 2    60   ~ 0
-VCC
+VCC_3V3
 Text Label 8700 1450 0    60   ~ 0
-VCC
-Text Label 6700 2750 2    60   ~ 0
+VCC_3V3
+Text Label 6550 2750 2    60   ~ 0
 GND
 Text Label 4250 5000 0    60   ~ 0
-VCC
+VCC_3V3
 NoConn ~ 3800 5050
 NoConn ~ 3800 1650
 NoConn ~ 3800 2050
@@ -450,7 +450,7 @@ F 3 "~" H 4750 3650 60  0000 C CNN
 $EndComp
 NoConn ~ 3800 4150
 NoConn ~ 3800 4250
-Text Label 5700 3850 0    60   ~ 0
+Text Label 5800 3850 0    60   ~ 0
 GND
 $Comp
 L R R307
@@ -545,8 +545,8 @@ Wire Wire Line
 Wire Wire Line
 	6650 1450 7100 1450
 Wire Wire Line
-	6900 1100 6900 1850
-Connection ~ 6900 1450
+	7000 1450 7000 1850
+Connection ~ 7000 1450
 Wire Wire Line
 	6000 1600 6200 1600
 Wire Wire Line
@@ -575,10 +575,10 @@ Wire Wire Line
 	6000 2750 6000 2700
 Connection ~ 6150 2150
 Connection ~ 6150 2000
-Connection ~ 6700 1650
-Connection ~ 6700 2750
+Connection ~ 6550 1650
+Connection ~ 6550 2750
 Wire Wire Line
-	6900 1850 7100 1850
+	7000 1850 7100 1850
 Wire Wire Line
 	6000 2750 8700 2750
 Connection ~ 6300 2750
@@ -621,7 +621,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 5850 1550 5850
 Wire Wire Line
-	6700 2750 6700 1650
+	6550 2750 6550 1650
 Wire Wire Line
 	4800 4800 4800 4650
 Wire Wire Line
@@ -842,18 +842,7 @@ NoConn ~ 2350 4350
 NoConn ~ 3800 2150
 NoConn ~ 3800 2250
 Wire Wire Line
-	6900 1100 6750 1100
-$Comp
-L CSMALL C309
-U 1 1 53AB15D3
-P 7000 1550
-F 0 "C309" H 7025 1600 30  0000 L CNN
-F 1 "8.2u" H 7025 1500 30  0000 L CNN
-F 2 "~" H 7000 1550 60  0000 C CNN
-F 3 "~" H 7000 1550 60  0000 C CNN
-	1    7000 1550
-	1    0    0    -1  
-$EndComp
+	6800 1100 6500 1100
 Text Notes 5150 5900 0    60   ~ 0
 - First 4 serial ports use the 4 available hardware UARTs. Remaining serial ports need to be bitbanged\n\n- I2C is chosen to be bitbanged from RF6,7 \nbecause hardware I2C on RC5,6 and RD6,5 share pins with hardware UART. \n\n- It is preferable to have hardware support for UART since the I2C port will not be as heavily used as UART ports.\n\n- Crystal (and capactors) is optional.\nPIC18F85J94 has FRC internal clock, which is accurate enough to support USB 2.0 and UART.\n\n- LEDs on port H are optional and for debugging.
 $Comp
@@ -861,7 +850,7 @@ L CRYSTAL X301
 U 1 1 53AB2413
 P 1400 2000
 F 0 "X301" H 1400 2150 60  0000 C CNN
-F 1 "CRYSTAL" H 1400 1850 60  0000 C CNN
+F 1 "XTAL" H 1400 1850 60  0000 C CNN
 F 2 "~" H 1400 2000 60  0000 C CNN
 F 3 "~" H 1400 2000 60  0000 C CNN
 	1    1400 2000
@@ -912,4 +901,21 @@ Wire Wire Line
 	800  2000 800  2300
 Text Label 800  2300 2    60   ~ 0
 GND
+$Comp
+L CP1 C309
+U 1 1 53AB30F6
+P 6800 2200
+F 0 "C309" H 6850 2300 50  0000 L CNN
+F 1 "8.2u" H 6850 2100 50  0000 L CNN
+F 2 "~" H 6800 2200 60  0000 C CNN
+F 3 "~" H 6800 2200 60  0000 C CNN
+	1    6800 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 1100 6800 2000
+Connection ~ 6800 1450
+Wire Wire Line
+	6800 2400 6800 2750
+Connection ~ 6800 2750
 $EndSCHEMATC
