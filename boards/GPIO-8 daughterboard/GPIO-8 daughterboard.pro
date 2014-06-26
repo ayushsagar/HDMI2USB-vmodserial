@@ -1,4 +1,4 @@
-update=6/26/2014 6:44:48 AM
+update=6/27/2014 1:42:15 AM
 version=1
 last_client=eeschema
 [cvpcb]
@@ -88,3 +88,4 @@ LibName31=24AA014
 LibName32=CONN_16
 LibName33=csmall
 LibName34=ISL83387E
+LibName35=pic16f1704

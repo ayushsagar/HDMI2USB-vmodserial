@@ -33,12 +33,13 @@ LIBS:24AA014
 LIBS:CONN_16
 LIBS:csmall
 LIBS:ISL83387E
+LIBS:pic16f1704
 LIBS:GPIO-8 daughterboard-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date "26 jun 2014"
 Rev ""
