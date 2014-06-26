@@ -533,8 +533,8 @@ F 3 "~" H 6900 4800 30  0000 C CNN
 	1    6900 4800
 	0    -1   -1   0   
 $EndComp
-Text Notes 5150 5900 0    60   ~ 0
-- First 4 serial ports use the 4 available hardware UARTs. Remaining serial ports need to be bitbanged\n\n- I2C is chosen to be bitbanged from RG0,1 \nbecause hardware I2C on RC5,6 and RD6,5 share pins with hardware UART. \n\n- It is preferable to have hardware support for UART since the I2C port will not be as heavily used as UART ports.\n\n- Crystal (and capactors) is optional.\nPIC18F85J94 has FRC internal clock, which is accurate enough to support USB 2.0 and UART.\n\n- LEDs on port H are optional and for debugging.
+Text Notes 5200 6350 0    60   ~ 0
+- First 4 serial ports use the 4 available hardware UARTs. Remaining serial ports need to be bitbanged\n\n- Crystal (and capactors) is optional.\nPIC18F85J94 has FRC internal clock, which is accurate enough to support USB 2.0 and UART.
 $Comp
 L CRYSTAL X301
 U 1 1 53AB2413
