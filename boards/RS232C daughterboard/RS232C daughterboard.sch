@@ -81,68 +81,68 @@ F15 "A1" I L 6000 4700 60
 F16 "A2" I L 6000 4800 60 
 $EndSheet
 Wire Wire Line
-	3450 3850 3250 3850
+	3450 3850 3350 3850
 Wire Wire Line
-	3450 3950 3250 3950
+	3450 3950 3350 3950
 Wire Wire Line
-	3450 4050 3250 4050
+	3450 4050 3350 4050
 Wire Wire Line
-	3450 4250 3250 4250
+	3450 4250 3350 4250
 Wire Wire Line
-	3450 4350 3250 4350
+	3450 4350 3350 4350
 Wire Wire Line
-	3450 4550 3250 4550
+	3450 4550 3350 4550
 Wire Wire Line
-	4300 3850 4150 3850
+	4250 3850 4150 3850
 Wire Wire Line
-	4300 3950 4150 3950
+	4250 3950 4150 3950
 Wire Wire Line
-	4300 4050 4150 4050
+	4250 4050 4150 4050
 Wire Wire Line
-	4300 4250 4150 4250
+	4250 4250 4150 4250
 Wire Wire Line
-	4300 4450 4150 4450
+	4250 4450 4150 4450
 Wire Wire Line
-	4300 4550 4150 4550
+	4250 4550 4150 4550
 Wire Wire Line
-	3450 4650 3250 4650
+	3450 4650 3350 4650
 Wire Wire Line
-	3450 4750 3250 4750
+	3450 4750 3350 4750
 Wire Wire Line
-	4300 4650 4150 4650
+	4250 4650 4150 4650
 Wire Wire Line
-	4300 4750 4150 4750
-Text Label 4200 3850 0    60   ~ 0
+	4250 4750 4150 4750
+Text Label 4250 3850 0    60   ~ 0
 TX_ISO
-Text Label 4200 3950 0    60   ~ 0
+Text Label 4250 3950 0    60   ~ 0
 RTS_ISO
-Text Label 4200 4050 0    60   ~ 0
+Text Label 4250 4050 0    60   ~ 0
 DTR_ISO
-Text Label 4200 4450 0    60   ~ 0
+Text Label 4250 4450 0    60   ~ 0
 VCC_3V3
-Text Label 4200 4550 0    60   ~ 0
+Text Label 4250 4550 0    60   ~ 0
 GND
-Text Label 4200 4650 0    60   ~ 0
+Text Label 4250 4650 0    60   ~ 0
 SDA
-Text Label 4200 4750 0    60   ~ 0
+Text Label 4250 4750 0    60   ~ 0
 SCL
-Text Label 3400 4750 2    60   ~ 0
+Text Label 3350 4750 2    60   ~ 0
 A2
-Text Label 3400 4650 2    60   ~ 0
+Text Label 3350 4650 2    60   ~ 0
 A1
-Text Label 3400 4550 2    60   ~ 0
+Text Label 3350 4550 2    60   ~ 0
 A0
-Text Label 3400 4350 2    60   ~ 0
+Text Label 3350 4350 2    60   ~ 0
 VCC_5V_ISO
-Text Label 3400 4250 2    60   ~ 0
+Text Label 3350 4250 2    60   ~ 0
 GND_ISO
-Text Label 3400 4050 2    60   ~ 0
+Text Label 3350 4050 2    60   ~ 0
 DSR_ISO
-Text Label 3400 3950 2    60   ~ 0
+Text Label 3350 3950 2    60   ~ 0
 CTS_ISO
-Text Label 3400 3850 2    60   ~ 0
+Text Label 3350 3850 2    60   ~ 0
 RX_ISO
-Text Label 4200 4250 0    60   ~ 0
+Text Label 4250 4250 0    60   ~ 0
 GND_ISO
 NoConn ~ 4150 4350
 NoConn ~ 4150 4150
@@ -205,7 +205,7 @@ Wire Wire Line
 Text Label 5850 4900 2    60   ~ 0
 VCC_3V3
 Text Label 5850 5000 2    60   ~ 0
-GND_ISO
+GND
 Wire Wire Line
 	6000 4900 5850 4900
 $EndSCHEMATC
