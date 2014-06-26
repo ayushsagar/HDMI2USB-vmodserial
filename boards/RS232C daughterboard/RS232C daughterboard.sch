@@ -149,36 +149,36 @@ NoConn ~ 4150 4150
 NoConn ~ 3450 4150
 NoConn ~ 3450 4450
 Wire Wire Line
-	6000 3600 5800 3600
-Text Label 5950 3600 2    60   ~ 0
+	6000 3600 5850 3600
+Text Label 5850 3600 2    60   ~ 0
 RX_ISO
 Wire Wire Line
-	6000 3800 5800 3800
-Text Label 5950 3800 2    60   ~ 0
+	6000 3800 5850 3800
+Text Label 5850 3800 2    60   ~ 0
 CTS_ISO
 Wire Wire Line
-	6000 4000 5800 4000
-Text Label 5950 4000 2    60   ~ 0
+	6000 4000 5850 4000
+Text Label 5850 4000 2    60   ~ 0
 DSR_ISO
 Wire Wire Line
 	5850 3500 6000 3500
-Text Label 5950 3500 2    60   ~ 0
+Text Label 5850 3500 2    60   ~ 0
 TX_ISO
 Wire Wire Line
 	5850 3700 6000 3700
 Wire Wire Line
 	5850 3900 6000 3900
-Text Label 5950 3700 2    60   ~ 0
+Text Label 5850 3700 2    60   ~ 0
 RTS_ISO
-Text Label 5950 3900 2    60   ~ 0
+Text Label 5850 3900 2    60   ~ 0
 DTR_ISO
 Wire Wire Line
-	6000 4100 5800 4100
-Text Label 5950 4100 2    60   ~ 0
+	6000 4100 5850 4100
+Text Label 5850 4100 2    60   ~ 0
 VCC_5V_ISO
 Wire Wire Line
-	6000 4200 5800 4200
-Text Label 5950 4200 2    60   ~ 0
+	6000 4200 5850 4200
+Text Label 5850 4200 2    60   ~ 0
 GND_ISO
 Wire Wire Line
 	6000 4600 5850 4600
@@ -186,25 +186,25 @@ Wire Wire Line
 	6000 4700 5850 4700
 Wire Wire Line
 	6000 4800 5850 4800
-Text Label 5950 4800 2    60   ~ 0
+Text Label 5850 4800 2    60   ~ 0
 A2
-Text Label 5950 4700 2    60   ~ 0
+Text Label 5850 4700 2    60   ~ 0
 A1
-Text Label 5950 4600 2    60   ~ 0
+Text Label 5850 4600 2    60   ~ 0
 A0
 Wire Wire Line
 	5850 4400 6000 4400
 Wire Wire Line
 	5850 4500 6000 4500
-Text Label 5950 4400 2    60   ~ 0
+Text Label 5850 4400 2    60   ~ 0
 SDA
-Text Label 5950 4500 2    60   ~ 0
+Text Label 5850 4500 2    60   ~ 0
 SCL
 Wire Wire Line
 	5850 5000 6000 5000
-Text Label 5950 4900 2    60   ~ 0
+Text Label 5850 4900 2    60   ~ 0
 VCC_3V3
-Text Label 5950 5000 2    60   ~ 0
+Text Label 5850 5000 2    60   ~ 0
 GND_ISO
 Wire Wire Line
 	6000 4900 5850 4900
