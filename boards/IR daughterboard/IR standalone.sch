@@ -38,7 +38,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title ""
 Date "26 jun 2014"
 Rev ""
@@ -233,18 +233,6 @@ Text Label 2550 3450 2    60   ~ 0
 A_CTS
 Text Label 2550 3650 2    60   ~ 0
 A_DSR
-Text Label 10100 3250 2    60   ~ 0
-C_DTR
-Text Label 10100 3350 2    60   ~ 0
-C_CTS
-Text Label 10100 3450 2    60   ~ 0
-C_TX
-Text Label 10100 3550 2    60   ~ 0
-C_RTS
-Text Label 10100 3650 2    60   ~ 0
-C_RX
-Text Label 10100 3750 2    60   ~ 0
-C_DSR
 Text Label 5350 3250 0    60   ~ 0
 B_RX
 Text Label 5350 3350 0    60   ~ 0
@@ -257,18 +245,10 @@ Text Label 5350 3650 0    60   ~ 0
 B_DSR
 Text Label 5350 3750 0    60   ~ 0
 B_DTR
-Text Label 6300 3350 2    60   ~ 0
+Text Label 6950 3350 2    60   ~ 0
 B_RX
-Text Label 6300 3250 2    60   ~ 0
+Text Label 6950 3250 2    60   ~ 0
 B_TX
-Text Label 6300 3450 2    60   ~ 0
-B_RTS
-Text Label 6300 3550 2    60   ~ 0
-B_CTS
-Text Label 6300 3650 2    60   ~ 0
-B_DTR
-Text Label 6300 3750 2    60   ~ 0
-B_DSR
 Text Label 6000 2700 3    60   ~ 0
 B_RX
 Text Label 6100 2700 3    60   ~ 0
@@ -281,19 +261,6 @@ Text Label 5700 2700 3    60   ~ 0
 B_DTR
 Text Label 5600 2700 3    60   ~ 0
 B_DSR
-NoConn ~ 10250 3850
-NoConn ~ 10250 3150
-$Comp
-L DB9 J202
-U 1 1 53ABD89D
-P 10700 3450
-F 0 "J202" H 10700 4000 70  0000 C CNN
-F 1 "DB9" H 10700 2900 70  0000 C CNN
-F 2 "" H 10700 3450 60  0000 C CNN
-F 3 "" H 10700 3450 60  0000 C CNN
-	1    10700 3450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4800 6450 4700 6450
 Wire Wire Line
@@ -305,7 +272,9 @@ Wire Wire Line
 Wire Wire Line
 	4700 6850 4700 7200
 Wire Wire Line
-	4550 7200 5500 7200
+	4550 7200 4700 7200
+Wire Wire Line
+	4700 7200 5500 7200
 Wire Wire Line
 	5500 7200 5500 7150
 Connection ~ 4700 7200
@@ -318,24 +287,28 @@ Wire Wire Line
 Wire Wire Line
 	5500 6050 5500 6150
 Wire Wire Line
-	6950 3250 6300 3250
+	7100 3250 6950 3250
 Wire Wire Line
-	6950 3350 6300 3350
-Wire Wire Line
-	6950 3450 6300 3450
-Wire Wire Line
-	6950 3550 6300 3550
-Wire Wire Line
-	6950 3650 6300 3650
-Wire Wire Line
-	6950 3750 6300 3750
+	7100 3350 6950 3350
 Wire Wire Line
 	2750 2650 2750 2600
 Wire Wire Line
-	2950 2350 2950 2750
+	2950 2350 2950 2600
+Wire Wire Line
+	2950 2600 2950 2700
+Wire Wire Line
+	2950 2700 2950 2750
 Connection ~ 2950 2700
 Wire Wire Line
-	2650 4150 3400 4150
+	2650 4150 2750 4150
+Wire Wire Line
+	2750 4150 2950 4150
+Wire Wire Line
+	2950 4150 3100 4150
+Wire Wire Line
+	3100 4150 3250 4150
+Wire Wire Line
+	3250 4150 3400 4150
 Wire Wire Line
 	2950 2950 2950 4150
 Connection ~ 2950 4150
@@ -400,7 +373,9 @@ Wire Wire Line
 Wire Wire Line
 	5450 4650 5450 4600
 Wire Wire Line
-	2750 2600 3400 2600
+	2750 2600 2950 2600
+Wire Wire Line
+	2950 2600 3400 2600
 Wire Wire Line
 	3250 2900 3400 2900
 Wire Wire Line
@@ -453,18 +428,6 @@ Wire Wire Line
 	5700 2350 5700 2700
 Wire Wire Line
 	5600 2350 5600 2700
-Wire Wire Line
-	10250 3650 10100 3650
-Wire Wire Line
-	10250 3250 10100 3250
-Wire Wire Line
-	10250 3350 10100 3350
-Wire Wire Line
-	10250 3750 10100 3750
-Wire Wire Line
-	10250 3450 10100 3450
-Wire Wire Line
-	10250 3550 10100 3550
 $Comp
 L PWR_FLAG #FLG201
 U 1 1 53ABE834
@@ -525,12 +488,6 @@ Text HLabel 1700 3000 1    60   Input ~ 0
 GND_ISO
 Wire Wire Line
 	1700 3150 1700 3000
-Wire Wire Line
-	10250 3050 10100 3050
-Text HLabel 10100 2900 1    60   Input ~ 0
-GND_ISO
-Wire Wire Line
-	10100 3050 10100 2900
 $Comp
 L R R203
 U 1 1 53ABAC25
@@ -544,4 +501,91 @@ F 3 "~" H 5050 6050 30  0000 C CNN
 $EndComp
 Wire Wire Line
 	4800 6050 4700 6050
+Wire Wire Line
+	7100 3100 6950 3100
+Text Label 6950 3100 2    60   ~ 0
+VCC_5V_ISO
+Wire Wire Line
+	7100 3500 6950 3500
+Text Label 6950 3500 2    60   ~ 0
+GND_ISO
+Wire Wire Line
+	8300 3100 7950 3100
+Wire Wire Line
+	8300 3200 7950 3200
+Wire Wire Line
+	8300 3300 7950 3300
+Wire Wire Line
+	9250 3400 7950 3400
+Wire Wire Line
+	7950 3500 8550 3500
+Wire Wire Line
+	8300 3600 7950 3600
+Wire Wire Line
+	8300 3700 7950 3700
+Wire Wire Line
+	8300 3800 7950 3800
+Text Label 9100 3500 2    60   ~ 0
+VCC_5V_ISO
+Text Label 9100 3600 2    60   ~ 0
+GND_ISO
+$Sheet
+S 7100 3000 850  900 
+U 53AC80BA
+F0 "PIC-GPIO8.sch" 50
+F1 "PIC-GPIO8.sch" 50
+F2 "VCC" I L 7100 3100 60 
+F3 "GND" I L 7100 3500 60 
+F4 "GPIO0" B R 7950 3100 60 
+F5 "GPIO1" B R 7950 3200 60 
+F6 "GPIO2" B R 7950 3300 60 
+F7 "GPIO5" B R 7950 3600 60 
+F8 "GPIO6" B R 7950 3700 60 
+F9 "GPIO7" B R 7950 3800 60 
+F10 "GPIO4" B R 7950 3500 60 
+F11 "GPIO3" B R 7950 3400 60 
+F12 "RX" I L 7100 3350 60 
+F13 "TX" O L 7100 3250 60 
+$EndSheet
+$Comp
+L CONN_3 K201
+U 1 1 53AC99B7
+P 9600 3500
+F 0 "K201" V 9550 3500 50  0000 C CNN
+F 1 "IR_RX" V 9650 3500 40  0000 C CNN
+F 2 "" H 9600 3500 60  0000 C CNN
+F 3 "" H 9600 3500 60  0000 C CNN
+	1    9600 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3 K202
+U 1 1 53AC9D39
+P 9600 3900
+F 0 "K202" V 9550 3900 50  0000 C CNN
+F 1 "IR_TX" V 9650 3900 40  0000 C CNN
+F 2 "" H 9600 3900 60  0000 C CNN
+F 3 "" H 9600 3900 60  0000 C CNN
+	1    9600 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 3500 8550 3800
+Wire Wire Line
+	8550 3800 9250 3800
+Wire Wire Line
+	9100 3500 9250 3500
+Wire Wire Line
+	9250 3600 9100 3600
+Text Label 9100 4000 2    60   ~ 0
+GND_ISO
+Wire Wire Line
+	9250 4000 9100 4000
+NoConn ~ 9250 3900
+NoConn ~ 8300 3100
+NoConn ~ 8300 3200
+NoConn ~ 8300 3300
+NoConn ~ 8300 3600
+NoConn ~ 8300 3700
+NoConn ~ 8300 3800
 $EndSCHEMATC
