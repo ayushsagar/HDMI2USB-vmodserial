@@ -51,161 +51,163 @@ $EndDescr
 $Comp
 L DIL20 P0
 U 1 1 53AB69C0
-P 3800 4300
-F 0 "P0" H 3800 4850 70  0000 C CNN
-F 1 "HEADER" V 3800 4300 70  0000 C CNN
-F 2 "" H 3800 4300 60  0000 C CNN
-F 3 "" H 3800 4300 60  0000 C CNN
-	1    3800 4300
+P 4100 3700
+F 0 "P0" H 4100 4250 70  0000 C CNN
+F 1 "HEADER" V 4100 3700 70  0000 C CNN
+F 2 "" H 4100 3700 60  0000 C CNN
+F 3 "" H 4100 3700 60  0000 C CNN
+	1    4100 3700
 	-1   0    0    -1  
 $EndComp
 $Sheet
-S 6000 3350 2400 1800
+S 6400 3100 1200 1200
 U 53AB69CE
 F0 "RS232C standalone" 50
 F1 "RS232C standalone.sch" 50
-F2 "TX_ISO" I L 6000 3500 60 
-F3 "RX_ISO" O L 6000 3600 60 
-F4 "RTS_ISO" I L 6000 3700 60 
-F5 "CTS_ISO" O L 6000 3800 60 
-F6 "DTR_ISO" I L 6000 3900 60 
-F7 "DSR_ISO" O L 6000 4000 60 
-F8 "VCC_3V3" I L 6000 4900 60 
-F9 "GND" I L 6000 5000 60 
-F10 "VCC_5V_ISO" I L 6000 4100 60 
-F11 "GND_ISO" I L 6000 4200 60 
-F12 "SDA" B L 6000 4400 60 
-F13 "SCL" B L 6000 4500 60 
-F14 "A0" I L 6000 4600 60 
-F15 "A1" I L 6000 4700 60 
-F16 "A2" I L 6000 4800 60 
+F2 "TX_ISO" I R 7600 3250 60 
+F3 "RX_ISO" O L 6400 3250 60 
+F4 "RTS_ISO" I R 7600 3350 60 
+F5 "CTS_ISO" O L 6400 3350 60 
+F6 "DTR_ISO" I R 7600 3450 60 
+F7 "DSR_ISO" O L 6400 3450 60 
+F8 "VCC_3V3" I R 7600 3850 60 
+F9 "GND" I R 7600 3950 60 
+F10 "VCC_5V_ISO" I L 6400 3750 60 
+F11 "GND_ISO" I L 6400 3650 60 
+F12 "SDA" B R 7600 4050 60 
+F13 "SCL" B R 7600 4150 60 
+F14 "A0" I L 6400 3950 60 
+F15 "A1" I L 6400 4050 60 
+F16 "A2" I L 6400 4150 60 
 $EndSheet
 Wire Wire Line
-	3450 3850 3350 3850
+	3750 3250 3650 3250
 Wire Wire Line
-	3450 3950 3350 3950
+	3750 3350 3650 3350
 Wire Wire Line
-	3450 4050 3350 4050
+	3750 3450 3650 3450
 Wire Wire Line
-	3450 4250 3350 4250
+	3750 3650 3650 3650
 Wire Wire Line
-	3450 4350 3350 4350
+	3750 3750 3650 3750
 Wire Wire Line
-	3450 4550 3350 4550
+	3750 3950 3650 3950
 Wire Wire Line
-	4250 3850 4150 3850
+	4550 3250 4450 3250
 Wire Wire Line
-	4250 3950 4150 3950
+	4550 3350 4450 3350
 Wire Wire Line
-	4250 4050 4150 4050
+	4550 3450 4450 3450
 Wire Wire Line
-	4250 4250 4150 4250
+	4550 3650 4450 3650
 Wire Wire Line
-	4250 4450 4150 4450
+	4550 3850 4450 3850
 Wire Wire Line
-	4250 4550 4150 4550
+	4550 3950 4450 3950
 Wire Wire Line
-	3450 4650 3350 4650
+	3750 4050 3650 4050
 Wire Wire Line
-	3450 4750 3350 4750
+	3750 4150 3650 4150
 Wire Wire Line
-	4250 4650 4150 4650
+	4550 4050 4450 4050
 Wire Wire Line
-	4250 4750 4150 4750
-Text Label 4250 3850 0    60   ~ 0
+	4550 4150 4450 4150
+Text Label 4550 3250 0    60   ~ 0
 TX_ISO
-Text Label 4250 3950 0    60   ~ 0
+Text Label 4550 3350 0    60   ~ 0
 RTS_ISO
-Text Label 4250 4050 0    60   ~ 0
+Text Label 4550 3450 0    60   ~ 0
 DTR_ISO
-Text Label 4250 4450 0    60   ~ 0
+Text Label 4550 3850 0    60   ~ 0
 VCC_3V3
-Text Label 4250 4550 0    60   ~ 0
+Text Label 4550 3950 0    60   ~ 0
 GND
-Text Label 4250 4650 0    60   ~ 0
+Text Label 4550 4050 0    60   ~ 0
 SDA
-Text Label 4250 4750 0    60   ~ 0
+Text Label 4550 4150 0    60   ~ 0
 SCL
-Text Label 3350 4750 2    60   ~ 0
+Text Label 3650 4150 2    60   ~ 0
 A2
-Text Label 3350 4650 2    60   ~ 0
+Text Label 3650 4050 2    60   ~ 0
 A1
-Text Label 3350 4550 2    60   ~ 0
+Text Label 3650 3950 2    60   ~ 0
 A0
-Text Label 3350 4350 2    60   ~ 0
+Text Label 3650 3750 2    60   ~ 0
 VCC_5V_ISO
-Text Label 3350 4250 2    60   ~ 0
+Text Label 3650 3650 2    60   ~ 0
 GND_ISO
-Text Label 3350 4050 2    60   ~ 0
+Text Label 3650 3450 2    60   ~ 0
 DSR_ISO
-Text Label 3350 3950 2    60   ~ 0
+Text Label 3650 3350 2    60   ~ 0
 CTS_ISO
-Text Label 3350 3850 2    60   ~ 0
+Text Label 3650 3250 2    60   ~ 0
 RX_ISO
-Text Label 4250 4250 0    60   ~ 0
+Text Label 4550 3650 0    60   ~ 0
 GND_ISO
-NoConn ~ 4150 4350
-NoConn ~ 4150 4150
-NoConn ~ 3450 4150
-NoConn ~ 3450 4450
+NoConn ~ 4450 3750
+NoConn ~ 4450 3550
+NoConn ~ 3750 3550
+NoConn ~ 3750 3850
 Wire Wire Line
-	6000 3600 5850 3600
-Text Label 5850 3600 2    60   ~ 0
+	6400 3250 6250 3250
+Text Label 6250 3250 2    60   ~ 0
 RX_ISO
 Wire Wire Line
-	6000 3800 5850 3800
-Text Label 5850 3800 2    60   ~ 0
+	6400 3350 6250 3350
+Text Label 6250 3350 2    60   ~ 0
 CTS_ISO
 Wire Wire Line
-	6000 4000 5850 4000
-Text Label 5850 4000 2    60   ~ 0
+	6400 3450 6250 3450
+Text Label 6250 3450 2    60   ~ 0
 DSR_ISO
 Wire Wire Line
-	5850 3500 6000 3500
-Text Label 5850 3500 2    60   ~ 0
+	7750 3250 7600 3250
+Text Label 7750 3250 0    60   ~ 0
 TX_ISO
 Wire Wire Line
-	5850 3700 6000 3700
+	7750 3350 7600 3350
 Wire Wire Line
-	5850 3900 6000 3900
-Text Label 5850 3700 2    60   ~ 0
+	7750 3450 7600 3450
+Text Label 7750 3350 0    60   ~ 0
 RTS_ISO
-Text Label 5850 3900 2    60   ~ 0
+Text Label 7750 3450 0    60   ~ 0
 DTR_ISO
 Wire Wire Line
-	6000 4100 5850 4100
-Text Label 5850 4100 2    60   ~ 0
+	6400 3750 6250 3750
+Text Label 6250 3750 2    60   ~ 0
 VCC_5V_ISO
 Wire Wire Line
-	6000 4200 5850 4200
-Text Label 5850 4200 2    60   ~ 0
+	6400 3650 6250 3650
+Text Label 6250 3650 2    60   ~ 0
 GND_ISO
 Wire Wire Line
-	6000 4600 5850 4600
+	6400 3950 6250 3950
 Wire Wire Line
-	6000 4700 5850 4700
+	6400 4050 6250 4050
 Wire Wire Line
-	6000 4800 5850 4800
-Text Label 5850 4800 2    60   ~ 0
+	6400 4150 6250 4150
+Text Label 6250 4150 2    60   ~ 0
 A2
-Text Label 5850 4700 2    60   ~ 0
+Text Label 6250 4050 2    60   ~ 0
 A1
-Text Label 5850 4600 2    60   ~ 0
+Text Label 6250 3950 2    60   ~ 0
 A0
 Wire Wire Line
-	5850 4400 6000 4400
+	7750 4050 7600 4050
 Wire Wire Line
-	5850 4500 6000 4500
-Text Label 5850 4400 2    60   ~ 0
+	7750 4150 7600 4150
+Text Label 7750 4050 0    60   ~ 0
 SDA
-Text Label 5850 4500 2    60   ~ 0
+Text Label 7750 4150 0    60   ~ 0
 SCL
 Wire Wire Line
-	5850 5000 6000 5000
-Text Label 5850 4900 2    60   ~ 0
+	7750 3950 7600 3950
+Text Label 7750 3850 0    60   ~ 0
 VCC_3V3
-Text Label 5850 5000 2    60   ~ 0
+Text Label 7750 3950 0    60   ~ 0
 GND
 Wire Wire Line
-	6000 4900 5850 4900
+	7600 3850 7750 3850
+Text Notes 950  7350 0    60   ~ 0
+This sheet abstracts the daughterboard circuits into a hierarchical sheet \nso that they can be integrated into serial expansion motherboard schematic (and PCB) if needed
 $EndSCHEMATC
