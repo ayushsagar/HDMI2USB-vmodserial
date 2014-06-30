@@ -45,9 +45,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 6 7
 Title "Daughterboard interface"
-Date "26 jun 2014"
+Date "30 jun 2014"
 Rev ""
 Comp "TimVideos"
 Comment1 ""
@@ -82,7 +82,7 @@ VCC_3V3
 Text HLabel 3100 2850 2    60   Input ~ 0
 GND
 Text Notes 1550 6600 0    60   ~ 0
-Pins 14, 15, 16 correspond to A0, A1, A2 address lines of daughterboard's \nID EEPROM. \n\nThe addresses are pre-assigned in the slots starting from 1 (001) through 6 (110).\n\nAddress 0 (000) is used by motherboard ID EEPROM\n\nNote that EEPROMs power and signal pins are electrically isolated from serial port pins
+Pins 14, 15, 16 correspond to A0, A1, A2 address lines of daughterboard's \nID EEPROM. \n\nThe addresses are pre-assigned in the slots starting from 1 (001) through 5 (101).\n\nAddress 0 (000) is used by motherboard ID EEPROM\n\nNote that EEPROMs power and signal pins are electrically isolated from serial port pins
 Text Label 2100 2850 2    60   ~ 0
 SLOT-A_A0
 Text Label 2100 2950 2    60   ~ 0
@@ -93,12 +93,6 @@ Text HLabel 6700 5900 0    60   Input ~ 0
 VCC_3V3
 Text HLabel 6700 6000 0    60   Input ~ 0
 GND
-Text Label 9650 6150 3    60   ~ 0
-SLOT-F_A0
-Text Label 9550 6150 3    60   ~ 0
-SLOT-F_A1
-Text Label 9450 6150 3    60   ~ 0
-SLOT-F_A2
 Text HLabel 2100 2550 0    60   Input ~ 0
 GND_ISO
 NoConn ~ 2250 2450
@@ -304,53 +298,6 @@ F 3 "" H 5700 4500 60  0000 C CNN
 $EndComp
 NoConn ~ 5350 4650
 NoConn ~ 6050 4550
-Text HLabel 8200 4050 0    60   Output ~ 0
-RX5_ISO
-Text HLabel 9200 4050 2    60   Input ~ 0
-TX5_ISO
-Text HLabel 9200 4150 2    60   Input ~ 0
-RTS5_ISO
-Text HLabel 8200 4150 0    60   Output ~ 0
-CTS5_ISO
-Text HLabel 9200 4250 2    60   Input ~ 0
-DTR5_ISO
-Text HLabel 8200 4250 0    60   Output ~ 0
-DSR5_ISO
-Text HLabel 8200 4550 0    60   Input ~ 0
-VCC_5V_ISO
-Text HLabel 9200 4450 2    60   Input ~ 0
-GND_ISO
-Text HLabel 9200 4850 2    60   BiDi ~ 0
-SDA
-Text HLabel 9200 4950 2    60   BiDi ~ 0
-SCL
-Text HLabel 9200 4650 2    60   Input ~ 0
-VCC_3V3
-Text HLabel 9200 4750 2    60   Input ~ 0
-GND
-Text Label 8200 4750 2    60   ~ 0
-SLOT-F_A0
-Text Label 8200 4850 2    60   ~ 0
-SLOT-F_A1
-Text Label 8200 4950 2    60   ~ 0
-SLOT-F_A2
-Text HLabel 8200 4450 0    60   Input ~ 0
-GND_ISO
-NoConn ~ 8350 4350
-NoConn ~ 9050 4350
-$Comp
-L DIL20 P706
-U 1 1 53ABE5A3
-P 8700 4500
-F 0 "P706" H 8700 5050 70  0000 C CNN
-F 1 "SLOT-F" V 8700 4500 70  0000 C CNN
-F 2 "" H 8700 4500 60  0000 C CNN
-F 3 "" H 8700 4500 60  0000 C CNN
-	1    8700 4500
-	-1   0    0    -1  
-$EndComp
-NoConn ~ 8350 4650
-NoConn ~ 9050 4550
 Text Label 9150 6150 3    60   ~ 0
 SLOT-E_A0
 Text Label 9050 6150 3    60   ~ 0
@@ -415,10 +362,6 @@ Wire Wire Line
 	6700 5900 9750 5900
 Wire Wire Line
 	6700 6000 9750 6000
-Wire Wire Line
-	9550 5900 9550 6150
-Wire Wire Line
-	9450 5900 9450 6150
 Wire Wire Line
 	2100 2550 2250 2550
 Wire Wire Line
@@ -550,40 +493,6 @@ Wire Wire Line
 Wire Wire Line
 	5200 4450 5350 4450
 Wire Wire Line
-	9050 4050 9200 4050
-Wire Wire Line
-	8350 4050 8200 4050
-Wire Wire Line
-	9050 4150 9200 4150
-Wire Wire Line
-	8350 4150 8200 4150
-Wire Wire Line
-	9050 4250 9200 4250
-Wire Wire Line
-	8350 4250 8200 4250
-Wire Wire Line
-	8200 4550 8350 4550
-Wire Wire Line
-	9200 4450 9050 4450
-Wire Wire Line
-	9200 4850 9050 4850
-Wire Wire Line
-	9200 4950 9050 4950
-Wire Wire Line
-	9200 4750 9050 4750
-Wire Wire Line
-	9200 4650 9050 4650
-Wire Wire Line
-	8200 4750 8350 4750
-Wire Wire Line
-	8350 4850 8200 4850
-Wire Wire Line
-	8200 4950 8350 4950
-Wire Wire Line
-	8200 4450 8350 4450
-Wire Wire Line
-	9650 6000 9650 6150
-Wire Wire Line
 	9050 6000 9050 6150
 Wire Wire Line
 	8950 5900 8950 6150
@@ -628,7 +537,4 @@ Connection ~ 8650 6000
 Connection ~ 8950 5900
 Connection ~ 9050 6000
 Connection ~ 9150 5900
-Connection ~ 9450 5900
-Connection ~ 9550 5900
-Connection ~ 9650 6000
 $EndSCHEMATC

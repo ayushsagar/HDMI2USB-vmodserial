@@ -47,7 +47,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 7
 Title ""
-Date "26 jun 2014"
+Date "30 jun 2014"
 Rev ""
 Comp "TimVideos"
 Comment1 ""
@@ -154,24 +154,10 @@ Text HLabel 7350 3650 2    60   Output ~ 0
 DTR4
 Text HLabel 7350 4150 2    60   Input ~ 0
 DSR4
-Text HLabel 7350 4350 2    60   Output ~ 0
-TX5
-Text HLabel 7350 4650 2    60   Output ~ 0
-RTS5
-Text HLabel 7350 4950 2    60   Output ~ 0
-DTR5
 Text HLabel 7350 5550 2    60   BiDi ~ 0
 SCL
 Text HLabel 7350 2450 2    60   Output ~ 0
 RTS3
-Text HLabel 7350 4450 2    60   Input ~ 0
-RX5
-Text HLabel 7350 4750 2    60   Input ~ 0
-CTS5
-Text HLabel 7350 5050 2    60   Input ~ 0
-DSR5
-NoConn ~ 7350 5250
-NoConn ~ 7350 5350
 Wire Wire Line
 	6800 6050 6800 5750
 Wire Wire Line
@@ -366,10 +352,10 @@ Wire Wire Line
 	3750 5450 3750 6050
 Connection ~ 3750 6050
 $Comp
-L PWR_FLAG #FLG201
+L PWR_FLAG #FLG01
 U 1 1 53C07D98
 P 3750 5450
-F 0 "#FLG201" H 3750 5545 30  0001 C CNN
+F 0 "#FLG01" H 3750 5545 30  0001 C CNN
 F 1 "PWR_FLAG" H 3750 5630 30  0001 C CNN
 F 2 "" H 3750 5450 60  0000 C CNN
 F 3 "" H 3750 5450 60  0000 C CNN
@@ -384,4 +370,16 @@ Connection ~ 5000 2350
 Connection ~ 6800 2350
 Text Notes 1900 7250 0    60   ~ 0
 VHDCI connector gives access to FPGA pins on Digilent Atlys FPGA development board
+NoConn ~ 7350 4350
+NoConn ~ 7350 4450
+NoConn ~ 7350 4650
+NoConn ~ 7350 4750
+Text HLabel 7350 5350 2    60   3State ~ 0
+SS_FPGA
+Text HLabel 7350 5250 2    60   3State ~ 0
+SCK_FPGA
+Text HLabel 7350 5050 2    60   Input ~ 0
+SDI_FPGA
+Text HLabel 7350 4950 2    60   Output ~ 0
+SDO_FPGA
 $EndSCHEMATC
