@@ -326,8 +326,6 @@ Wire Bus Line
 	1300 1900 1650 1900
 Wire Bus Line
 	1650 1900 1650 4900
-Text Label 1650 1900 0    60   ~ 0
-SERIAL[0..29]
 Entry Wire Line
 	1650 2000 1750 2100
 Entry Wire Line
@@ -659,5 +657,7 @@ RTS3
 Text Label 8450 2300 2    60   ~ 0
 RX3
 Text HLabel 1300 1900 0    60   UnSpc ~ 0
+SERIAL[0..29]
+Text Label 1650 1900 0    60   ~ 0
 SERIAL[0..29]
 $EndSCHEMATC

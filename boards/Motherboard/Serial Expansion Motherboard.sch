@@ -636,8 +636,6 @@ Wire Bus Line
 	1300 2150 1650 2150
 Wire Bus Line
 	1650 2150 1650 5150
-Text Label 1650 2150 0    60   ~ 0
-SERIAL[0..29]
 Entry Wire Line
 	1650 2250 1750 2350
 Entry Wire Line
@@ -969,5 +967,7 @@ DTR4
 Text Label 5200 5150 0    60   ~ 0
 DSR4
 Text HLabel 1300 2150 0    60   UnSpc ~ 0
+SERIAL[0..29]
+Text Label 1650 2150 0    60   ~ 0
 SERIAL[0..29]
 $EndSCHEMATC

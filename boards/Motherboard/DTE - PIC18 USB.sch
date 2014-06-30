@@ -1092,8 +1092,6 @@ Text HLabel 3400 5000 0    60   Output ~ 0
 SDO1
 Wire Bus Line
 	1550 2850 1550 5850
-Text Label 1550 2850 0    60   ~ 0
-SERIAL[0..29]
 Entry Wire Line
 	1550 2950 1650 3050
 Entry Wire Line
@@ -1428,4 +1426,6 @@ Text HLabel 1400 2850 0    60   UnSpc ~ 0
 SERIAL[0..29]
 Wire Bus Line
 	1550 2850 1400 2850
+Text Label 1550 2850 0    60   ~ 0
+SERIAL[0..29]
 $EndSCHEMATC
