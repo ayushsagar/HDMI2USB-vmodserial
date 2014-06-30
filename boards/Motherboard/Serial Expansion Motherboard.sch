@@ -633,279 +633,219 @@ F36 "GND" I R 7900 5400 60
 F37 "RTS3_ISO" I L 6950 4250 60 
 $EndSheet
 Wire Bus Line
-	2000 2200 2350 2200
-Wire Bus Line
-	2350 2200 2350 5200
+	1650 2000 2000 2000
 Entry Wire Line
-	2350 2300 2450 2400
+	2000 2000 2100 2100
 Entry Wire Line
-	2350 2400 2450 2500
+	2000 2100 2100 2200
 Entry Wire Line
-	2350 2500 2450 2600
+	2000 2200 2100 2300
 Entry Wire Line
-	2350 2600 2450 2700
+	2000 2300 2100 2400
 Entry Wire Line
-	2350 2700 2450 2800
+	2000 2400 2100 2500
 Entry Wire Line
-	2350 2800 2450 2900
+	2000 2500 2100 2600
 Entry Wire Line
-	2350 2900 2450 3000
+	2000 2750 2100 2850
 Entry Wire Line
-	2350 3000 2450 3100
+	2000 2850 2100 2950
 Entry Wire Line
-	2350 3100 2450 3200
+	2000 2950 2100 3050
 Entry Wire Line
-	2350 3200 2450 3300
+	2000 3050 2100 3150
 Entry Wire Line
-	2350 3300 2450 3400
+	2000 3150 2100 3250
 Entry Wire Line
-	2350 3400 2450 3500
+	2000 3250 2100 3350
 Entry Wire Line
-	2350 3500 2450 3600
+	2000 3500 2100 3600
 Entry Wire Line
-	2350 3600 2450 3700
+	2000 3600 2100 3700
 Entry Wire Line
-	2350 3700 2450 3800
+	2000 3700 2100 3800
 Entry Wire Line
-	2350 3800 2450 3900
+	2000 3800 2100 3900
 Entry Wire Line
-	2350 3900 2450 4000
+	2000 3900 2100 4000
 Entry Wire Line
-	2350 4000 2450 4100
+	2000 4000 2100 4100
 Entry Wire Line
-	2350 4100 2450 4200
+	2000 4250 2100 4350
 Entry Wire Line
-	2350 4200 2450 4300
+	2000 4350 2100 4450
 Entry Wire Line
-	2350 4300 2450 4400
+	2000 4450 2100 4550
 Entry Wire Line
-	2350 4400 2450 4500
+	2000 4550 2100 4650
 Entry Wire Line
-	2350 4500 2450 4600
+	2000 4650 2100 4750
 Entry Wire Line
-	2350 4600 2450 4700
+	2000 4750 2100 4850
 Entry Wire Line
-	2350 4700 2450 4800
+	2000 5000 2100 5100
 Entry Wire Line
-	2350 4800 2450 4900
+	2000 5100 2100 5200
 Entry Wire Line
-	2350 4900 2450 5000
+	2000 5200 2100 5300
 Entry Wire Line
-	2350 5000 2450 5100
+	2000 5300 2100 5400
 Entry Wire Line
-	2350 5100 2450 5200
+	2000 5400 2100 5500
 Entry Wire Line
-	2350 5200 2450 5300
+	2000 5500 2100 5600
 Wire Wire Line
-	2450 2400 3000 2400
+	2100 2100 2650 2100
 Wire Wire Line
-	2450 2500 3000 2500
+	2100 2200 2650 2200
 Wire Wire Line
-	2450 2600 3000 2600
+	2100 2300 2650 2300
 Wire Wire Line
-	2450 2700 3000 2700
+	2100 2400 2650 2400
 Wire Wire Line
-	2450 2800 3000 2800
+	2100 2500 2650 2500
 Wire Wire Line
-	2450 2900 3000 2900
+	2100 2600 2650 2600
 Wire Wire Line
-	2450 3000 3000 3000
+	2100 2850 2650 2850
 Wire Wire Line
-	2450 3100 3000 3100
+	2100 2950 2650 2950
 Wire Wire Line
-	2450 3200 3000 3200
+	2100 3050 2650 3050
 Wire Wire Line
-	2450 3300 3000 3300
+	2100 3150 2650 3150
 Wire Wire Line
-	2450 3400 3000 3400
+	2100 3250 2650 3250
 Wire Wire Line
-	2450 3500 3000 3500
+	2100 3350 2650 3350
 Wire Wire Line
-	2450 3600 3000 3600
+	2100 3600 2650 3600
 Wire Wire Line
-	2450 3700 3000 3700
+	2100 3700 2650 3700
 Wire Wire Line
-	2450 3800 3000 3800
+	2100 3800 2650 3800
 Wire Wire Line
-	2450 3900 3000 3900
+	2100 3900 2650 3900
 Wire Wire Line
-	2450 4000 3000 4000
+	2100 4000 2650 4000
 Wire Wire Line
-	2450 4100 3000 4100
+	2100 4100 2650 4100
 Wire Wire Line
-	2450 4200 3000 4200
+	2100 4350 2650 4350
 Wire Wire Line
-	2450 4300 3000 4300
+	2100 4450 2650 4450
 Wire Wire Line
-	2450 4400 3000 4400
+	2100 4550 2650 4550
 Wire Wire Line
-	2450 4500 3000 4500
+	2100 4650 2650 4650
 Wire Wire Line
-	2450 4600 3000 4600
+	2100 4750 2650 4750
 Wire Wire Line
-	2450 4700 3000 4700
+	2100 4850 2650 4850
 Wire Wire Line
-	2450 4800 3000 4800
+	2100 5100 2650 5100
 Wire Wire Line
-	2450 4900 3000 4900
+	2100 5200 2650 5200
 Wire Wire Line
-	2450 5000 3000 5000
+	2100 5300 2650 5300
 Wire Wire Line
-	2450 5100 3000 5100
+	2100 5400 2650 5400
 Wire Wire Line
-	2450 5200 3000 5200
+	2100 5500 2650 5500
 Wire Wire Line
-	2450 5300 3000 5300
-Text Label 2500 2400 0    60   ~ 0
-SERIAL0
-Text Label 2500 2500 0    60   ~ 0
-SERIAL1
-Text Label 2500 2600 0    60   ~ 0
-SERIAL2
-Text Label 2500 2700 0    60   ~ 0
-SERIAL3
-Text Label 2500 2800 0    60   ~ 0
-SERIAL4
-Text Label 2500 2900 0    60   ~ 0
-SERIAL5
-Text Label 2500 3000 0    60   ~ 0
-SERIAL6
-Text Label 2500 3100 0    60   ~ 0
-SERIAL7
-Text Label 2500 3200 0    60   ~ 0
-SERIAL8
-Text Label 2500 3300 0    60   ~ 0
-SERIAL9
-Text Label 2500 3400 0    60   ~ 0
-SERIAL10
-Text Label 2500 3500 0    60   ~ 0
-SERIAL11
-Text Label 2500 3600 0    60   ~ 0
-SERIAL12
-Text Label 2500 3700 0    60   ~ 0
-SERIAL13
-Text Label 2500 3800 0    60   ~ 0
-SERIAL14
-Text Label 2500 3900 0    60   ~ 0
-SERIAL15
-Text Label 2500 4000 0    60   ~ 0
-SERIAL16
-Text Label 2500 4100 0    60   ~ 0
-SERIAL17
-Text Label 2500 4200 0    60   ~ 0
-SERIAL18
-Text Label 2500 4300 0    60   ~ 0
-SERIAL19
-Text Label 2500 4400 0    60   ~ 0
-SERIAL20
-Text Label 2500 4500 0    60   ~ 0
-SERIAL21
-Text Label 2500 4600 0    60   ~ 0
-SERIAL22
-Text Label 2500 4700 0    60   ~ 0
-SERIAL23
-Text Label 2500 4800 0    60   ~ 0
-SERIAL24
-Text Label 2500 4900 0    60   ~ 0
-SERIAL25
-Text Label 2500 5000 0    60   ~ 0
-SERIAL26
-Text Label 2500 5100 0    60   ~ 0
-SERIAL27
-Text Label 2500 5200 0    60   ~ 0
-SERIAL28
-Text Label 2500 5300 0    60   ~ 0
-SERIAL29
-Text Label 3000 2400 0    60   ~ 0
+	2100 5600 2650 5600
+Text Label 2150 2100 0    60   ~ 0
+SLOT10
+Text Label 2650 2100 0    60   ~ 0
 TX0
-Text Label 3000 2500 0    60   ~ 0
+Text Label 2650 2200 0    60   ~ 0
 RX0
-Text Label 3000 2600 0    60   ~ 0
+Text Label 2650 2300 0    60   ~ 0
 RTS0
-Text Label 3000 2700 0    60   ~ 0
+Text Label 2650 2400 0    60   ~ 0
 CTS0
-Text Label 3000 2800 0    60   ~ 0
+Text Label 2650 2500 0    60   ~ 0
 DTR0
-Text Label 3000 2900 0    60   ~ 0
+Text Label 2650 2600 0    60   ~ 0
 DSR0
-Text Label 3000 3000 0    60   ~ 0
+Text Label 2650 2850 0    60   ~ 0
 TX1
-Text Label 3000 3100 0    60   ~ 0
+Text Label 2650 2950 0    60   ~ 0
 RX1
-Text Label 3000 3200 0    60   ~ 0
+Text Label 2650 3050 0    60   ~ 0
 RTS1
-Text Label 3000 3300 0    60   ~ 0
+Text Label 2650 3150 0    60   ~ 0
 CTS1
-Text Label 3000 3400 0    60   ~ 0
+Text Label 2650 3250 0    60   ~ 0
 DTR1
-Text Label 3000 3500 0    60   ~ 0
+Text Label 2650 3350 0    60   ~ 0
 DSR1
-Text Label 3000 3600 0    60   ~ 0
+Text Label 2650 3600 0    60   ~ 0
 TX2
-Text Label 3000 3700 0    60   ~ 0
+Text Label 2650 3700 0    60   ~ 0
 RX2
-Text Label 3000 3800 0    60   ~ 0
+Text Label 2650 3800 0    60   ~ 0
 RTS2
-Text Label 3000 3900 0    60   ~ 0
+Text Label 2650 3900 0    60   ~ 0
 CTS2
-Text Label 3000 4000 0    60   ~ 0
+Text Label 2650 4000 0    60   ~ 0
 DTR2
-Text Label 3000 4100 0    60   ~ 0
+Text Label 2650 4100 0    60   ~ 0
 DSR2
-Text Label 3000 4200 0    60   ~ 0
+Text Label 2650 4350 0    60   ~ 0
 TX3
-Text Label 3000 4300 0    60   ~ 0
+Text Label 2650 4450 0    60   ~ 0
 RX3
-Text Label 3000 4400 0    60   ~ 0
+Text Label 2650 4550 0    60   ~ 0
 RTS3
-Text Label 3000 4500 0    60   ~ 0
+Text Label 2650 4650 0    60   ~ 0
 CTS3
-Text Label 3000 4600 0    60   ~ 0
+Text Label 2650 4750 0    60   ~ 0
 DTR3
-Text Label 3000 4700 0    60   ~ 0
+Text Label 2650 4850 0    60   ~ 0
 DSR3
-Text Label 3000 4800 0    60   ~ 0
+Text Label 2650 5100 0    60   ~ 0
 TX4
-Text Label 3000 4900 0    60   ~ 0
+Text Label 2650 5200 0    60   ~ 0
 RX4
-Text Label 3000 5000 0    60   ~ 0
+Text Label 2650 5300 0    60   ~ 0
 RTS4
-Text Label 3000 5100 0    60   ~ 0
+Text Label 2650 5400 0    60   ~ 0
 CTS4
-Text Label 3000 5200 0    60   ~ 0
+Text Label 2650 5500 0    60   ~ 0
 DTR4
-Text Label 3000 5300 0    60   ~ 0
+Text Label 2650 5600 0    60   ~ 0
 DSR4
-Connection ~ 3000 2400
-Connection ~ 3000 2500
-Connection ~ 3000 2600
-Connection ~ 3000 2700
-Connection ~ 3000 2800
-Connection ~ 3000 2900
-Connection ~ 3000 3000
-Connection ~ 3000 3100
-Connection ~ 3000 3200
-Connection ~ 3000 3300
-Connection ~ 3000 3400
-Connection ~ 3000 3500
-Connection ~ 3000 3600
-Connection ~ 3000 3700
-Connection ~ 3000 3800
-Connection ~ 3000 3900
-Connection ~ 3000 4000
-Connection ~ 3000 4100
-Connection ~ 3000 4200
-Connection ~ 3000 4300
-Connection ~ 3000 4400
-Connection ~ 3000 4500
-Connection ~ 3000 4600
-Connection ~ 3000 4700
-Connection ~ 3000 4800
-Connection ~ 3000 4900
-Connection ~ 3000 5000
-Connection ~ 3000 5100
-Connection ~ 3000 5200
-Connection ~ 3000 5300
+Connection ~ 2650 2100
+Connection ~ 2650 2200
+Connection ~ 2650 2300
+Connection ~ 2650 2400
+Connection ~ 2650 2500
+Connection ~ 2650 2600
+Connection ~ 2650 2850
+Connection ~ 2650 2950
+Connection ~ 2650 3050
+Connection ~ 2650 3150
+Connection ~ 2650 3250
+Connection ~ 2650 3350
+Connection ~ 2650 3600
+Connection ~ 2650 3700
+Connection ~ 2650 3800
+Connection ~ 2650 3900
+Connection ~ 2650 4000
+Connection ~ 2650 4100
+Connection ~ 2650 4350
+Connection ~ 2650 4450
+Connection ~ 2650 4550
+Connection ~ 2650 4650
+Connection ~ 2650 4750
+Connection ~ 2650 4850
+Connection ~ 2650 5100
+Connection ~ 2650 5200
+Connection ~ 2650 5300
+Connection ~ 2650 5400
+Connection ~ 2650 5500
+Connection ~ 2650 5600
 Text Label 5200 2250 0    60   ~ 0
 TX0
 Text Label 5200 2350 0    60   ~ 0
@@ -966,10 +906,10 @@ Text Label 5200 5050 0    60   ~ 0
 DTR4
 Text Label 5200 5150 0    60   ~ 0
 DSR4
-Text HLabel 2000 2200 0    60   UnSpc ~ 0
-SERIAL[0..29]
-Text Label 2350 2200 0    60   ~ 0
-SERIAL[0..29]
+Text HLabel 1650 2000 0    60   UnSpc ~ 0
+SLOT1[0..5]
+Text Label 2000 2000 0    60   ~ 0
+SLOT1[0..5]
 $Sheet
 S 2350 6250 850  350 
 U 53B311B2
@@ -980,4 +920,96 @@ F3 "GND_IN" I L 2350 6500 60
 F4 "5V_OUT" O R 3200 6350 60 
 F5 "GND_OUT" O R 3200 6500 60 
 $EndSheet
+Wire Bus Line
+	2000 2000 2000 2500
+Wire Bus Line
+	1650 2750 2000 2750
+Text HLabel 1650 2750 0    60   UnSpc ~ 0
+SLOT2[0..5]
+Wire Bus Line
+	1650 3500 2000 3500
+Text HLabel 1650 3500 0    60   UnSpc ~ 0
+SLOT3[0..5]
+Wire Bus Line
+	1650 4250 2000 4250
+Text HLabel 1650 4250 0    60   UnSpc ~ 0
+SLOT4[0..5]
+Wire Bus Line
+	1650 5000 2000 5000
+Text HLabel 1650 5000 0    60   UnSpc ~ 0
+SLOT5[0..5]
+Wire Bus Line
+	2000 2750 2000 3250
+Wire Bus Line
+	2000 3500 2000 4000
+Wire Bus Line
+	2000 4250 2000 4750
+Wire Bus Line
+	2000 5000 2000 5500
+Text Label 2000 2750 0    60   ~ 0
+SLOT2[0..5]
+Text Label 2000 3500 0    60   ~ 0
+SLOT3[0..5]
+Text Label 2000 4250 0    60   ~ 0
+SLOT4[0..5]
+Text Label 2000 5000 0    60   ~ 0
+SLOT5[0..5]
+Text Label 2150 2200 0    60   ~ 0
+SLOT11
+Text Label 2150 2300 0    60   ~ 0
+SLOT12
+Text Label 2150 2400 0    60   ~ 0
+SLOT13
+Text Label 2150 2500 0    60   ~ 0
+SLOT14
+Text Label 2150 2600 0    60   ~ 0
+SLOT15
+Text Label 2150 2850 0    60   ~ 0
+SLOT20
+Text Label 2150 2950 0    60   ~ 0
+SLOT21
+Text Label 2150 3050 0    60   ~ 0
+SLOT22
+Text Label 2150 3150 0    60   ~ 0
+SLOT23
+Text Label 2150 3250 0    60   ~ 0
+SLOT24
+Text Label 2150 3350 0    60   ~ 0
+SLOT25
+Text Label 2150 3600 0    60   ~ 0
+SLOT30
+Text Label 2150 3700 0    60   ~ 0
+SLOT31
+Text Label 2150 3800 0    60   ~ 0
+SLOT32
+Text Label 2150 3900 0    60   ~ 0
+SLOT33
+Text Label 2150 4000 0    60   ~ 0
+SLOT34
+Text Label 2150 4100 0    60   ~ 0
+SLOT35
+Text Label 2150 4350 0    60   ~ 0
+SLOT40
+Text Label 2150 4450 0    60   ~ 0
+SLOT41
+Text Label 2150 4550 0    60   ~ 0
+SLOT42
+Text Label 2150 4650 0    60   ~ 0
+SLOT43
+Text Label 2150 4750 0    60   ~ 0
+SLOT44
+Text Label 2150 4850 0    60   ~ 0
+SLOT45
+Text Label 2150 5100 0    60   ~ 0
+SLOT50
+Text Label 2150 5200 0    60   ~ 0
+SLOT51
+Text Label 2150 5300 0    60   ~ 0
+SLOT52
+Text Label 2150 5400 0    60   ~ 0
+SLOT53
+Text Label 2150 5500 0    60   ~ 0
+SLOT54
+Text Label 2150 5600 0    60   ~ 0
+SLOT55
 $EndSCHEMATC
