@@ -45,7 +45,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title "Serial Expansion Module and DTE interface"
 Date "30 jun 2014"
 Rev ""
