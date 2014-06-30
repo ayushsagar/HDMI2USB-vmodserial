@@ -45,7 +45,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 6
 Title "Serial Expansion Module and DTE interface"
 Date "30 jun 2014"
 Rev ""
@@ -57,66 +57,6 @@ Comment4 ""
 $EndDescr
 Text Notes 950  7550 0    60   ~ 0
 The serial DTE (Data Terminal Equipment) is either Atlys VHDCI module or PIC18 USB module.\nWhile both of them are shown connected on schematic, only one of them should stay populated on PCB assembly.
-Text Label 4900 1500 0    60   ~ 0
-TX0
-Text Label 4900 1600 0    60   ~ 0
-RX0
-Text Label 4900 1700 0    60   ~ 0
-RTS0
-Text Label 4900 1800 0    60   ~ 0
-CTS0
-Text Label 4900 1900 0    60   ~ 0
-DTR0
-Text Label 4900 2000 0    60   ~ 0
-DSR0
-Text Label 4900 2200 0    60   ~ 0
-TX1
-Text Label 4900 2300 0    60   ~ 0
-RX1
-Text Label 4900 2400 0    60   ~ 0
-RTS1
-Text Label 4900 2500 0    60   ~ 0
-CTS1
-Text Label 4900 2600 0    60   ~ 0
-DTR1
-Text Label 4900 2700 0    60   ~ 0
-DSR1
-Text Label 4900 2900 0    60   ~ 0
-TX2
-Text Label 4900 3000 0    60   ~ 0
-RX2
-Text Label 4900 3100 0    60   ~ 0
-RTS2
-Text Label 4900 3200 0    60   ~ 0
-CTS2
-Text Label 4900 3300 0    60   ~ 0
-DTR2
-Text Label 4900 3400 0    60   ~ 0
-DSR2
-Text Label 4900 3600 0    60   ~ 0
-TX3
-Text Label 4900 3700 0    60   ~ 0
-RX3
-Text Label 4900 3800 0    60   ~ 0
-RTS3
-Text Label 4900 3900 0    60   ~ 0
-CTS3
-Text Label 4900 4000 0    60   ~ 0
-DTR3
-Text Label 4900 4100 0    60   ~ 0
-DSR3
-Text Label 4900 4300 0    60   ~ 0
-TX4
-Text Label 4900 4400 0    60   ~ 0
-RX4
-Text Label 4900 4500 0    60   ~ 0
-RTS4
-Text Label 4900 4600 0    60   ~ 0
-CTS4
-Text Label 4900 4700 0    60   ~ 0
-DTR4
-Text Label 4900 4800 0    60   ~ 0
-DSR4
 Text Label 4900 5550 0    60   ~ 0
 SDA
 Text Label 4900 5650 0    60   ~ 0
@@ -127,182 +67,26 @@ Text Label 4900 5200 0    60   ~ 0
 VCC
 Text Label 4900 5300 0    60   ~ 0
 GND
-Text Label 2500 1500 0    60   ~ 0
-TX0
-Text Label 2500 1600 0    60   ~ 0
-RX0
-Text Label 2500 1700 0    60   ~ 0
-RTS0
-Text Label 2500 1800 0    60   ~ 0
-CTS0
-Text Label 2500 1900 0    60   ~ 0
-DTR0
-Text Label 2500 2000 0    60   ~ 0
-DSR0
-Text Label 2500 2200 0    60   ~ 0
-TX1
-Text Label 2500 2300 0    60   ~ 0
-RX1
-Text Label 2500 2400 0    60   ~ 0
-RTS1
-Text Label 2500 2500 0    60   ~ 0
-CTS1
-Text Label 2500 2600 0    60   ~ 0
-DTR1
-Text Label 2500 2700 0    60   ~ 0
-DSR1
-Text Label 2500 2900 0    60   ~ 0
-TX2
-Text Label 2500 3000 0    60   ~ 0
-RX2
-Text Label 2500 3100 0    60   ~ 0
-RTS2
-Text Label 2500 3200 0    60   ~ 0
-CTS2
-Text Label 2500 3300 0    60   ~ 0
-DTR2
-Text Label 2500 3400 0    60   ~ 0
-DSR2
 Text Label 2500 5100 0    60   ~ 0
 5V
 Text Label 2500 5200 0    60   ~ 0
 VCC
 Text Label 2500 5300 0    60   ~ 0
 GND
-Text Label 2500 3600 0    60   ~ 0
-TX3
-Text Label 2500 3700 0    60   ~ 0
-RX3
-Text Label 2500 3800 0    60   ~ 0
-RTS3
-Text Label 2500 3900 0    60   ~ 0
-CTS3
-Text Label 2500 4000 0    60   ~ 0
-DTR3
-Text Label 2500 4100 0    60   ~ 0
-DSR3
-Text Label 2500 4300 0    60   ~ 0
-TX4
-Text Label 2500 4400 0    60   ~ 0
-RX4
-Text Label 2500 4500 0    60   ~ 0
-RTS4
-Text Label 2500 4600 0    60   ~ 0
-CTS4
-Text Label 2500 4700 0    60   ~ 0
-DTR4
-Text Label 2500 4800 0    60   ~ 0
-DSR4
 Text Label 2500 5550 0    60   ~ 0
 SDA
 Text Label 2500 5650 0    60   ~ 0
 SCL
-Text Label 7650 3600 0    60   ~ 0
-TX3
-Text Label 7650 3700 0    60   ~ 0
-RX3
-Text Label 7650 3800 0    60   ~ 0
-RTS3
-Text Label 7650 3900 0    60   ~ 0
-CTS3
-Text Label 7650 4000 0    60   ~ 0
-DTR3
-Text Label 7650 4100 0    60   ~ 0
-DSR3
-Text Label 7650 4300 0    60   ~ 0
-TX4
-Text Label 7650 4400 0    60   ~ 0
-RX4
-Text Label 7650 4500 0    60   ~ 0
-RTS4
-Text Label 7650 4600 0    60   ~ 0
-CTS4
-Text Label 7650 4700 0    60   ~ 0
-DTR4
-Text Label 7650 4800 0    60   ~ 0
-DSR4
 Text Label 7650 5550 0    60   ~ 0
 SDA
 Text Label 7650 5650 0    60   ~ 0
 SCL
-Text Label 7650 1500 0    60   ~ 0
-TX0
-Text Label 7650 1600 0    60   ~ 0
-RX0
-Text Label 7650 1700 0    60   ~ 0
-RTS0
-Text Label 7650 1800 0    60   ~ 0
-CTS0
-Text Label 7650 1900 0    60   ~ 0
-DTR0
-Text Label 7650 2000 0    60   ~ 0
-DSR0
-Text Label 7650 2200 0    60   ~ 0
-TX1
-Text Label 7650 2300 0    60   ~ 0
-RX1
-Text Label 7650 2400 0    60   ~ 0
-RTS1
-Text Label 7650 2500 0    60   ~ 0
-CTS1
-Text Label 7650 2600 0    60   ~ 0
-DTR1
-Text Label 7650 2700 0    60   ~ 0
-DSR1
-Text Label 7650 2900 0    60   ~ 0
-TX2
-Text Label 7650 3000 0    60   ~ 0
-RX2
-Text Label 7650 3100 0    60   ~ 0
-RTS2
-Text Label 7650 3200 0    60   ~ 0
-CTS2
-Text Label 7650 3300 0    60   ~ 0
-DTR2
-Text Label 7650 3400 0    60   ~ 0
-DSR2
 Text Label 7650 5100 0    60   ~ 0
 5V
 Text Label 7650 5200 0    60   ~ 0
 VCC
 Text Label 7650 5300 0    60   ~ 0
 GND
-Wire Wire Line
-	5150 1500 4900 1500
-Wire Wire Line
-	5150 1600 4900 1600
-Wire Wire Line
-	5150 1700 4900 1700
-Wire Wire Line
-	5150 1800 4900 1800
-Wire Wire Line
-	5150 1900 4900 1900
-Wire Wire Line
-	5150 2000 4900 2000
-Wire Wire Line
-	5150 2200 4900 2200
-Wire Wire Line
-	5150 2300 4900 2300
-Wire Wire Line
-	5150 2400 4900 2400
-Wire Wire Line
-	5150 2500 4900 2500
-Wire Wire Line
-	5150 2600 4900 2600
-Wire Wire Line
-	5150 2700 4900 2700
-Wire Wire Line
-	5150 2900 4900 2900
-Wire Wire Line
-	5150 3000 4900 3000
-Wire Wire Line
-	5150 3100 4900 3100
-Wire Wire Line
-	5150 3200 4900 3200
-Wire Wire Line
-	4900 3300 5150 3300
-Wire Wire Line
-	5150 3400 4900 3400
 Wire Wire Line
 	5150 5100 4900 5100
 Wire Wire Line
@@ -314,66 +98,6 @@ Wire Wire Line
 Wire Wire Line
 	5150 5650 4900 5650
 Wire Wire Line
-	5150 4800 4900 4800
-Wire Wire Line
-	5150 4700 4900 4700
-Wire Wire Line
-	5150 4600 4900 4600
-Wire Wire Line
-	5150 4500 4900 4500
-Wire Wire Line
-	5150 4400 4900 4400
-Wire Wire Line
-	5150 4300 4900 4300
-Wire Wire Line
-	5150 4100 4900 4100
-Wire Wire Line
-	5150 4000 4900 4000
-Wire Wire Line
-	5150 3900 4900 3900
-Wire Wire Line
-	5150 3800 4900 3800
-Wire Wire Line
-	5150 3700 4900 3700
-Wire Wire Line
-	5150 3600 4900 3600
-Wire Wire Line
-	2750 1500 2500 1500
-Wire Wire Line
-	2750 1600 2500 1600
-Wire Wire Line
-	2750 1700 2500 1700
-Wire Wire Line
-	2750 1800 2500 1800
-Wire Wire Line
-	2750 1900 2500 1900
-Wire Wire Line
-	2750 2000 2500 2000
-Wire Wire Line
-	2750 2200 2500 2200
-Wire Wire Line
-	2750 2300 2500 2300
-Wire Wire Line
-	2750 2400 2500 2400
-Wire Wire Line
-	2750 2500 2500 2500
-Wire Wire Line
-	2750 2600 2500 2600
-Wire Wire Line
-	2750 2700 2500 2700
-Wire Wire Line
-	2750 2900 2500 2900
-Wire Wire Line
-	2750 3000 2500 3000
-Wire Wire Line
-	2750 3100 2500 3100
-Wire Wire Line
-	2750 3200 2500 3200
-Wire Wire Line
-	2500 3300 2750 3300
-Wire Wire Line
-	2750 3400 2500 3400
-Wire Wire Line
 	2750 5100 2500 5100
 Wire Wire Line
 	2750 5200 2500 5200
@@ -384,230 +108,15 @@ Wire Wire Line
 Wire Wire Line
 	2750 5650 2500 5650
 Wire Wire Line
-	2750 4800 2500 4800
-Wire Wire Line
-	2750 4700 2500 4700
-Wire Wire Line
-	2750 4600 2500 4600
-Wire Wire Line
-	2750 4500 2500 4500
-Wire Wire Line
-	2750 4400 2500 4400
-Wire Wire Line
-	2750 4300 2500 4300
-Wire Wire Line
-	2750 4100 2500 4100
-Wire Wire Line
-	2750 4000 2500 4000
-Wire Wire Line
-	2750 3900 2500 3900
-Wire Wire Line
-	2750 3800 2500 3800
-Wire Wire Line
-	2750 3700 2500 3700
-Wire Wire Line
-	2750 3600 2500 3600
-Wire Wire Line
 	7900 5550 7650 5550
 Wire Wire Line
 	7900 5650 7650 5650
-Wire Wire Line
-	7900 4800 7650 4800
-Wire Wire Line
-	7900 4700 7650 4700
-Wire Wire Line
-	7900 4600 7650 4600
-Wire Wire Line
-	7900 4500 7650 4500
-Wire Wire Line
-	7900 4400 7650 4400
-Wire Wire Line
-	7900 4300 7650 4300
-Wire Wire Line
-	7900 4100 7650 4100
-Wire Wire Line
-	7900 4000 7650 4000
-Wire Wire Line
-	7900 3900 7650 3900
-Wire Wire Line
-	7900 3800 7650 3800
-Wire Wire Line
-	7900 3700 7650 3700
-Wire Wire Line
-	7900 3600 7650 3600
-Wire Wire Line
-	7900 1500 7650 1500
-Wire Wire Line
-	7900 1600 7650 1600
-Wire Wire Line
-	7900 1700 7650 1700
-Wire Wire Line
-	7900 1800 7650 1800
-Wire Wire Line
-	7900 1900 7650 1900
-Wire Wire Line
-	7900 2000 7650 2000
-Wire Wire Line
-	7900 2200 7650 2200
-Wire Wire Line
-	7900 2300 7650 2300
-Wire Wire Line
-	7900 2400 7650 2400
-Wire Wire Line
-	7900 2500 7650 2500
-Wire Wire Line
-	7900 2600 7650 2600
-Wire Wire Line
-	7900 2700 7650 2700
-Wire Wire Line
-	7900 2900 7650 2900
-Wire Wire Line
-	7900 3000 7650 3000
-Wire Wire Line
-	7900 3100 7650 3100
-Wire Wire Line
-	7900 3200 7650 3200
-Wire Wire Line
-	7650 3300 7900 3300
-Wire Wire Line
-	7900 3400 7650 3400
 Wire Wire Line
 	7900 5100 7650 5100
 Wire Wire Line
 	7900 5200 7650 5200
 Wire Wire Line
 	7900 5300 7650 5300
-$Sheet
-S 2750 1250 1250 4600
-U 53A5B815
-F0 "DTE - Atlys VHDCI" 50
-F1 "DTE - Atlys VHDCI.sch" 50
-F2 "RX0" I L 2750 1600 60 
-F3 "TX0" O L 2750 1500 60 
-F4 "GND" I L 2750 5300 60 
-F5 "RTS0" O L 2750 1700 60 
-F6 "CTS0" I L 2750 1800 60 
-F7 "DTR0" O L 2750 1900 60 
-F8 "DSR0" I L 2750 2000 60 
-F9 "RX1" I L 2750 2300 60 
-F10 "TX1" O L 2750 2200 60 
-F11 "RTS1" O L 2750 2400 60 
-F12 "CTS1" I L 2750 2500 60 
-F13 "DTR1" O L 2750 2600 60 
-F14 "DSR1" I L 2750 2700 60 
-F15 "5V" O L 2750 5100 60 
-F16 "VCC_3V3" O L 2750 5200 60 
-F17 "TX2" O L 2750 2900 60 
-F18 "CTS2" I L 2750 3200 60 
-F19 "DTR2" O L 2750 3300 60 
-F20 "DSR2" I L 2750 3400 60 
-F21 "RX2" I L 2750 3000 60 
-F22 "RX3" I L 2750 3700 60 
-F23 "SDA" B L 2750 5550 60 
-F24 "TX3" O L 2750 3600 60 
-F25 "CTS3" I L 2750 3900 60 
-F26 "DTR3" O L 2750 4000 60 
-F27 "DSR3" I L 2750 4100 60 
-F28 "RX4" I L 2750 4400 60 
-F29 "TX4" O L 2750 4300 60 
-F30 "RTS4" O L 2750 4500 60 
-F31 "RTS2" O L 2750 3100 60 
-F32 "CTS4" I L 2750 4600 60 
-F33 "DTR4" O L 2750 4700 60 
-F34 "DSR4" I L 2750 4800 60 
-F35 "SCL" B L 2750 5650 60 
-F36 "RTS3" O L 2750 3800 60 
-F37 "SS_FPGA" T R 4000 5100 60 
-F38 "SCK_FPGA" T R 4000 5200 60 
-F39 "SDI_FPGA" I R 4000 5300 60 
-F40 "SDO_FPGA" O R 4000 5400 60 
-$EndSheet
-$Sheet
-S 5150 1250 1600 4600
-U 53A5B7C7
-F0 "Serial Expansion Motherboard" 50
-F1 "Serial Expansion Motherboard.sch" 50
-F2 "5V" I L 5150 5100 60 
-F3 "VCC_3V3" I L 5150 5200 60 
-F4 "GND" I L 5150 5300 60 
-F5 "TX0" I L 5150 1500 60 
-F6 "RX0" O L 5150 1600 60 
-F7 "RTS0" I L 5150 1700 60 
-F8 "CTS0" O L 5150 1800 60 
-F9 "DTR0" I L 5150 1900 60 
-F10 "DSR0" O L 5150 2000 60 
-F11 "SDA" B L 5150 5550 60 
-F12 "SCL" B L 5150 5650 60 
-F13 "TX1" I L 5150 2200 60 
-F14 "RX1" O L 5150 2300 60 
-F15 "RTS1" I L 5150 2400 60 
-F16 "CTS1" O L 5150 2500 60 
-F17 "DTR1" I L 5150 2600 60 
-F18 "DSR1" O L 5150 2700 60 
-F19 "TX2" I L 5150 2900 60 
-F20 "RX2" O L 5150 3000 60 
-F21 "RTS2" I L 5150 3100 60 
-F22 "CTS2" O L 5150 3200 60 
-F23 "DTR2" I L 5150 3300 60 
-F24 "DSR2" O L 5150 3400 60 
-F25 "TX3" I L 5150 3600 60 
-F26 "RX3" O L 5150 3700 60 
-F27 "RTS3" I L 5150 3800 60 
-F28 "CTS3" O L 5150 3900 60 
-F29 "DTR3" I L 5150 4000 60 
-F30 "DSR3" O L 5150 4100 60 
-F31 "TX4" I L 5150 4300 60 
-F32 "RX4" O L 5150 4400 60 
-F33 "RTS4" I L 5150 4500 60 
-F34 "CTS4" O L 5150 4600 60 
-F35 "DTR4" I L 5150 4700 60 
-F36 "DSR4" O L 5150 4800 60 
-$EndSheet
-$Sheet
-S 7900 1250 1350 4600
-U 53A5B987
-F0 "DTE - PIC18 USB" 50
-F1 "DTE - PIC18 USB.sch" 50
-F2 "TX0" O L 7900 1500 60 
-F3 "RX0" I L 7900 1600 60 
-F4 "RTS0" O L 7900 1700 60 
-F5 "CTS0" I L 7900 1800 60 
-F6 "DTR0" O L 7900 1900 60 
-F7 "DSR0" I L 7900 2000 60 
-F8 "TX1" O L 7900 2200 60 
-F9 "RX1" I L 7900 2300 60 
-F10 "RTS1" O L 7900 2400 60 
-F11 "CTS1" I L 7900 2500 60 
-F12 "DTR1" O L 7900 2600 60 
-F13 "DSR1" I L 7900 2700 60 
-F14 "TX2" O L 7900 2900 60 
-F15 "RX2" I L 7900 3000 60 
-F16 "RTS2" O L 7900 3100 60 
-F17 "CTS2" I L 7900 3200 60 
-F18 "DTR2" O L 7900 3300 60 
-F19 "DSR2" I L 7900 3400 60 
-F20 "TX3" O L 7900 3600 60 
-F21 "RX3" I L 7900 3700 60 
-F22 "RTS3" O L 7900 3800 60 
-F23 "CTS3" I L 7900 3900 60 
-F24 "DTR3" O L 7900 4000 60 
-F25 "DSR3" I L 7900 4100 60 
-F26 "TX4" O L 7900 4300 60 
-F27 "RX4" I L 7900 4400 60 
-F28 "RTS4" O L 7900 4500 60 
-F29 "CTS4" I L 7900 4600 60 
-F30 "DTR4" O L 7900 4700 60 
-F31 "DSR4" I L 7900 4800 60 
-F32 "5V" O L 7900 5100 60 
-F33 "GND" I L 7900 5300 60 
-F34 "VCC_3V3" O L 7900 5200 60 
-F35 "SDA" B L 7900 5550 60 
-F36 "SCL" B L 7900 5650 60 
-F37 "SS1" T R 9250 5100 60 
-F38 "SCK1" T R 9250 5200 60 
-F39 "SDI1" I R 9250 5400 60 
-F40 "SDO1" O R 9250 5300 60 
-$EndSheet
 Wire Wire Line
 	4000 5100 4100 5100
 Wire Wire Line
@@ -640,4 +149,71 @@ Text Label 9350 5300 0    60   ~ 0
 SDO1
 Text Label 9350 5400 0    60   ~ 0
 SDI1
+$Sheet
+S 2750 1250 1250 4600
+U 53A5B815
+F0 "DTE - Atlys VHDCI" 50
+F1 "DTE - Atlys VHDCI.sch" 50
+F2 "GND" U L 2750 5300 60 
+F3 "5V" U L 2750 5100 60 
+F4 "VCC_3V3" U L 2750 5200 60 
+F5 "SDA" B L 2750 5550 60 
+F6 "SCL" B L 2750 5650 60 
+F7 "SS_FPGA" T R 4000 5100 60 
+F8 "SCK_FPGA" T R 4000 5200 60 
+F9 "SDI_FPGA" I R 4000 5300 60 
+F10 "SDO_FPGA" O R 4000 5400 60 
+$EndSheet
+$Sheet
+S 5150 1250 1600 4600
+U 53A5B7C7
+F0 "Serial Expansion Motherboard" 50
+F1 "Serial Expansion Motherboard.sch" 50
+F2 "5V" U L 5150 5100 60 
+F3 "VCC_3V3" U L 5150 5200 60 
+F4 "GND" U L 5150 5300 60 
+F5 "SDA" B L 5150 5550 60 
+F6 "SCL" B L 5150 5650 60 
+$EndSheet
+$Sheet
+S 7900 1250 1350 4600
+U 53A5B987
+F0 "DTE - PIC18 USB" 50
+F1 "DTE - PIC18 USB.sch" 50
+F2 "5V" U L 7900 5100 60 
+F3 "GND" U L 7900 5300 60 
+F4 "VCC_3V3" U L 7900 5200 60 
+F5 "SDA" B L 7900 5550 60 
+F6 "SCL" B L 7900 5650 60 
+F7 "SS1" T R 9250 5100 60 
+F8 "SCK1" T R 9250 5200 60 
+F9 "SDI1" I R 9250 5400 60 
+F10 "SDO1" O R 9250 5300 60 
+$EndSheet
+Text HLabel 2750 1400 2    60   UnSpc ~ 0
+SERIAL[0..29]
+Text HLabel 5150 1400 2    60   UnSpc ~ 0
+SERIAL[0..29]
+Text HLabel 7900 1400 2    60   UnSpc ~ 0
+SERIAL[0..29]
+Wire Bus Line
+	1600 900  7450 900 
+Wire Bus Line
+	7900 1400 7100 1400
+Wire Bus Line
+	7100 1400 7100 900 
+Wire Bus Line
+	5150 1400 4350 1400
+Wire Bus Line
+	4350 1400 4350 900 
+Wire Bus Line
+	2750 1400 1950 1400
+Wire Bus Line
+	1950 1400 1950 900 
+Text Label 2000 1400 0    60   ~ 0
+SERIAL[0..29]
+Text Label 4400 1400 0    60   ~ 0
+SERIAL[0..29]
+Text Label 7200 1400 0    60   ~ 0
+SERIAL[0..29]
 $EndSCHEMATC
