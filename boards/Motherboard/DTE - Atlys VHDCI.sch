@@ -77,11 +77,11 @@ F 3 "~" H 5550 6100 60  0000 C CNN
 	1    5550 6100
 	0    -1   -1   0   
 $EndComp
-Text HLabel 4600 6100 0    60   Input ~ 0
+Text HLabel 4600 6100 0    60   UnSpc ~ 0
 GND
-Text HLabel 4750 1750 0    60   Output ~ 0
+Text HLabel 4750 1750 0    60   UnSpc ~ 0
 5V
-Text HLabel 4750 1850 0    60   Output ~ 0
+Text HLabel 4750 1850 0    60   UnSpc ~ 0
 VCC_3V3
 Text HLabel 5550 5600 0    60   BiDi ~ 0
 SDA

@@ -66,11 +66,11 @@ F 3 "" H 7250 1200 60  0000 C CNN
 	1    7250 1200
 	-1   0    0    -1  
 $EndComp
-Text HLabel 8150 1050 0    60   Output ~ 0
+Text HLabel 8150 1050 0    60   UnSpc ~ 0
 5V
-Text HLabel 8350 5850 2    60   Input ~ 0
+Text HLabel 8350 5850 2    60   UnSpc ~ 0
 GND
-Text HLabel 8350 5650 2    60   Output ~ 0
+Text HLabel 8350 5650 2    60   UnSpc ~ 0
 VCC_3V3
 Text HLabel 3850 3500 0    60   BiDi ~ 0
 SDA
