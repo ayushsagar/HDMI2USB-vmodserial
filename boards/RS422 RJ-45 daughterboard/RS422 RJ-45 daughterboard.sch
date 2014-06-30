@@ -33,6 +33,8 @@ LIBS:24AA014
 LIBS:CONN_16
 LIBS:csmall
 LIBS:ISL83387E
+LIBS:ISL8491E
+LIBS:dpdt_slide-switch
 LIBS:RS422 RJ-45 daughterboard-cache
 EELAYER 27 0
 EELAYER END
@@ -40,7 +42,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title ""
-Date "26 jun 2014"
+Date "30 jun 2014"
 Rev ""
 Comp ""
 Comment1 ""
