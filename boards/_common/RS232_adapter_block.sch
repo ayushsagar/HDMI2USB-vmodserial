@@ -62,7 +62,7 @@ F 3 "" H 3000 4050 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Text HLabel 6050 2950 2    60   Input ~ 0
-VCC_5V
+VCC
 $Comp
 L ISL83387E U?
 U 1 1 53B10425
