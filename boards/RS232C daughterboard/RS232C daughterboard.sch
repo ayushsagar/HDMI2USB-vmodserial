@@ -40,7 +40,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title ""
-Date "26 jun 2014"
+Date "1 jul 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -81,17 +81,15 @@ F15 "A1" I L 6400 4050 60
 F16 "A2" I L 6400 4150 60 
 $EndSheet
 Wire Wire Line
-	3750 3250 3650 3250
-Wire Wire Line
-	3750 3350 3650 3350
-Wire Wire Line
 	3750 3450 3650 3450
 Wire Wire Line
-	3750 3650 3650 3650
+	3750 3550 3650 3550
 Wire Wire Line
-	3750 3750 3650 3750
+	4450 3650 4550 3650
 Wire Wire Line
-	3750 3950 3650 3950
+	4450 3750 4550 3750
+Wire Wire Line
+	4450 3950 4550 3950
 Wire Wire Line
 	4550 3250 4450 3250
 Wire Wire Line
@@ -99,55 +97,51 @@ Wire Wire Line
 Wire Wire Line
 	4550 3450 4450 3450
 Wire Wire Line
-	4550 3650 4450 3650
+	3650 3650 3750 3650
 Wire Wire Line
-	4550 3850 4450 3850
+	3650 3850 3750 3850
 Wire Wire Line
-	4550 3950 4450 3950
+	3650 3950 3750 3950
 Wire Wire Line
-	3750 4050 3650 4050
+	4450 4050 4550 4050
 Wire Wire Line
-	3750 4150 3650 4150
+	4450 4150 4550 4150
 Wire Wire Line
-	4550 4050 4450 4050
+	3650 4050 3750 4050
 Wire Wire Line
-	4550 4150 4450 4150
+	3650 4150 3750 4150
 Text Label 4550 3250 0    60   ~ 0
-TX_ISO
-Text Label 4550 3350 0    60   ~ 0
-RTS_ISO
-Text Label 4550 3450 0    60   ~ 0
-DTR_ISO
-Text Label 4550 3850 0    60   ~ 0
-VCC_3V3
-Text Label 4550 3950 0    60   ~ 0
-GND
-Text Label 4550 4050 0    60   ~ 0
-SDA
-Text Label 4550 4150 0    60   ~ 0
-SCL
-Text Label 3650 4150 2    60   ~ 0
-A2
-Text Label 3650 4050 2    60   ~ 0
-A1
-Text Label 3650 3950 2    60   ~ 0
-A0
-Text Label 3650 3750 2    60   ~ 0
-VCC_5V_ISO
-Text Label 3650 3650 2    60   ~ 0
-GND_ISO
-Text Label 3650 3450 2    60   ~ 0
-DSR_ISO
-Text Label 3650 3350 2    60   ~ 0
 CTS_ISO
-Text Label 3650 3250 2    60   ~ 0
+Text Label 4550 3350 0    60   ~ 0
+TX_ISO
+Text Label 4550 3450 0    60   ~ 0
 RX_ISO
+Text Label 3650 3850 2    60   ~ 0
+VCC_3V3
+Text Label 3650 3950 2    60   ~ 0
+GND
+Text Label 3650 4050 2    60   ~ 0
+SDA
+Text Label 3650 4150 2    60   ~ 0
+SCL
+Text Label 4550 4150 0    60   ~ 0
+A2
+Text Label 4550 4050 0    60   ~ 0
+A1
+Text Label 4550 3950 0    60   ~ 0
+A0
+Text Label 4550 3750 0    60   ~ 0
+VCC_5V_ISO
 Text Label 4550 3650 0    60   ~ 0
 GND_ISO
-NoConn ~ 4450 3750
-NoConn ~ 4450 3550
-NoConn ~ 3750 3550
-NoConn ~ 3750 3850
+Text Label 3650 3550 2    60   ~ 0
+DTR_ISO
+Text Label 3650 3450 2    60   ~ 0
+DSR_ISO
+Text Label 3650 3650 2    60   ~ 0
+GND_ISO
+NoConn ~ 4450 3850
+NoConn ~ 3750 3750
 Wire Wire Line
 	6400 3250 6250 3250
 Text Label 6250 3250 2    60   ~ 0
@@ -210,4 +204,10 @@ Wire Wire Line
 	7600 3850 7750 3850
 Text Notes 950  7350 0    60   ~ 0
 This sheet abstracts the daughterboard circuits into a hierarchical sheet \nso that they can be integrated into serial expansion motherboard schematic (and PCB) if needed
+Wire Wire Line
+	4450 3550 4550 3550
+Text Label 4550 3550 0    60   ~ 0
+RTS_ISO
+NoConn ~ 3750 3350
+NoConn ~ 3750 3250
 $EndSCHEMATC

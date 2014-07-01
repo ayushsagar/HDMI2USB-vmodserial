@@ -47,7 +47,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 7
 Title "Power isolation"
-Date "30 jun 2014"
+Date "1 jul 2014"
 Rev ""
 Comp "TimVideos"
 Comment1 ""
