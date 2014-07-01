@@ -39,7 +39,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 4
 Title ""
 Date "1 jul 2014"
 Rev ""
@@ -49,9 +49,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 3900 3300 0    60   Input ~ 0
+Text HLabel 3900 3300 0    60   UnSpc ~ 0
 VCC
-Text HLabel 3900 3700 0    60   Input ~ 0
+Text HLabel 3900 3700 0    60   UnSpc ~ 0
 GND
 Text HLabel 7350 3300 2    60   BiDi ~ 0
 GPIO0
@@ -241,7 +241,7 @@ Wire Wire Line
 	6850 5150 6900 5150
 Wire Wire Line
 	7400 5150 7500 5150
-Text HLabel 7500 5150 2    60   Input ~ 0
+Text HLabel 7500 5150 2    60   UnSpc ~ 0
 GND
 Wire Wire Line
 	4700 3600 4700 3700

@@ -39,7 +39,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 4
 Title ""
 Date "1 jul 2014"
 Rev ""
@@ -49,21 +49,21 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 6100 2350 1    60   Input ~ 0
+Text HLabel 6550 2150 1    60   Input ~ 0
 TX_ISO
-Text HLabel 6000 2350 1    60   Output ~ 0
+Text HLabel 6450 2150 1    60   Output ~ 0
 RX_ISO
-Text HLabel 5900 2350 1    60   Input ~ 0
+Text HLabel 6350 2150 1    60   Input ~ 0
 RTS_ISO
-Text HLabel 5800 2350 1    60   Output ~ 0
+Text HLabel 6250 2150 1    60   Output ~ 0
 CTS_ISO
-Text HLabel 5700 2350 1    60   Input ~ 0
+Text HLabel 6150 2150 1    60   Input ~ 0
 DTR_ISO
-Text HLabel 5600 2350 1    60   Output ~ 0
+Text HLabel 6050 2150 1    60   Output ~ 0
 DSR_ISO
-Text HLabel 4700 6050 0    60   Input ~ 0
+Text HLabel 4700 6050 0    60   UnSpc ~ 0
 VCC_3V3
-Text HLabel 4550 7200 0    60   Input ~ 0
+Text HLabel 4550 7200 0    60   UnSpc ~ 0
 GND
 Text HLabel 6300 6550 2    60   BiDi ~ 0
 SDA
@@ -86,344 +86,12 @@ F 3 "~" H 5500 6650 60  0000 C CNN
 	1    5500 6650
 	1    0    0    -1  
 $EndComp
-$Comp
-L DB9 J201
-U 1 1 53ABC2C6
-P 1100 3550
-F 0 "J201" H 1100 4100 70  0000 C CNN
-F 1 "DB9" H 1100 3000 70  0000 C CNN
-F 2 "" H 1100 3550 60  0000 C CNN
-F 3 "" H 1100 3550 60  0000 C CNN
-	1    1100 3550
-	-1   0    0    -1  
-$EndComp
-Text HLabel 3100 2350 2    60   Input ~ 0
-VCC_5V_ISO
-$Comp
-L ISL83387E U201
-U 1 1 53ABD102
-P 4100 3350
-F 0 "U201" H 3700 2400 60  0000 L CNN
-F 1 "ISL83387E" H 3700 4250 60  0000 L CNN
-F 2 "~" H 4100 3350 60  0000 C CNN
-F 3 "~" H 4100 3350 60  0000 C CNN
-	1    4100 3350
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CSMALL C201
-U 1 1 53ABD108
-P 2750 2750
-F 0 "C201" H 2775 2800 30  0000 L CNN
-F 1 "0.1u" H 2775 2700 30  0000 L CNN
-F 2 "~" H 2750 2750 60  0000 C CNN
-F 3 "~" H 2750 2750 60  0000 C CNN
-	1    2750 2750
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CSMALL C202
-U 1 1 53ABD10E
-P 2950 2850
-F 0 "C202" H 2975 2900 30  0000 L CNN
-F 1 "0.1u" H 2975 2800 30  0000 L CNN
-F 2 "~" H 2950 2850 60  0000 C CNN
-F 3 "~" H 2950 2850 60  0000 C CNN
-	1    2950 2850
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CSMALL C203
-U 1 1 53ABD114
-P 3100 3050
-F 0 "C203" H 3125 3100 30  0000 L CNN
-F 1 "0.1u" H 3125 3000 30  0000 L CNN
-F 2 "~" H 3100 3050 60  0000 C CNN
-F 3 "~" H 3100 3050 60  0000 C CNN
-	1    3100 3050
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CSMALL C204
-U 1 1 53ABD11A
-P 3250 3100
-F 0 "C204" H 3275 3150 30  0000 L CNN
-F 1 "0.1u" H 3275 3050 30  0000 L CNN
-F 2 "~" H 3250 3100 60  0000 C CNN
-F 3 "~" H 3250 3100 60  0000 C CNN
-	1    3250 3100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CSMALL C205
-U 1 1 53ABD120
-P 5000 2650
-F 0 "C205" H 5025 2700 30  0000 L CNN
-F 1 "0.1u" H 5025 2600 30  0000 L CNN
-F 2 "~" H 5000 2650 60  0000 C CNN
-F 3 "~" H 5000 2650 60  0000 C CNN
-	1    5000 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CSMALL C206
-U 1 1 53ABD126
-P 5000 3000
-F 0 "C206" H 5025 3050 30  0000 L CNN
-F 1 "0.1u" H 5025 2950 30  0000 L CNN
-F 2 "~" H 5000 3000 60  0000 C CNN
-F 3 "~" H 5000 3000 60  0000 C CNN
-	1    5000 3000
-	1    0    0    -1  
-$EndComp
-Text HLabel 2650 4150 0    60   Input ~ 0
-GND_ISO
-Text HLabel 4900 4050 2    60   Input ~ 0
-VCC_5V_ISO
-Text HLabel 4900 3950 2    60   Input ~ 0
-GND_ISO
-$Comp
-L LED D201
-U 1 1 53ABD150
-P 5450 4400
-F 0 "D201" H 5450 4500 50  0000 C CNN
-F 1 "LED" H 5450 4300 50  0000 C CNN
-F 2 "~" H 5450 4400 60  0000 C CNN
-F 3 "~" H 5450 4400 60  0000 C CNN
-	1    5450 4400
-	0    -1   1    0   
-$EndComp
-$Comp
-L R R201
-U 1 1 53ABD156
-P 5150 4150
-F 0 "R201" V 5100 3950 40  0000 C CNN
-F 1 "R" V 5157 4151 40  0000 C CNN
-F 2 "~" V 5080 4150 30  0000 C CNN
-F 3 "~" H 5150 4150 30  0000 C CNN
-	1    5150 4150
-	0    1    -1   0   
-$EndComp
-Text HLabel 5400 4650 0    60   Input ~ 0
-GND_ISO
-NoConn ~ 1550 3250
-NoConn ~ 1550 3950
 Text Notes 1050 6450 0    60   ~ 0
 DTE Serial DB9 pinout:\n1	DCD	<--	Data Carrier Detect\n2	RXD	<--	Receive Data\n3	TXD	-->	Transmit Data\n4	DTR	-->	Data Terminal Ready\n5	GND	---	System Ground\n6	DSR	<--	Data Set Ready\n7	RTS	-->	Request to Send\n8	CTS	<--	Clear to Send\n9	RI	<--	Ring Indicator
-Text Label 1700 3350 0    60   ~ 0
-A_DTR
-Text Label 1700 3450 0    60   ~ 0
-A_CTS
-Text Label 1700 3550 0    60   ~ 0
-A_TX
-Text Label 1700 3650 0    60   ~ 0
-A_RTS
-Text Label 1700 3750 0    60   ~ 0
-A_RX
-Text Label 1700 3850 0    60   ~ 0
-A_DSR
-Text Label 2550 3350 2    60   ~ 0
-A_TX
-Text Label 2550 3550 2    60   ~ 0
-A_RTS
-Text Label 2550 3750 2    60   ~ 0
-A_DTR
-Text Label 2550 3250 2    60   ~ 0
-A_RX
-Text Label 2550 3450 2    60   ~ 0
-A_CTS
-Text Label 2550 3650 2    60   ~ 0
-A_DSR
-Text Label 5350 3250 0    60   ~ 0
+Text Label 6450 2500 3    60   ~ 0
 B_RX
-Text Label 5350 3350 0    60   ~ 0
+Text Label 6550 2500 3    60   ~ 0
 B_TX
-Text Label 5350 3450 0    60   ~ 0
-B_CTS
-Text Label 5350 3550 0    60   ~ 0
-B_RTS
-Text Label 5350 3650 0    60   ~ 0
-B_DSR
-Text Label 5350 3750 0    60   ~ 0
-B_DTR
-Text Label 6950 3350 2    60   ~ 0
-B_RX
-Text Label 6950 3250 2    60   ~ 0
-B_TX
-Text Label 6000 2700 3    60   ~ 0
-B_RX
-Text Label 6100 2700 3    60   ~ 0
-B_TX
-Text Label 5900 2700 3    60   ~ 0
-B_RTS
-Text Label 5800 2700 3    60   ~ 0
-B_CTS
-Text Label 5700 2700 3    60   ~ 0
-B_DTR
-Text Label 5600 2700 3    60   ~ 0
-B_DSR
-Wire Wire Line
-	4800 6450 4700 6450
-Wire Wire Line
-	4700 6550 4800 6550
-Wire Wire Line
-	4800 6650 4700 6650
-Wire Wire Line
-	4800 6850 4700 6850
-Wire Wire Line
-	4700 6850 4700 7200
-Wire Wire Line
-	4550 7200 5500 7200
-Wire Wire Line
-	5500 7200 5500 7150
-Connection ~ 4700 7200
-Wire Wire Line
-	6300 6450 6200 6450
-Wire Wire Line
-	6300 6550 6200 6550
-Wire Wire Line
-	5300 6050 5500 6050
-Wire Wire Line
-	5500 6050 5500 6150
-Wire Wire Line
-	7100 3250 6950 3250
-Wire Wire Line
-	7100 3350 6950 3350
-Wire Wire Line
-	2750 2650 2750 2600
-Wire Wire Line
-	2950 2350 2950 2750
-Connection ~ 2950 2700
-Wire Wire Line
-	2650 4150 3400 4150
-Wire Wire Line
-	2950 2950 2950 4150
-Connection ~ 2950 4150
-Wire Wire Line
-	2750 2850 2750 4150
-Connection ~ 2750 4150
-Wire Wire Line
-	3100 2950 3100 2800
-Wire Wire Line
-	3100 2800 3400 2800
-Wire Wire Line
-	3250 3000 3250 2900
-Connection ~ 2950 2600
-Wire Wire Line
-	3400 2700 2950 2700
-Wire Wire Line
-	2950 2350 3100 2350
-Wire Wire Line
-	3250 3200 3250 4150
-Connection ~ 3250 4150
-Wire Wire Line
-	3100 3150 3100 4150
-Connection ~ 3100 4150
-Wire Wire Line
-	5000 2550 5000 2500
-Wire Wire Line
-	5000 2500 4900 2500
-Wire Wire Line
-	4900 2500 4800 2600
-Wire Wire Line
-	5000 2750 5000 2800
-Wire Wire Line
-	5000 2800 4900 2800
-Wire Wire Line
-	4900 2800 4800 2700
-Wire Wire Line
-	4800 2800 4850 2850
-Wire Wire Line
-	4850 2850 5000 2850
-Wire Wire Line
-	5000 2850 5000 2900
-Wire Wire Line
-	4850 3150 5000 3150
-Wire Wire Line
-	4850 2950 4850 3150
-Wire Wire Line
-	4850 2950 4800 2900
-Wire Wire Line
-	5000 3150 5000 3100
-Wire Wire Line
-	4900 3950 4800 3950
-Wire Wire Line
-	4800 4050 4900 4050
-Wire Wire Line
-	4900 4150 4800 4150
-Wire Wire Line
-	5450 4200 5450 4150
-Wire Wire Line
-	5450 4150 5400 4150
-Wire Wire Line
-	5400 4650 5450 4650
-Wire Wire Line
-	5450 4650 5450 4600
-Wire Wire Line
-	2750 2600 3400 2600
-Wire Wire Line
-	3250 2900 3400 2900
-Wire Wire Line
-	3400 3250 2550 3250
-Wire Wire Line
-	3400 3350 2550 3350
-Wire Wire Line
-	3400 3450 2550 3450
-Wire Wire Line
-	3400 3550 2550 3550
-Wire Wire Line
-	3400 3650 2550 3650
-Wire Wire Line
-	3400 3750 2550 3750
-Wire Wire Line
-	4800 3250 5350 3250
-Wire Wire Line
-	4800 3350 5350 3350
-Wire Wire Line
-	4800 3450 5350 3450
-Wire Wire Line
-	4800 3550 5350 3550
-Wire Wire Line
-	4800 3650 5350 3650
-Wire Wire Line
-	4800 3750 5350 3750
-Wire Wire Line
-	1550 3650 1700 3650
-Wire Wire Line
-	1550 3550 1700 3550
-Wire Wire Line
-	1550 3850 1700 3850
-Wire Wire Line
-	1550 3450 1700 3450
-Wire Wire Line
-	1550 3350 1700 3350
-Wire Wire Line
-	1550 3150 1700 3150
-Wire Wire Line
-	1550 3750 1700 3750
-Wire Wire Line
-	6100 2350 6100 2700
-Wire Wire Line
-	6000 2350 6000 2700
-Wire Wire Line
-	5900 2350 5900 2700
-Wire Wire Line
-	5800 2350 5800 2700
-Wire Wire Line
-	5700 2350 5700 2700
-Wire Wire Line
-	5600 2350 5600 2700
-$Comp
-L PWR_FLAG #FLG01
-U 1 1 53ABE834
-P 2950 2350
-F 0 "#FLG01" H 2950 2445 30  0001 C CNN
-F 1 "PWR_FLAG" H 2950 2530 30  0001 C CNN
-F 2 "" H 2950 2350 60  0000 C CNN
-F 3 "" H 2950 2350 60  0000 C CNN
-	1    2950 2350
-	1    0    0    -1  
-$EndComp
 $Comp
 L PWR_FLAG #FLG02
 U 1 1 53ABE907
@@ -457,22 +125,10 @@ F 3 "" H 7050 6550 60  0000 C CNN
 	1    7050 6550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7050 6050 7050 6200
-Wire Wire Line
-	7050 6200 7250 6200
-Wire Wire Line
-	7050 6550 7050 6700
-Wire Wire Line
-	7050 6700 7250 6700
-Text HLabel 7250 6200 2    60   Input ~ 0
+Text HLabel 7250 6200 2    60   UnSpc ~ 0
 GND
-Text HLabel 7250 6700 2    60   Input ~ 0
+Text HLabel 7250 6700 2    60   UnSpc ~ 0
 GND_ISO
-Text HLabel 1700 3000 1    60   Input ~ 0
-GND_ISO
-Wire Wire Line
-	1700 3150 1700 3000
 $Comp
 L R R203
 U 1 1 53ABAC25
@@ -484,14 +140,8 @@ F 3 "~" H 5050 6050 30  0000 C CNN
 	1    5050 6050
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4800 6050 4700 6050
-Wire Wire Line
-	7100 3100 6950 3100
 Text Label 6950 3100 2    60   ~ 0
 VCC_5V_ISO
-Wire Wire Line
-	7100 3500 6950 3500
 Text Label 6950 3500 2    60   ~ 0
 GND_ISO
 $Comp
@@ -505,6 +155,99 @@ F 3 "" H 8650 3550 60  0000 C CNN
 	1    8650 3550
 	1    0    0    -1  
 $EndComp
+Text Label 8200 4300 2    60   ~ 0
+VCC_5V_ISO
+Text Label 8050 4150 2    60   ~ 0
+GND_ISO
+$Sheet
+S 7100 3000 850  900 
+U 53AC80BA
+F0 "PIC-GPIO8.sch" 50
+F1 "PIC-GPIO8.sch" 50
+F2 "VCC" U L 7100 3100 60 
+F3 "GND" U L 7100 3500 60 
+F4 "GPIO0" B R 7950 3100 60 
+F5 "GPIO1" B R 7950 3200 60 
+F6 "GPIO2" B R 7950 3300 60 
+F7 "GPIO5" B R 7950 3600 60 
+F8 "GPIO6" B R 7950 3700 60 
+F9 "GPIO7" B R 7950 3800 60 
+F10 "GPIO4" B R 7950 3500 60 
+F11 "GPIO3" B R 7950 3400 60 
+F12 "RX" I L 7100 3350 60 
+F13 "TX" O L 7100 3250 60 
+$EndSheet
+$Sheet
+S 3550 3050 1700 800 
+U 53B253D9
+F0 "RS232 adapter block" 50
+F1 "../_common/RS232_adapter_block.sch" 50
+F2 "VCC" U L 3550 3200 60 
+F3 "GND" U L 3550 3300 60 
+F4 "B_RX" I R 5250 3300 60 
+F5 "B_TX" O R 5250 3200 60 
+F6 "B_CTS" I R 5250 3500 60 
+F7 "B_RTS" O R 5250 3400 60 
+F8 "B_DSR" I R 5250 3700 60 
+F9 "B_DTR" O R 5250 3600 60 
+$EndSheet
+NoConn ~ 5450 3400
+NoConn ~ 5450 3500
+NoConn ~ 5450 3600
+NoConn ~ 5450 3700
+Wire Wire Line
+	4800 6450 4700 6450
+Wire Wire Line
+	4700 6550 4800 6550
+Wire Wire Line
+	4800 6650 4700 6650
+Wire Wire Line
+	4800 6850 4700 6850
+Wire Wire Line
+	4700 6850 4700 7200
+Wire Wire Line
+	4550 7200 5500 7200
+Wire Wire Line
+	5500 7200 5500 7150
+Connection ~ 4700 7200
+Wire Wire Line
+	6300 6450 6200 6450
+Wire Wire Line
+	6300 6550 6200 6550
+Wire Wire Line
+	5300 6050 5500 6050
+Wire Wire Line
+	5500 6050 5500 6150
+Wire Wire Line
+	7100 3250 6950 3250
+Wire Wire Line
+	7100 3350 6950 3350
+Wire Wire Line
+	6550 2150 6550 2500
+Wire Wire Line
+	6450 2150 6450 2500
+Wire Wire Line
+	6350 2150 6350 2500
+Wire Wire Line
+	6250 2150 6250 2500
+Wire Wire Line
+	6150 2150 6150 2500
+Wire Wire Line
+	6050 2150 6050 2500
+Wire Wire Line
+	7050 6050 7050 6200
+Wire Wire Line
+	7050 6200 7250 6200
+Wire Wire Line
+	7050 6550 7050 6700
+Wire Wire Line
+	7050 6700 7250 6700
+Wire Wire Line
+	4800 6050 4700 6050
+Wire Wire Line
+	7100 3100 6950 3100
+Wire Wire Line
+	7100 3500 6950 3500
 Wire Wire Line
 	8300 3100 7950 3100
 Wire Wire Line
@@ -523,32 +266,42 @@ Wire Wire Line
 	8300 3800 7950 3800
 Wire Wire Line
 	8300 4000 8200 4000
-Text Label 8200 4300 2    60   ~ 0
-VCC_5V_ISO
 Wire Wire Line
 	8200 4000 8200 4300
 Wire Wire Line
 	8300 3900 8050 3900
 Wire Wire Line
 	8050 3900 8050 4150
-Text Label 8050 4150 2    60   ~ 0
+Wire Wire Line
+	5250 3200 5450 3200
+Wire Wire Line
+	5250 3300 5450 3300
+Wire Wire Line
+	5250 3400 5450 3400
+Wire Wire Line
+	5250 3500 5450 3500
+Wire Wire Line
+	5250 3600 5450 3600
+Wire Wire Line
+	5250 3700 5450 3700
+Text Label 6950 3350 2    60   ~ 0
+B_RX
+Text Label 6950 3250 2    60   ~ 0
+B_TX
+Text Label 5450 3300 0    60   ~ 0
+B_RX
+Text Label 5450 3200 0    60   ~ 0
+B_TX
+NoConn ~ 6350 2500
+NoConn ~ 6250 2500
+NoConn ~ 6150 2500
+NoConn ~ 6050 2500
+Wire Wire Line
+	3550 3200 3300 3200
+Wire Wire Line
+	3550 3300 3300 3300
+Text HLabel 3300 3200 0    60   UnSpc ~ 0
+VCC_5V_ISO
+Text HLabel 3300 3300 0    60   UnSpc ~ 0
 GND_ISO
-$Sheet
-S 7100 3000 850  900 
-U 53AC80BA
-F0 "PIC-GPIO8.sch" 50
-F1 "PIC-GPIO8.sch" 50
-F2 "VCC" I L 7100 3100 60 
-F3 "GND" I L 7100 3500 60 
-F4 "GPIO0" B R 7950 3100 60 
-F5 "GPIO1" B R 7950 3200 60 
-F6 "GPIO2" B R 7950 3300 60 
-F7 "GPIO5" B R 7950 3600 60 
-F8 "GPIO6" B R 7950 3700 60 
-F9 "GPIO7" B R 7950 3800 60 
-F10 "GPIO4" B R 7950 3500 60 
-F11 "GPIO3" B R 7950 3400 60 
-F12 "RX" I L 7100 3350 60 
-F13 "TX" O L 7100 3250 60 
-$EndSheet
 $EndSCHEMATC
