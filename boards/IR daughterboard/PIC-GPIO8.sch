@@ -33,12 +33,13 @@ LIBS:24AA014
 LIBS:CONN_16
 LIBS:csmall
 LIBS:ISL83387E
+LIBS:pic16f1704
 LIBS:IR daughterboard-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 4
 Title ""
 Date "1 jul 2014"
 Rev ""
@@ -48,9 +49,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 3900 3300 0    60   Input ~ 0
+Text HLabel 3900 3300 0    60   UnSpc ~ 0
 VCC
-Text HLabel 3900 3700 0    60   Input ~ 0
+Text HLabel 3900 3700 0    60   UnSpc ~ 0
 GND
 Text HLabel 7350 3300 2    60   BiDi ~ 0
 GPIO0
@@ -240,7 +241,7 @@ Wire Wire Line
 	6850 5150 6900 5150
 Wire Wire Line
 	7400 5150 7500 5150
-Text HLabel 7500 5150 2    60   Input ~ 0
+Text HLabel 7500 5150 2    60   UnSpc ~ 0
 GND
 Wire Wire Line
 	4700 3600 4700 3700
@@ -251,10 +252,10 @@ Wire Wire Line
 Connection ~ 4950 3400
 Connection ~ 4700 2900
 $Comp
-L PWR_FLAG #FLG301
+L PWR_FLAG #FLG04
 U 1 1 53ACD17F
 P 4700 2800
-F 0 "#FLG301" H 4700 2895 30  0001 C CNN
+F 0 "#FLG04" H 4700 2895 30  0001 C CNN
 F 1 "PWR_FLAG" H 4700 2980 30  0001 C CNN
 F 2 "" H 4700 2800 60  0000 C CNN
 F 3 "" H 4700 2800 60  0000 C CNN
