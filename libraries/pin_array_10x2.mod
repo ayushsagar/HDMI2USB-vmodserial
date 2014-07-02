@@ -6,7 +6,7 @@ pin_array_10x2
 $EndINDEX
 $MODULE pin_array_10x2
 Po 0 0 0 15 53B44F5B 00000000 ~~
-Li pin_array_12x2
+Li pin_array_10x2
 Cd Double rangee de contacts 2 x 12 pins
 Kw CONN
 Sc 0
@@ -159,7 +159,7 @@ Ne 0 ""
 Po 11.43 -1.27
 $EndPAD
 $SHAPE3D
-Na "pin_array/pins_array_10x2.wrl"
+Na ""
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
