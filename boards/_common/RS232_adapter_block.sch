@@ -40,7 +40,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 3
+Sheet 3 3
 Title ""
 Date "2 jul 2014"
 Rev ""
@@ -61,8 +61,6 @@ F 3 "" H 3000 4050 60  0000 C CNN
 	1    3000 4050
 	-1   0    0    -1  
 $EndComp
-Text HLabel 6050 2950 2    60   UnSpc ~ 0
-VCC
 $Comp
 L ISL83387E U401
 U 1 1 53B10425
@@ -140,12 +138,6 @@ F 3 "~" H 7950 3600 60  0000 C CNN
 	1    7950 3600
 	1    0    0    -1  
 $EndComp
-Text HLabel 5600 4750 0    60   UnSpc ~ 0
-GND
-Text HLabel 7850 4650 2    60   UnSpc ~ 0
-VCC
-Text HLabel 7850 4550 2    60   UnSpc ~ 0
-GND
 $Comp
 L LED D401
 U 1 1 53B1042C
@@ -168,8 +160,6 @@ F 3 "~" H 8100 4750 30  0000 C CNN
 	1    8100 4750
 	0    1    -1   0   
 $EndComp
-Text HLabel 8350 5250 0    60   UnSpc ~ 0
-GND
 NoConn ~ 3450 3750
 NoConn ~ 3450 4450
 Text Notes 2900 5200 0    60   ~ 0
@@ -198,12 +188,10 @@ Text Label 5500 4050 2    60   ~ 0
 A_CTS
 Text Label 5500 4250 2    60   ~ 0
 A_DSR
-Text HLabel 3600 3500 1    60   UnSpc ~ 0
-GND
 Wire Wire Line
 	5700 3250 5700 3200
 Wire Wire Line
-	5900 2950 5900 3350
+	5900 2450 5900 3350
 Connection ~ 5900 3300
 Wire Wire Line
 	5600 4750 6350 4750
@@ -223,7 +211,7 @@ Connection ~ 5900 3200
 Wire Wire Line
 	6350 3300 5900 3300
 Wire Wire Line
-	5900 2950 6050 2950
+	5800 2450 6750 2450
 Wire Wire Line
 	6200 3800 6200 4750
 Connection ~ 6200 4750
@@ -328,4 +316,32 @@ Text HLabel 8300 4250 2    60   Input ~ 0
 B_DSR
 Text HLabel 8300 4350 2    60   Output ~ 0
 B_DTR
+$Comp
+L BARREL_JACK CON301
+U 1 1 53B38F34
+P 7050 2550
+F 0 "CON301" H 7050 2800 60  0000 C CNN
+F 1 "BARREL_JACK" H 7050 2350 60  0000 C CNN
+F 2 "" H 7050 2550 60  0000 C CNN
+F 3 "" H 7050 2550 60  0000 C CNN
+	1    7050 2550
+	-1   0    0    -1  
+$EndComp
+Text Label 6750 2650 2    60   ~ 0
+GND
+Text HLabel 5600 4750 0    60   UnSpc ~ 0
+GND
+Text HLabel 3600 3500 1    60   UnSpc ~ 0
+GND
+Text HLabel 8350 5250 0    60   UnSpc ~ 0
+GND
+Text HLabel 5800 2450 0    60   UnSpc ~ 0
+VCC
+Connection ~ 5900 2450
+Text HLabel 7850 4650 2    60   UnSpc ~ 0
+VCC
+Text HLabel 7850 4550 2    60   UnSpc ~ 0
+GND
+Text Notes 5350 5550 0    60   ~ 0
+The RS232 to TTL converter above is externally powered using 3.3-5V DC supply. 
 $EndSCHEMATC

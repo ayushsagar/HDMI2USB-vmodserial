@@ -62,9 +62,9 @@ Text HLabel 4200 4250 2    60   Input ~ 0
 DTR_ISO
 Text HLabel 4200 4350 2    60   Output ~ 0
 DSR_ISO
-Text HLabel 3850 6200 0    60   Input ~ 0
+Text HLabel 3850 6200 0    60   UnSpc ~ 0
 VCC_3V3
-Text HLabel 3700 7350 0    60   Input ~ 0
+Text HLabel 3700 7350 0    60   UnSpc ~ 0
 GND
 Text HLabel 5450 6700 2    60   BiDi ~ 0
 SDA
@@ -87,17 +87,17 @@ F 3 "~" H 4650 6800 60  0000 C CNN
 	1    4650 6800
 	1    0    0    -1  
 $EndComp
-Text HLabel 1950 3800 0    60   Input ~ 0
+Text HLabel 1950 3800 0    60   UnSpc ~ 0
 VCC_5V_ISO
-Text HLabel 1950 3900 0    60   Input ~ 0
+Text HLabel 1950 3900 0    60   UnSpc ~ 0
 GND_ISO
 Text Notes 1050 6450 0    60   ~ 0
 DTE Serial DB9 pinout:\n1	DCD	<--	Data Carrier Detect\n2	RXD	<--	Receive Data\n3	TXD	-->	Transmit Data\n4	DTR	-->	Data Terminal Ready\n5	GND	---	System Ground\n6	DSR	<--	Data Set Ready\n7	RTS	-->	Request to Send\n8	CTS	<--	Clear to Send\n9	RI	<--	Ring Indicator
 $Comp
-L PWR_FLAG #FLG01
+L PWR_FLAG #FLG203
 U 1 1 53ABE834
 P 2050 3700
-F 0 "#FLG01" H 2050 3795 30  0001 C CNN
+F 0 "#FLG203" H 2050 3795 30  0001 C CNN
 F 1 "PWR_FLAG" H 2050 3880 30  0001 C CNN
 F 2 "" H 2050 3700 60  0000 C CNN
 F 3 "" H 2050 3700 60  0000 C CNN
@@ -105,10 +105,10 @@ F 3 "" H 2050 3700 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG02
+L PWR_FLAG #FLG204
 U 1 1 53ABE907
 P 4650 6200
-F 0 "#FLG02" H 4650 6295 30  0001 C CNN
+F 0 "#FLG204" H 4650 6295 30  0001 C CNN
 F 1 "PWR_FLAG" H 4650 6380 30  0001 C CNN
 F 2 "" H 4650 6200 60  0000 C CNN
 F 3 "" H 4650 6200 60  0000 C CNN
@@ -116,10 +116,10 @@ F 3 "" H 4650 6200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG03
+L PWR_FLAG #FLG201
 U 1 1 53ABE910
 P 1250 1300
-F 0 "#FLG03" H 1250 1395 30  0001 C CNN
+F 0 "#FLG201" H 1250 1395 30  0001 C CNN
 F 1 "PWR_FLAG" H 1250 1480 30  0001 C CNN
 F 2 "" H 1250 1300 60  0000 C CNN
 F 3 "" H 1250 1300 60  0000 C CNN
@@ -127,19 +127,19 @@ F 3 "" H 1250 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG04
+L PWR_FLAG #FLG202
 U 1 1 53ABE916
 P 1250 1800
-F 0 "#FLG04" H 1250 1895 30  0001 C CNN
+F 0 "#FLG202" H 1250 1895 30  0001 C CNN
 F 1 "PWR_FLAG" H 1250 1980 30  0001 C CNN
 F 2 "" H 1250 1800 60  0000 C CNN
 F 3 "" H 1250 1800 60  0000 C CNN
 	1    1250 1800
 	1    0    0    -1  
 $EndComp
-Text HLabel 1450 1450 2    60   Input ~ 0
+Text HLabel 1450 1450 2    60   UnSpc ~ 0
 GND
-Text HLabel 1450 1950 2    60   Input ~ 0
+Text HLabel 1450 1950 2    60   UnSpc ~ 0
 GND_ISO
 $Comp
 L R R203
@@ -185,9 +185,9 @@ F 3 "" H 9800 4850 60  0000 C CNN
 	1    9800 4850
 	0    1    1    0   
 $EndComp
-Text HLabel 7300 2550 2    60   Input ~ 0
+Text HLabel 7300 2550 2    60   UnSpc ~ 0
 VCC_5V_ISO
-Text HLabel 7400 4400 0    60   Input ~ 0
+Text HLabel 7400 4400 0    60   UnSpc ~ 0
 GND_ISO
 $Comp
 L DPDT_SLIDE-SWITCH SW201
@@ -200,9 +200,9 @@ F 3 "JS202011CQN" V 5250 1550 60  0000 C CNN
 	1    5900 1800
 	0    -1   -1   0   
 $EndComp
-Text HLabel 5250 1550 0    60   Input ~ 0
+Text HLabel 5250 1550 0    60   UnSpc ~ 0
 VCC_5V_ISO
-Text HLabel 6550 1550 2    60   Input ~ 0
+Text HLabel 6550 1550 2    60   UnSpc ~ 0
 GND_ISO
 Wire Wire Line
 	3950 6600 3850 6600
@@ -350,8 +350,8 @@ S 2200 3700 1650 850
 U 53B10151
 F0 "RS232 Adapter block" 50
 F1 "../_common/RS232_adapter_block.sch" 50
-F2 "GND" I L 2200 3900 60 
-F3 "VCC" I L 2200 3800 60 
+F2 "GND" U L 2200 3900 60 
+F3 "VCC" U L 2200 3800 60 
 F4 "B_RX" I R 3850 3950 60 
 F5 "B_TX" O R 3850 3850 60 
 F6 "B_CTS" I R 3850 4150 60 
