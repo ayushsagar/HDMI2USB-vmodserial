@@ -1,5 +1,5 @@
-update=7/2/2014 7:06:25 PM
-last_client=pcbnew
+update=7/3/2014 12:10:17 AM
+last_client=cvpcb
 [eeschema]
 version=1
 LibDir=../../libraries
@@ -50,11 +50,6 @@ LibName38=24AA014
 LibName39=AAT3221IGV-3V3-T1
 LibName40=CONN_16
 LibName41=csmall
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=
@@ -75,7 +70,6 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=../../libraries
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -93,3 +87,12 @@ LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
 LibName17=Bourns_MF-USMF
+LibName18=vqfp80
+LibName19=pin_array_10x2
+LibName20=vhdci
+LibDir=../../libraries
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
