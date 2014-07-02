@@ -47,7 +47,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 7
 Title "Daughterboard interface"
-Date "1 jul 2014"
+Date "2 jul 2014"
 Rev ""
 Comp "TimVideos"
 Comment1 ""
@@ -69,18 +69,18 @@ Text HLabel 3100 2650 2    60   UnSpc ~ 0
 VCC_5V_ISO
 Text HLabel 3100 2550 2    60   UnSpc ~ 0
 GND_ISO
-Text HLabel 2100 2950 0    60   BiDi ~ 0
+Text HLabel 2100 2850 0    60   BiDi ~ 0
 SDA
 Text Notes 1000 1150 0    120  ~ 0
 To create customized design with preloaded daughterboards add the desired \ndaughterboard schematic as a hierarchical sheet and replace the slot connector with it.
-Text HLabel 2100 3050 0    60   BiDi ~ 0
+Text HLabel 2100 2750 0    60   BiDi ~ 0
 SCL
-Text HLabel 2100 2750 0    60   UnSpc ~ 0
+Text HLabel 2100 3050 0    60   UnSpc ~ 0
 VCC_3V3
-Text HLabel 2100 2850 0    60   UnSpc ~ 0
+Text HLabel 2100 2950 0    60   UnSpc ~ 0
 GND
 Text Notes 1550 6600 0    60   ~ 0
-Pins 1-6 and 15-20 are PMOD UART Type 4/4A compatible\n\nPins 14, 15, 16 correspond to A0, A1, A2 address lines of daughterboard's \nID EEPROM. \n\nThe addresses are pre-assigned in the slots starting from 1 (001) through 5 (101).\n\nAddress 0 (000) is used by motherboard ID EEPROM\n\nNote that EEPROMs power and signal pins are electrically isolated from serial port pins
+Pins 1-6 and 15-20 are PMOD UART Type 4/4A compatible. Pins 14-11 are PMOD I2C compatible.\n\nPins 14, 15, 16 correspond to A0, A1, A2 address lines of daughterboard's \nID EEPROM. \n\nThe addresses are pre-assigned in the slots starting from 1 (001) through 5 (101).\n\nAddress 0 (000) is used by motherboard ID EEPROM\n\nNote that EEPROMs power and signal pins are electrically isolated from serial port pins
 Text Label 3100 2850 0    60   ~ 0
 SLOT-A_A0
 Text Label 3100 2950 0    60   ~ 0
@@ -92,11 +92,11 @@ VCC_3V3
 Text HLabel 6700 6000 0    60   Input ~ 0
 GND
 NoConn ~ 2250 2650
-Text HLabel 5250 2950 0    60   BiDi ~ 0
+Text HLabel 5250 2850 0    60   BiDi ~ 0
 SDA
-Text HLabel 5250 3050 0    60   BiDi ~ 0
+Text HLabel 5250 2750 0    60   BiDi ~ 0
 SCL
-Text HLabel 5250 2850 0    60   UnSpc ~ 0
+Text HLabel 5250 2950 0    60   UnSpc ~ 0
 GND
 Text Label 6250 2850 0    60   ~ 0
 SLOT-B_A0
@@ -104,11 +104,11 @@ Text Label 6250 2950 0    60   ~ 0
 SLOT-B_A1
 Text Label 6250 3050 0    60   ~ 0
 SLOT-B_A2
-Text HLabel 8250 2950 0    60   BiDi ~ 0
+Text HLabel 8250 2850 0    60   BiDi ~ 0
 SDA
-Text HLabel 8250 3050 0    60   BiDi ~ 0
+Text HLabel 8250 2750 0    60   BiDi ~ 0
 SCL
-Text HLabel 8250 2850 0    60   Input ~ 0
+Text HLabel 8250 2950 0    60   Input ~ 0
 GND
 Text Label 9250 2850 0    60   ~ 0
 SLOT-C_A0
@@ -127,11 +127,11 @@ F 3 "" H 8750 2600 60  0000 C CNN
 	1    8750 2600
 	-1   0    0    -1  
 $EndComp
-Text HLabel 2050 4850 0    60   BiDi ~ 0
+Text HLabel 2050 4750 0    60   BiDi ~ 0
 SDA
-Text HLabel 2050 4950 0    60   BiDi ~ 0
+Text HLabel 2050 4650 0    60   BiDi ~ 0
 SCL
-Text HLabel 2050 4750 0    60   UnSpc ~ 0
+Text HLabel 2050 4850 0    60   UnSpc ~ 0
 GND
 Text Label 3050 4750 0    60   ~ 0
 SLOT-D_A0
@@ -150,11 +150,11 @@ F 3 "" H 2550 4500 60  0000 C CNN
 	1    2550 4500
 	-1   0    0    -1  
 $EndComp
-Text HLabel 5200 4850 0    60   BiDi ~ 0
+Text HLabel 5200 4750 0    60   BiDi ~ 0
 SDA
-Text HLabel 5200 4950 0    60   BiDi ~ 0
+Text HLabel 5200 4650 0    60   BiDi ~ 0
 SCL
-Text HLabel 5200 4750 0    60   UnSpc ~ 0
+Text HLabel 5200 4850 0    60   UnSpc ~ 0
 GND
 Text Label 6200 4750 0    60   ~ 0
 SLOT-E_A0
@@ -218,13 +218,13 @@ Wire Wire Line
 Wire Wire Line
 	3100 2550 2950 2550
 Wire Wire Line
-	2100 2950 2250 2950
-Wire Wire Line
-	2100 3050 2250 3050
-Wire Wire Line
 	2100 2850 2250 2850
 Wire Wire Line
 	2100 2750 2250 2750
+Wire Wire Line
+	2100 2950 2250 2950
+Wire Wire Line
+	2100 3050 2250 3050
 Wire Wire Line
 	3100 2850 2950 2850
 Wire Wire Line
@@ -236,11 +236,11 @@ Wire Wire Line
 Wire Wire Line
 	6700 6000 9750 6000
 Wire Wire Line
-	5250 2950 5400 2950
-Wire Wire Line
-	5250 3050 5400 3050
-Wire Wire Line
 	5250 2850 5400 2850
+Wire Wire Line
+	5250 2750 5400 2750
+Wire Wire Line
+	5250 2950 5400 2950
 Wire Wire Line
 	6250 2850 6100 2850
 Wire Wire Line
@@ -248,11 +248,11 @@ Wire Wire Line
 Wire Wire Line
 	6250 3050 6100 3050
 Wire Wire Line
-	8250 2950 8400 2950
-Wire Wire Line
-	8250 3050 8400 3050
-Wire Wire Line
 	8250 2850 8400 2850
+Wire Wire Line
+	8250 2750 8400 2750
+Wire Wire Line
+	8250 2950 8400 2950
 Wire Wire Line
 	9250 2850 9100 2850
 Wire Wire Line
@@ -260,11 +260,11 @@ Wire Wire Line
 Wire Wire Line
 	9250 3050 9100 3050
 Wire Wire Line
-	2050 4850 2200 4850
-Wire Wire Line
-	2050 4950 2200 4950
-Wire Wire Line
 	2050 4750 2200 4750
+Wire Wire Line
+	2050 4650 2200 4650
+Wire Wire Line
+	2050 4850 2200 4850
 Wire Wire Line
 	3050 4750 2900 4750
 Wire Wire Line
@@ -272,11 +272,11 @@ Wire Wire Line
 Wire Wire Line
 	3050 4950 2900 4950
 Wire Wire Line
-	5200 4850 5350 4850
-Wire Wire Line
-	5200 4950 5350 4950
-Wire Wire Line
 	5200 4750 5350 4750
+Wire Wire Line
+	5200 4650 5350 4650
+Wire Wire Line
+	5200 4850 5350 4850
 Wire Wire Line
 	6200 4750 6050 4750
 Wire Wire Line
@@ -400,10 +400,10 @@ Text HLabel 6250 2450 2    60   Input ~ 0
 RTS1_ISO
 Wire Wire Line
 	6100 2450 6250 2450
-Text HLabel 5250 2750 0    60   UnSpc ~ 0
+Text HLabel 5250 3050 0    60   UnSpc ~ 0
 VCC_3V3
 Wire Wire Line
-	5250 2750 5400 2750
+	5250 3050 5400 3050
 NoConn ~ 6100 2750
 Text HLabel 9250 2150 2    60   Output ~ 0
 CTS2_ISO
@@ -441,10 +441,10 @@ Text HLabel 8250 2550 0    60   UnSpc ~ 0
 GND_ISO
 Wire Wire Line
 	8250 2550 8400 2550
-Text HLabel 8250 2750 0    60   UnSpc ~ 0
+Text HLabel 8250 3050 0    60   UnSpc ~ 0
 VCC_3V3
 Wire Wire Line
-	8250 2750 8400 2750
+	8250 3050 8400 3050
 NoConn ~ 8400 2650
 NoConn ~ 8400 2250
 NoConn ~ 8400 2150
@@ -489,10 +489,10 @@ NoConn ~ 2200 4150
 NoConn ~ 2200 4050
 NoConn ~ 2200 4550
 NoConn ~ 2900 4650
-Text HLabel 2050 4650 0    60   UnSpc ~ 0
+Text HLabel 2050 4950 0    60   UnSpc ~ 0
 VCC_3V3
 Wire Wire Line
-	2050 4650 2200 4650
+	2050 4950 2200 4950
 NoConn ~ 6050 4650
 NoConn ~ 5350 4550
 NoConn ~ 5350 4150
@@ -533,8 +533,8 @@ Text HLabel 5200 4450 0    60   UnSpc ~ 0
 GND_ISO
 Wire Wire Line
 	5200 4450 5350 4450
-Text HLabel 5200 4650 0    60   UnSpc ~ 0
+Text HLabel 5200 4950 0    60   UnSpc ~ 0
 VCC_3V3
 Wire Wire Line
-	5200 4650 5350 4650
+	5200 4950 5350 4950
 $EndSCHEMATC

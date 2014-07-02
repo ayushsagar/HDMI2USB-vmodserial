@@ -41,7 +41,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title ""
-Date "1 jul 2014"
+Date "2 jul 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -100,30 +100,30 @@ Wire Wire Line
 Wire Wire Line
 	3650 3650 3750 3650
 Wire Wire Line
-	3650 3850 3750 3850
+	3650 4150 3750 4150
 Wire Wire Line
-	3650 3950 3750 3950
+	3650 4050 3750 4050
 Wire Wire Line
 	4450 4050 4550 4050
 Wire Wire Line
 	4450 4150 4550 4150
 Wire Wire Line
-	3650 4050 3750 4050
+	3650 3950 3750 3950
 Wire Wire Line
-	3650 4150 3750 4150
+	3650 3850 3750 3850
 Text Label 4550 3250 0    60   ~ 0
 CTS_ISO
 Text Label 4550 3350 0    60   ~ 0
 TX_ISO
 Text Label 4550 3450 0    60   ~ 0
 RX_ISO
-Text Label 3650 3850 2    60   ~ 0
-VCC_3V3
-Text Label 3650 3950 2    60   ~ 0
-GND
-Text Label 3650 4050 2    60   ~ 0
-SDA
 Text Label 3650 4150 2    60   ~ 0
+VCC_3V3
+Text Label 3650 4050 2    60   ~ 0
+GND
+Text Label 3650 3950 2    60   ~ 0
+SDA
+Text Label 3650 3850 2    60   ~ 0
 SCL
 Text Label 4550 4150 0    60   ~ 0
 A2
