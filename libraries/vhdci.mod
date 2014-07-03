@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  03/06/2014 2:45:06 AM
+PCBNEW-LibModule-V1  7/3/2014 7:49:21 AM
 # encoding utf-8
 Units mm
 $INDEX
@@ -258,7 +258,7 @@ Po 0.5 0.15
 $EndPAD
 $EndMODULE R50x8
 $MODULE VHDCI
-Po 0 0 0 15 538CE950 00000000 ~~
+Po 0 0 0 15 53B4BD57 00000000 ~~
 Li VHDCI
 Sc 0
 AR /5372965E
@@ -327,7 +327,7 @@ Sh "35" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 26 "/OE_Field"
-Po 3.17 1.15
+Po 3.175 1.15
 $EndPAD
 $PAD
 Sh "53" C 1 1 0 0 0
@@ -684,7 +684,7 @@ Sh "1" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 40 "/VSOUT"
-Po 2.77 -1.2
+Po 2.775 -1.2
 $EndPAD
 $PAD
 Sh "3" C 1 1 0 0 0
@@ -743,28 +743,28 @@ Ne 39 "/VCC"
 Po 15.57 -1.2
 $EndPAD
 $PAD
-Sh "" C 1.5 1.5 0 0 0
+Sh "S1" C 1.5 1.5 0 0 0
 Dr 1.2 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 0 0
 $EndPAD
 $PAD
-Sh "" C 2.2 2.2 0 0 0
-Dr 1.83 0 0
-At STD N 00E0FFFF
+Sh "" C 1.75 1.75 0 0 0
+Dr 1.75 0 0
+At HOLE N 00E0FFFF
 Ne 0 ""
-Po -4.77 2.62
+Po -4.77 2.625
 $EndPAD
 $PAD
-Sh "" C 2.2 2.2 0 0 0
-Dr 1.83 0 0
-At STD N 00E0FFFF
+Sh "" C 1.75 1.75 0 0 0
+Dr 1.75 0 0
+At HOLE N 00E0FFFF
 Ne 0 ""
-Po 37.13 2.62
+Po 37.13 2.625
 $EndPAD
 $PAD
-Sh "" C 1.5 1.5 0 0 0
+Sh "S2" C 1.5 1.5 0 0 0
 Dr 1.2 0 0
 At STD N 00E0FFFF
 Ne 0 ""
