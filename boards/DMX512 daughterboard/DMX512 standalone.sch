@@ -87,8 +87,6 @@ F 3 "~" H 5500 6650 60  0000 C CNN
 	1    5500 6650
 	1    0    0    -1  
 $EndComp
-Text Notes 1050 6450 0    60   ~ 0
-DTE Serial DB9 pinout:\n1	DCD	<--	Data Carrier Detect\n2	RXD	<--	Receive Data\n3	TXD	-->	Transmit Data\n4	DTR	-->	Data Terminal Ready\n5	GND	---	System Ground\n6	DSR	<--	Data Set Ready\n7	RTS	-->	Request to Send\n8	CTS	<--	Clear to Send\n9	RI	<--	Ring Indicator
 $Comp
 L PWR_FLAG #FLG01
 U 1 1 53ABE907
