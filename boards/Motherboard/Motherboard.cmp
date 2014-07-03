@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 7/3/2014 12:13:21 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 7/3/2014 7:52:08 AM
 
 BeginCmp
 TimeStamp = /53A5B815/53A58839;
@@ -284,7 +284,7 @@ BeginCmp
 TimeStamp = /53A5B7C7/53B311B2/53AD9F1B;
 Reference = F501;
 ValeurCmp = 0.3A;
-IdModule  = Bourns MF-USMF;
+IdModule  = Bourns_MF-USMF;
 EndCmp
 
 BeginCmp
