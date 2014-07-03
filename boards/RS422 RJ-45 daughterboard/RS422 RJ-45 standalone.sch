@@ -42,7 +42,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
 Title ""
-Date "2 jul 2014"
+Date "3 jul 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -62,7 +62,7 @@ Text HLabel 4200 4250 2    60   Input ~ 0
 DTR_ISO
 Text HLabel 4200 4350 2    60   Output ~ 0
 DSR_ISO
-Text HLabel 3850 6200 0    60   UnSpc ~ 0
+Text HLabel 3350 6200 0    60   UnSpc ~ 0
 VCC_3V3
 Text HLabel 3700 7350 0    60   UnSpc ~ 0
 GND
@@ -91,8 +91,6 @@ Text HLabel 1950 3800 0    60   UnSpc ~ 0
 VCC_5V_ISO
 Text HLabel 1950 3900 0    60   UnSpc ~ 0
 GND_ISO
-Text Notes 1050 6450 0    60   ~ 0
-DTE Serial DB9 pinout:\n1	DCD	<--	Data Carrier Detect\n2	RXD	<--	Receive Data\n3	TXD	-->	Transmit Data\n4	DTR	-->	Data Terminal Ready\n5	GND	---	System Ground\n6	DSR	<--	Data Set Ready\n7	RTS	-->	Request to Send\n8	CTS	<--	Clear to Send\n9	RI	<--	Ring Indicator
 $Comp
 L PWR_FLAG #FLG203
 U 1 1 53ABE834
@@ -144,12 +142,12 @@ GND_ISO
 $Comp
 L R R203
 U 1 1 53ABAC25
-P 4200 6200
-F 0 "R203" V 4280 6200 40  0000 C CNN
-F 1 "50" V 4207 6201 40  0000 C CNN
-F 2 "~" V 4130 6200 30  0000 C CNN
-F 3 "~" H 4200 6200 30  0000 C CNN
-	1    4200 6200
+P 3700 6200
+F 0 "R203" V 3780 6200 40  0000 C CNN
+F 1 "50" V 3707 6201 40  0000 C CNN
+F 2 "~" V 3630 6200 30  0000 C CNN
+F 3 "~" H 3700 6200 30  0000 C CNN
+	1    3700 6200
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -224,7 +222,7 @@ Wire Wire Line
 Wire Wire Line
 	5450 6700 5350 6700
 Wire Wire Line
-	4450 6200 4650 6200
+	3950 6200 4650 6200
 Wire Wire Line
 	4650 6200 4650 6300
 Wire Wire Line
@@ -256,7 +254,7 @@ Wire Wire Line
 Wire Wire Line
 	1250 1950 1450 1950
 Wire Wire Line
-	3950 6200 3850 6200
+	3450 6200 3350 6200
 Wire Wire Line
 	7300 2550 7200 2550
 Wire Wire Line
@@ -409,4 +407,24 @@ Wire Wire Line
 Wire Wire Line
 	8350 6100 8350 5000
 Connection ~ 8350 5000
+$Comp
+L CSMALL C201
+U 1 1 53B518F0
+P 4200 6000
+F 0 "C201" H 4225 6050 30  0000 L CNN
+F 1 "0.1u" H 4225 5950 30  0000 L CNN
+F 2 "~" H 4200 6000 60  0000 C CNN
+F 3 "~" H 4200 6000 60  0000 C CNN
+	1    4200 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 6100 4200 6200
+Connection ~ 4200 6200
+Wire Wire Line
+	4200 5900 4200 5800
+Wire Wire Line
+	4200 5800 3850 5800
+Text HLabel 3850 5800 0    60   UnSpc ~ 0
+GND
 $EndSCHEMATC
