@@ -1,4 +1,4 @@
-update=7/3/2014 12:10:17 AM
+update=7/3/2014 9:07:31 AM
 last_client=cvpcb
 [eeschema]
 version=1
@@ -90,6 +90,7 @@ LibName17=Bourns_MF-USMF
 LibName18=vqfp80
 LibName19=pin_array_10x2
 LibName20=vhdci
+LibName21=Vishay_SMD_MiniLED
 LibDir=../../libraries
 [cvpcb]
 version=1

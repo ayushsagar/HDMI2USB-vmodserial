@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 7/3/2014 7:52:08 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 7/3/2014 9:08:10 AM
 
 BeginCmp
 TimeStamp = /53A5B815/53A58839;
@@ -193,91 +193,91 @@ BeginCmp
 TimeStamp = /53A5B987/53BC15CA;
 Reference = D611;
 ValeurCmp = LED;
-IdModule  = SM1206POL;
+IdModule  = Vishay_SMD_MiniLED;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A5B987/53BC15C9;
 Reference = D612;
 ValeurCmp = LED;
-IdModule  = SM1206POL;
+IdModule  = Vishay_SMD_MiniLED;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A5B987/53BC15CF;
 Reference = D613;
 ValeurCmp = LED;
-IdModule  = SM1206POL;
+IdModule  = Vishay_SMD_MiniLED;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A5B987/53BC15B8;
 Reference = DS11;
 ValeurCmp = LED;
-IdModule  = SM1206POL;
+IdModule  = Vishay_SMD_MiniLED;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A5B987/53BC15B7;
 Reference = DS12;
 ValeurCmp = LED;
-IdModule  = SM1206POL;
+IdModule  = Vishay_SMD_MiniLED;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A5B987/53BC15B6;
 Reference = DS21;
 ValeurCmp = LED;
-IdModule  = SM1206POL;
+IdModule  = Vishay_SMD_MiniLED;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A5B987/53BC15B5;
 Reference = DS22;
 ValeurCmp = LED;
-IdModule  = SM1206POL;
+IdModule  = Vishay_SMD_MiniLED;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A5B987/53BC15B4;
 Reference = DS31;
 ValeurCmp = LED;
-IdModule  = SM1206POL;
+IdModule  = Vishay_SMD_MiniLED;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A5B987/53BC15B3;
 Reference = DS32;
 ValeurCmp = LED;
-IdModule  = SM1206POL;
+IdModule  = Vishay_SMD_MiniLED;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A5B987/53BC15B2;
 Reference = DS41;
 ValeurCmp = LED;
-IdModule  = SM1206POL;
+IdModule  = Vishay_SMD_MiniLED;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A5B987/53BC15B1;
 Reference = DS42;
 ValeurCmp = LED;
-IdModule  = SM1206POL;
+IdModule  = Vishay_SMD_MiniLED;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A5B987/53BC15C6;
 Reference = DS51;
 ValeurCmp = LED;
-IdModule  = SM1206POL;
+IdModule  = Vishay_SMD_MiniLED;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A5B987/53BC15CB;
 Reference = DS52;
 ValeurCmp = LED;
-IdModule  = SM1206POL;
+IdModule  = Vishay_SMD_MiniLED;
 EndCmp
 
 BeginCmp
