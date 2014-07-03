@@ -456,4 +456,6 @@ Text HLabel 6850 3050 0    60   UnSpc ~ 0
 VCC_5V_ISO
 Text HLabel 6850 3250 0    60   UnSpc ~ 0
 GND_ISO
+Text Notes 7300 5200 0    60   ~ 0
+DB25 Pin assignment:\nPin 1-15 : GPIO 0-16\nPin 17: +5V VCC\nPin 18: GND
 $EndSCHEMATC
