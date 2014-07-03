@@ -33,8 +33,9 @@ LIBS:24AA014
 LIBS:CONN_16
 LIBS:csmall
 LIBS:ISL83387E
-LIBS:din_5_modified
-LIBS:MIDI daughterboard-cache
+LIBS:ISL8491E
+LIBS:dpdt_slide-switch
+LIBS:RS422 RJ-45 daughterboard-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
