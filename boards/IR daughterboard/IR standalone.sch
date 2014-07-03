@@ -41,7 +41,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
 Title ""
-Date "2 jul 2014"
+Date "3 jul 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -49,19 +49,19 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 6100 2100 1    60   Input ~ 0
+Text HLabel 6350 2400 1    60   Input ~ 0
 TX_ISO
-Text HLabel 6000 2100 1    60   Output ~ 0
+Text HLabel 6250 2400 1    60   Output ~ 0
 RX_ISO
-Text HLabel 5900 2100 1    60   Input ~ 0
+Text HLabel 5950 2400 1    60   Input ~ 0
 RTS_ISO
-Text HLabel 5800 2100 1    60   Output ~ 0
+Text HLabel 5850 2400 1    60   Output ~ 0
 CTS_ISO
-Text HLabel 5700 2100 1    60   Input ~ 0
+Text HLabel 5750 2400 1    60   Input ~ 0
 DTR_ISO
-Text HLabel 5600 2100 1    60   Output ~ 0
+Text HLabel 5650 2400 1    60   Output ~ 0
 DSR_ISO
-Text HLabel 4700 6050 0    60   UnSpc ~ 0
+Text HLabel 4300 6050 0    60   UnSpc ~ 0
 VCC_3V3
 Text HLabel 4550 7200 0    60   UnSpc ~ 0
 GND
@@ -88,14 +88,6 @@ F 3 "~" H 5500 6650 60  0000 C CNN
 $EndComp
 Text Notes 1050 6450 0    60   ~ 0
 DTE Serial DB9 pinout:\n1	DCD	<--	Data Carrier Detect\n2	RXD	<--	Receive Data\n3	TXD	-->	Transmit Data\n4	DTR	-->	Data Terminal Ready\n5	GND	---	System Ground\n6	DSR	<--	Data Set Ready\n7	RTS	-->	Request to Send\n8	CTS	<--	Clear to Send\n9	RI	<--	Ring Indicator
-Text Label 6950 3350 2    60   ~ 0
-B_RX
-Text Label 6950 3250 2    60   ~ 0
-B_TX
-Text Label 6000 2450 3    60   ~ 0
-B_RX
-Text Label 6100 2450 3    60   ~ 0
-B_TX
 Wire Wire Line
 	4800 6450 4700 6450
 Wire Wire Line
@@ -116,25 +108,25 @@ Wire Wire Line
 Wire Wire Line
 	6300 6550 6200 6550
 Wire Wire Line
-	5300 6050 5500 6050
+	4900 6050 5500 6050
 Wire Wire Line
 	5500 6050 5500 6150
 Wire Wire Line
-	7100 3250 6950 3250
+	5500 3250 7100 3250
 Wire Wire Line
-	7100 3350 6950 3350
+	5500 3350 7100 3350
 Wire Wire Line
-	6100 2100 6100 2450
+	6350 2400 6350 3250
 Wire Wire Line
-	6000 2100 6000 2450
+	6250 2400 6250 3350
 Wire Wire Line
-	5900 2100 5900 2450
+	5950 2400 5950 2750
 Wire Wire Line
-	5800 2100 5800 2450
+	5850 2400 5850 2750
 Wire Wire Line
-	5700 2100 5700 2450
+	5750 2400 5750 2750
 Wire Wire Line
-	5600 2100 5600 2450
+	5650 2400 5650 2750
 $Comp
 L PWR_FLAG #FLG01
 U 1 1 53ABE907
@@ -183,16 +175,16 @@ GND_ISO
 $Comp
 L R R201
 U 1 1 53ABAC25
-P 5050 6050
-F 0 "R201" V 5130 6050 40  0000 C CNN
-F 1 "50" V 5057 6051 40  0000 C CNN
-F 2 "~" V 4980 6050 30  0000 C CNN
-F 3 "~" H 5050 6050 30  0000 C CNN
-	1    5050 6050
+P 4650 6050
+F 0 "R201" V 4730 6050 40  0000 C CNN
+F 1 "50" V 4657 6051 40  0000 C CNN
+F 2 "~" V 4580 6050 30  0000 C CNN
+F 3 "~" H 4650 6050 30  0000 C CNN
+	1    4650 6050
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4800 6050 4700 6050
+	4400 6050 4300 6050
 Wire Wire Line
 	7100 3100 6950 3100
 Text Label 6950 3100 2    60   ~ 0
@@ -275,50 +267,42 @@ NoConn ~ 8300 3600
 NoConn ~ 8300 3700
 NoConn ~ 8300 3800
 $Sheet
-S 3650 3100 1650 700 
+S 3850 3150 1650 700 
 U 53B2633B
 F0 "RS232 adapter block" 50
 F1 "../_common/RS232_adapter_block.sch" 50
-F2 "VCC" U L 3650 3200 60 
-F3 "GND" U L 3650 3300 60 
-F4 "B_RX" I R 5300 3300 60 
-F5 "B_TX" O R 5300 3200 60 
-F6 "B_CTS" I R 5300 3500 60 
-F7 "B_RTS" O R 5300 3400 60 
-F8 "B_DSR" I R 5300 3700 60 
-F9 "B_DTR" O R 5300 3600 60 
+F2 "VCC" U L 3850 3250 60 
+F3 "GND" U L 3850 3350 60 
+F4 "B_RX" I R 5500 3350 60 
+F5 "B_TX" O R 5500 3250 60 
+F6 "B_CTS" I R 5500 3550 60 
+F7 "B_RTS" O R 5500 3450 60 
+F8 "B_DSR" I R 5500 3750 60 
+F9 "B_DTR" O R 5500 3650 60 
 $EndSheet
 Wire Wire Line
-	5300 3200 5500 3200
+	5500 3450 5700 3450
 Wire Wire Line
-	5300 3300 5500 3300
+	5500 3550 5700 3550
 Wire Wire Line
-	5300 3400 5500 3400
+	5500 3650 5700 3650
 Wire Wire Line
-	5300 3500 5500 3500
+	5500 3750 5700 3750
+NoConn ~ 5700 3450
+NoConn ~ 5700 3550
+NoConn ~ 5700 3650
+NoConn ~ 5700 3750
+NoConn ~ 5950 2750
+NoConn ~ 5850 2750
+NoConn ~ 5750 2750
+NoConn ~ 5650 2750
 Wire Wire Line
-	5300 3600 5500 3600
+	3850 3250 3700 3250
 Wire Wire Line
-	5300 3700 5500 3700
-Text Label 5500 3300 0    60   ~ 0
-B_RX
-Text Label 5500 3200 0    60   ~ 0
-B_TX
-NoConn ~ 5500 3400
-NoConn ~ 5500 3500
-NoConn ~ 5500 3600
-NoConn ~ 5500 3700
-NoConn ~ 5900 2450
-NoConn ~ 5800 2450
-NoConn ~ 5700 2450
-NoConn ~ 5600 2450
-Wire Wire Line
-	3650 3200 3500 3200
-Wire Wire Line
-	3650 3300 3500 3300
-Text HLabel 3500 3200 0    60   UnSpc ~ 0
+	3850 3350 3700 3350
+Text HLabel 3700 3250 0    60   UnSpc ~ 0
 VCC_5V_ISO
-Text HLabel 3500 3300 0    60   UnSpc ~ 0
+Text HLabel 3700 3350 0    60   UnSpc ~ 0
 GND_ISO
 Wire Wire Line
 	8550 6200 8400 6200
@@ -337,4 +321,26 @@ F 3 "" H 8550 6050 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	8550 6050 8550 6200
+$Comp
+L CSMALL C201
+U 1 1 53B516EA
+P 5150 5850
+F 0 "C201" H 5175 5900 30  0000 L CNN
+F 1 "0.1u" H 5175 5800 30  0000 L CNN
+F 2 "~" H 5150 5850 60  0000 C CNN
+F 3 "~" H 5150 5850 60  0000 C CNN
+	1    5150 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 5950 5150 6050
+Connection ~ 5150 6050
+Text HLabel 4750 5650 0    60   UnSpc ~ 0
+GND
+Wire Wire Line
+	4750 5650 5150 5650
+Wire Wire Line
+	5150 5650 5150 5750
+Connection ~ 6350 3250
+Connection ~ 6250 3350
 $EndSCHEMATC
