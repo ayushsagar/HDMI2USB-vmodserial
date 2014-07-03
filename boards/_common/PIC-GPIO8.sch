@@ -34,7 +34,7 @@ LIBS:CONN_16
 LIBS:csmall
 LIBS:ISL83387E
 LIBS:pic16f1704
-LIBS:IR daughterboard-cache
+LIBS:GPIO-8 daughterboard-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
