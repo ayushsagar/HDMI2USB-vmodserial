@@ -1,0 +1,101 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 7/3/2014 9:40:56 PM
+
+BeginCmp
+TimeStamp = /53AB69CE/53B5143E;
+Reference = C201;
+ValeurCmp = 0.1u;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB69CE/53ABC393;
+Reference = C207;
+ValeurCmp = 0.1u;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB69CE/53ABC399;
+Reference = C208;
+ValeurCmp = 0.1u;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB69CE/53ABC34A;
+Reference = C209;
+ValeurCmp = 0.1u;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB69CE/53ABC33B;
+Reference = C210;
+ValeurCmp = 0.1u;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB69CE/53ABC32C;
+Reference = C211;
+ValeurCmp = 0.1u;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB69CE/53ABC31D;
+Reference = C212;
+ValeurCmp = 0.1u;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB69CE/53ABCB34;
+Reference = D202;
+ValeurCmp = LED;
+IdModule  = Vishay_SMD_MiniLED;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB69CE/53ABD89D;
+Reference = J202;
+ValeurCmp = DB9;
+IdModule  = DB9MD;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB69C0;
+Reference = P0;
+ValeurCmp = HEADER;
+IdModule  = DIP-20__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB69CE/53ABCB43;
+Reference = R202;
+ValeurCmp = 820;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB69CE/53ABAC25;
+Reference = R203;
+ValeurCmp = 50;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB69CE/53ABBAB7;
+Reference = U202;
+ValeurCmp = 24AA014;
+IdModule  = SO8N;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB69CE/53ABBB03;
+Reference = U203;
+ValeurCmp = ISL83387E;
+IdModule  = tssop-24;
+EndCmp
+
+EndListe

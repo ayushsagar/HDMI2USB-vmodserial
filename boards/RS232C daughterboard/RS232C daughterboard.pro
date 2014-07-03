@@ -1,11 +1,6 @@
-update=6/26/2014 6:44:48 AM
+update=7/3/2014 9:17:43 PM
 version=1
-last_client=eeschema
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+last_client=cvpcb
 [pcbnew]
 version=1
 LastNetListRead=
@@ -26,7 +21,6 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -43,6 +37,8 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
+LibName17=Vishay_SMD_MiniLED
+LibDir=../../libraries
 [general]
 version=1
 [eeschema]
@@ -88,3 +84,8 @@ LibName31=24AA014
 LibName32=CONN_16
 LibName33=csmall
 LibName34=ISL83387E
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
