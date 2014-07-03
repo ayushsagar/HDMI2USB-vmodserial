@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 7/3/2014 9:08:10 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 7/3/2014 10:06:42 AM
 
 BeginCmp
 TimeStamp = /53A5B815/53A58839;
@@ -305,7 +305,7 @@ BeginCmp
 TimeStamp = /53A5B7C7/53B311B2/53AD651D;
 Reference = L501;
 ValeurCmp = 10u;
-IdModule  = SM0603_Capa;
+IdModule  = Murata_8200_SMD;
 EndCmp
 
 BeginCmp

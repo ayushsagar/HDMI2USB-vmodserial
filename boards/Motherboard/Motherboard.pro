@@ -1,4 +1,4 @@
-update=7/3/2014 9:07:31 AM
+update=7/3/2014 10:06:25 AM
 last_client=cvpcb
 [eeschema]
 version=1
@@ -91,6 +91,7 @@ LibName18=vqfp80
 LibName19=pin_array_10x2
 LibName20=vhdci
 LibName21=Vishay_SMD_MiniLED
+LibName22=Murata_8200_SMD
 LibDir=../../libraries
 [cvpcb]
 version=1
