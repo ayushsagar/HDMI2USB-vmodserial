@@ -33,14 +33,13 @@ LIBS:24AA014
 LIBS:CONN_16
 LIBS:csmall
 LIBS:ISL83387E
-LIBS:ISL8491E
-LIBS:dpdt_slide-switch
-LIBS:RS422 RJ-45 daughterboard-cache
+LIBS:din_5_modified
+LIBS:MIDI daughterboard-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 3
+Sheet 3 3
 Title ""
 Date "3 jul 2014"
 Rev ""
@@ -77,7 +76,7 @@ L CSMALL C401
 U 1 1 53B10426
 P 5700 3350
 F 0 "C401" H 5725 3400 30  0000 L CNN
-F 1 "0.1u" H 5725 3300 30  0000 L CNN
+F 1 "1u" H 5725 3300 30  0000 L CNN
 F 2 "~" H 5700 3350 60  0000 C CNN
 F 3 "~" H 5700 3350 60  0000 C CNN
 	1    5700 3350
