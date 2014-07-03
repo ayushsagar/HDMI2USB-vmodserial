@@ -1,16 +1,16 @@
-PCBNEW-LibModule-V1  7/3/2014 12:21:15 AM
+PCBNEW-LibModule-V1  7/3/2014 10:14:29 AM
 # encoding utf-8
 Units mm
 $INDEX
 Bourns_MF-USMF
 $EndINDEX
 $MODULE Bourns_MF-USMF
-Po 0 0 0 15 53B45441 00000000 ~~
+Po 0 0 0 15 53B4DFA7 00000000 ~~
 Li Bourns_MF-USMF
 Sc 0
 AR 
 Op 0 0 0
-T0 0 3 1 1 0 0.15 N I 21 N "Bourns_MF-USMF"
+T0 0 3 1 1 0 0.15 N V 21 N "Bourns_MF-USMF"
 T1 0 -3 1 1 0 0.15 N V 21 N "VAL**"
 $PAD
 Sh "1" R 1 2.5 0 0 0
