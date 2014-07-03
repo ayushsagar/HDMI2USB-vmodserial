@@ -40,7 +40,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
 Title ""
-Date "2 jul 2014"
+Date "3 jul 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -60,9 +60,9 @@ Text HLabel 3700 3450 0    60   Input ~ 0
 DTR_ISO
 Text HLabel 3700 3550 0    60   Output ~ 0
 DSR_ISO
-Text HLabel 4700 6050 0    60   Input ~ 0
+Text HLabel 4700 6050 0    60   UnSpc ~ 0
 VCC_3V3
-Text HLabel 4550 7200 0    60   Input ~ 0
+Text HLabel 4550 7200 0    60   UnSpc ~ 0
 GND
 Text HLabel 6050 2150 0    60   Input ~ 0
 VCC_5V_ISO
@@ -164,11 +164,11 @@ F 3 "~" H 4150 2800 60  0000 C CNN
 	1    4150 2800
 	-1   0    0    -1  
 $EndComp
-Text HLabel 6500 3950 2    60   Input ~ 0
+Text HLabel 6500 3950 2    60   UnSpc ~ 0
 GND_ISO
-Text HLabel 4250 3850 0    60   Input ~ 0
+Text HLabel 4250 3850 0    60   UnSpc ~ 0
 VCC_5V_ISO
-Text HLabel 4250 3750 0    60   Input ~ 0
+Text HLabel 4250 3750 0    60   UnSpc ~ 0
 GND_ISO
 $Comp
 L LED D202
@@ -185,14 +185,14 @@ $Comp
 L R R202
 U 1 1 53ABCB43
 P 4000 3950
-F 0 "R202" V 3950 3750 40  0000 C CNN
-F 1 "R" V 4007 3951 40  0000 C CNN
+F 0 "R202" V 3950 3700 40  0000 C CNN
+F 1 "1.5K" V 4007 3951 40  0000 C CNN
 F 2 "~" V 3930 3950 30  0000 C CNN
 F 3 "~" H 4000 3950 30  0000 C CNN
 	1    4000 3950
 	0    -1   -1   0   
 $EndComp
-Text HLabel 3750 4450 2    60   Input ~ 0
+Text HLabel 3750 4450 2    60   UnSpc ~ 0
 GND_ISO
 Text Notes 1050 6450 0    60   ~ 0
 DTE Serial DB9 pinout:\n1	DCD	<--	Data Carrier Detect\n2	RXD	<--	Receive Data\n3	TXD	-->	Transmit Data\n4	DTR	-->	Data Terminal Ready\n5	GND	---	System Ground\n6	DSR	<--	Data Set Ready\n7	RTS	-->	Request to Send\n8	CTS	<--	Clear to Send\n9	RI	<--	Ring Indicator
@@ -407,13 +407,13 @@ Wire Wire Line
 	7050 6550 7050 6700
 Wire Wire Line
 	7050 6700 7250 6700
-Text HLabel 7250 6200 2    60   Input ~ 0
+Text HLabel 7250 6200 2    60   UnSpc ~ 0
 GND
-Text HLabel 7250 6700 2    60   Input ~ 0
+Text HLabel 7250 6700 2    60   UnSpc ~ 0
 GND_ISO
 Wire Wire Line
 	7650 2850 7500 2850
-Text HLabel 7500 2700 1    60   Input ~ 0
+Text HLabel 7500 2700 1    60   UnSpc ~ 0
 GND_ISO
 Wire Wire Line
 	7500 2850 7500 2700
