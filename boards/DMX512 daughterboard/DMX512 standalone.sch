@@ -62,9 +62,9 @@ Text HLabel 4700 1500 1    60   Input ~ 0
 DTR_ISO
 Text HLabel 4600 1500 1    60   Output ~ 0
 DSR_ISO
-Text HLabel 4700 6050 0    60   Input ~ 0
+Text HLabel 4500 6050 0    60   UnSpc ~ 0
 VCC_3V3
-Text HLabel 4550 7200 0    60   Input ~ 0
+Text HLabel 4550 7200 0    60   UnSpc ~ 0
 GND
 Text HLabel 6300 6550 2    60   BiDi ~ 0
 SDA
@@ -186,7 +186,7 @@ Wire Wire Line
 Wire Wire Line
 	6300 6550 6200 6550
 Wire Wire Line
-	5300 6050 5500 6050
+	5100 6050 5500 6050
 Wire Wire Line
 	5500 6050 5500 6150
 Wire Wire Line
@@ -210,7 +210,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 6700 7250 6700
 Wire Wire Line
-	4800 6050 4700 6050
+	4600 6050 4500 6050
 Wire Wire Line
 	2550 3550 2800 3550
 Wire Wire Line
@@ -392,12 +392,32 @@ Wire Wire Line
 $Comp
 L R R203
 U 1 1 53ABAC25
-P 5050 6050
-F 0 "R203" V 5130 6050 40  0000 C CNN
-F 1 "50" V 5057 6051 40  0000 C CNN
-F 2 "~" V 4980 6050 30  0000 C CNN
-F 3 "~" H 5050 6050 30  0000 C CNN
-	1    5050 6050
+P 4850 6050
+F 0 "R203" V 4930 6050 40  0000 C CNN
+F 1 "50" V 4857 6051 40  0000 C CNN
+F 2 "~" V 4780 6050 30  0000 C CNN
+F 3 "~" H 4850 6050 30  0000 C CNN
+	1    4850 6050
 	0    -1   -1   0   
 $EndComp
+$Comp
+L CSMALL C202
+U 1 1 53B633ED
+P 5200 5850
+F 0 "C202" H 5225 5900 30  0000 L CNN
+F 1 "0.1u" H 5225 5800 30  0000 L CNN
+F 2 "~" H 5200 5850 60  0000 C CNN
+F 3 "~" H 5200 5850 60  0000 C CNN
+	1    5200 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 5950 5200 6050
+Connection ~ 5200 6050
+Text HLabel 5000 5700 0    60   UnSpc ~ 0
+GND
+Wire Wire Line
+	5000 5700 5200 5700
+Wire Wire Line
+	5200 5700 5200 5750
 $EndSCHEMATC
