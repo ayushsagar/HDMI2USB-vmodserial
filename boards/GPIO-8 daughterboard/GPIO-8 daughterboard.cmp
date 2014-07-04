@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 7/4/2014 12:23:05 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 7/4/2014 4:37:45 PM
 
 BeginCmp
 TimeStamp = /53AB69CE/53B5177C;
@@ -95,7 +95,7 @@ BeginCmp
 TimeStamp = /53AB69CE/53ACAF9C;
 Reference = P201;
 ValeurCmp = GPIO_HEADER;
-IdModule  = ;
+IdModule  = PIN_ARRAY_10x1;
 EndCmp
 
 BeginCmp
@@ -109,63 +109,63 @@ BeginCmp
 TimeStamp = /53AB69CE/53ABAC25;
 Reference = R203;
 ValeurCmp = 50;
-IdModule  = ;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /53AB69CE/53AC80BA/53B30893;
 Reference = R301;
 ValeurCmp = 50;
-IdModule  = ;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /53AB69CE/53AC80BA/53B308C2;
 Reference = R302;
 ValeurCmp = 50;
-IdModule  = ;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /53AB69CE/53AC80BA/53AC8226;
 Reference = R303;
-ValeurCmp = 1.5k;
-IdModule  = ;
+ValeurCmp = 820;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /53AB69CE/53AC80BA/53B30D58;
 Reference = R304;
 ValeurCmp = 10K;
-IdModule  = ;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /53AB69CE/53B253D9/53B1042D;
 Reference = R401;
-ValeurCmp = R;
-IdModule  = ;
+ValeurCmp = 820;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /53AB69CE/53ABBAB7;
 Reference = U202;
 ValeurCmp = 24AA014;
-IdModule  = ;
+IdModule  = SO8N;
 EndCmp
 
 BeginCmp
 TimeStamp = /53AB69CE/53AC80BA/53B2DDFC;
 Reference = U301;
 ValeurCmp = PIC16F1704;
-IdModule  = ;
+IdModule  = tssop-14;
 EndCmp
 
 BeginCmp
 TimeStamp = /53AB69CE/53B253D9/53B10425;
 Reference = U401;
 ValeurCmp = ISL83387E;
-IdModule  = ;
+IdModule  = tssop-24;
 EndCmp
 
 EndListe
