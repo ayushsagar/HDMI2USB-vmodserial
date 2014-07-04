@@ -1,6 +1,6 @@
-update=7/4/2014 11:49:08 PM
+update=7/5/2014 12:07:01 AM
 version=1
-last_client=pcbnew
+last_client=cvpcb
 [general]
 version=1
 [eeschema]
@@ -48,11 +48,6 @@ LibName33=csmall
 LibName34=ISL83387E
 LibName35=ISL8491E
 LibName36=dpdt_slide-switch
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=
@@ -73,7 +68,6 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.150000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=../../libraries
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -92,7 +86,13 @@ LibName15=pga_sockets
 LibName16=valves
 LibName17=Vishay_SMD_MiniLED
 LibName18=pin_array_10x1
-LibName19=FCI_54602-908LF
-LibName20=pin_array_10x2
-LibName21=pin_array_8x1
-LibName22=JS202011AQN
+LibName19=pin_array_10x2
+LibName20=pin_array_8x1
+LibName21=JS202011AQN
+LibName22=FCI_54602-908LF
+LibDir=../../libraries
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
