@@ -47,7 +47,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 7
 Title "Serial Expansion Module and DTE interface"
-Date "3 jul 2014"
+Date "4 jul 2014"
 Rev ""
 Comp "TimVideos"
 Comment1 ""
