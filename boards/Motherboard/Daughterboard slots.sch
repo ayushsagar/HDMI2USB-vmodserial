@@ -65,35 +65,35 @@ VCC_3V3
 Text HLabel 6700 6000 0    60   Input ~ 0
 GND
 Text Label 9150 6150 3    60   ~ 0
-SLOT-E_A0
+SLOT-5_A0
 Text Label 9050 6150 3    60   ~ 0
-SLOT-E_A1
+SLOT-5_A1
 Text Label 8950 6150 3    60   ~ 0
-SLOT-E_A2
+SLOT-5_A2
 Text Label 8650 6150 3    60   ~ 0
-SLOT-D_A0
+SLOT-4_A0
 Text Label 8550 6150 3    60   ~ 0
-SLOT-D_A1
+SLOT-4_A1
 Text Label 8450 6150 3    60   ~ 0
-SLOT-D_A2
+SLOT-4_A2
 Text Label 8150 6150 3    60   ~ 0
-SLOT-C_A0
+SLOT-3_A0
 Text Label 8050 6150 3    60   ~ 0
-SLOT-C_A1
+SLOT-3_A1
 Text Label 7950 6150 3    60   ~ 0
-SLOT-C_A2
+SLOT-3_A2
 Text Label 7650 6150 3    60   ~ 0
-SLOT-B_A0
+SLOT-2_A0
 Text Label 7550 6150 3    60   ~ 0
-SLOT-B_A1
+SLOT-2_A1
 Text Label 7450 6150 3    60   ~ 0
-SLOT-B_A2
+SLOT-2_A2
 Text Label 7150 6150 3    60   ~ 0
-SLOT-A_A0
+SLOT-1_A0
 Text Label 7050 6150 3    60   ~ 0
-SLOT-A_A1
+SLOT-1_A1
 Text Label 6950 6150 3    60   ~ 0
-SLOT-A_A2
+SLOT-1_A2
 Wire Wire Line
 	6700 5900 9750 5900
 Wire Wire Line
