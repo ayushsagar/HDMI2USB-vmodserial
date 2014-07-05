@@ -1,6 +1,6 @@
-update=7/5/2014 12:17:42 PM
+update=7/5/2014 12:21:32 PM
 version=1
-last_client=eeschema
+last_client=cvpcb
 [pcbnew]
 version=1
 LastNetListRead=
@@ -39,14 +39,10 @@ LibName15=pga_sockets
 LibName16=valves
 LibName17=D:/Google Drive/TimVideos/HDMI2USB-vmodserial/libraries/Vishay_SMD_MiniLED
 LibName18=Switchcraft 35RASMT2BHNTRX
+LibName19=pin_array_10x2
 LibDir=../../libraries
 [general]
 version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [eeschema]
 version=1
 LibDir=../../libraries
@@ -92,3 +88,8 @@ LibName33=csmall
 LibName34=ISL83387E
 LibName35=pic16f1704
 LibName36=switchcraft_35rasmt2bhntrx
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
