@@ -1,0 +1,157 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 7/5/2014 2:04:09 PM
+
+BeginCmp
+TimeStamp = /53AB69CE/53B517EB;
+Reference = C201;
+ValeurCmp = 0.1u;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB69CE/53B537B9/53B10426;
+Reference = C401;
+ValeurCmp = 1u;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB69CE/53B537B9/53B10427;
+Reference = C402;
+ValeurCmp = 0.1u;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB69CE/53B537B9/53B10428;
+Reference = C403;
+ValeurCmp = 0.1u;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB69CE/53B537B9/53B10429;
+Reference = C404;
+ValeurCmp = 0.1u;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB69CE/53B537B9/53B1042A;
+Reference = C405;
+ValeurCmp = 0.1u;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB69CE/53B537B9/53B1042B;
+Reference = C406;
+ValeurCmp = 0.1u;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB69CE/53B537B9/53B38F34;
+Reference = CON301;
+ValeurCmp = BARREL_JACK;
+IdModule  = BARREL_JACK;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB69CE/53B58098;
+Reference = D201;
+ValeurCmp = 1N914;
+IdModule  = DO-35;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB69CE/53B537B9/53B1042C;
+Reference = D401;
+ValeurCmp = LED;
+IdModule  = Vishay_SMD_MiniLED;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB69CE/53B544EA;
+Reference = IC201;
+ValeurCmp = 6N138;
+IdModule  = DIP8;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB69CE/53B537B9/53B10424;
+Reference = J401;
+ValeurCmp = DB9;
+IdModule  = DB9FD;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB69C0;
+Reference = P0;
+ValeurCmp = HEADER;
+IdModule  = pin_array_10x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB69CE/53B5C1CB;
+Reference = P201;
+ValeurCmp = MIDI_IN;
+IdModule  = CUI_SDS-50J;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB69CE/53B5C1D8;
+Reference = P202;
+ValeurCmp = MIDI_OUT;
+IdModule  = CUI_SDS-50J;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB69CE/53B55725;
+Reference = R201;
+ValeurCmp = 1k;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB69CE/53B5781A;
+Reference = R202;
+ValeurCmp = 220;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB69CE/53ABAC25;
+Reference = R203;
+ValeurCmp = 50;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB69CE/53B594BA;
+Reference = R204;
+ValeurCmp = 220;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB69CE/53B537B9/53B1042D;
+Reference = R401;
+ValeurCmp = 820;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB69CE/53ABBAB7;
+Reference = U202;
+ValeurCmp = 24AA014;
+IdModule  = SO8N;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AB69CE/53B537B9/53B10425;
+Reference = U401;
+ValeurCmp = ISL83387E;
+IdModule  = tssop-24;
+EndCmp
+
+EndListe
