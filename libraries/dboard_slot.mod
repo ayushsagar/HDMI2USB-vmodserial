@@ -1,0 +1,183 @@
+PCBNEW-LibModule-V1  7/5/2014 7:23:03 PM
+# encoding utf-8
+Units mm
+$INDEX
+dboard_slot
+$EndINDEX
+$MODULE dboard_slot
+Po 0 0 0 15 53B80326 00000000 ~~
+Li dboard_slot
+Sc 0
+AR 
+Op 0 0 0
+T0 0 0 1 1 0 0.15 N V 21 N "dboard_slot"
+T1 0 -46.736 1 1 0 0.15 N V 21 N "VAL**"
+DS -20 -30 20 -30 0.15 21
+DS -20 20 20 20 0.15 21
+DS 20 -45 20 45 0.15 21
+DS 20 45 -20 45 0.15 21
+DS -20 45 -20 -45 0.15 21
+DS -20 -45 20 -45 0.15 21
+$PAD
+Sh "1" R 1.25 1.25 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.65 0
+$EndPAD
+$PAD
+Sh "2" C 1.25 1.25 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.65 2.54
+$EndPAD
+$PAD
+Sh "3" C 1.25 1.25 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.65 5.08
+$EndPAD
+$PAD
+Sh "4" C 1.25 1.25 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.65 7.62
+$EndPAD
+$PAD
+Sh "5" C 1.25 1.25 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.65 10.16
+$EndPAD
+$PAD
+Sh "6" C 1.25 1.25 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.65 12.7
+$EndPAD
+$PAD
+Sh "7" C 1.25 1.25 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.19 0
+$EndPAD
+$PAD
+Sh "8" C 1.25 1.25 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.19 2.54
+$EndPAD
+$PAD
+Sh "9" C 1.25 1.25 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.19 5.08
+$EndPAD
+$PAD
+Sh "10" C 1.25 1.25 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.19 7.62
+$EndPAD
+$PAD
+Sh "11" C 1.25 1.25 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.19 10.16
+$EndPAD
+$PAD
+Sh "12" C 1.25 1.25 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -16.19 12.7
+$EndPAD
+$PAD
+Sh "i1" R 1.25 1.25 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.19 5.08
+$EndPAD
+$PAD
+Sh "i2" C 1.25 1.25 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.19 7.62
+$EndPAD
+$PAD
+Sh "i3" C 1.25 1.25 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.19 10.16
+$EndPAD
+$PAD
+Sh "i4" C 1.25 1.25 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.19 12.7
+$EndPAD
+$PAD
+Sh "a1" C 1.25 1.25 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 4.792 7.62
+$EndPAD
+$PAD
+Sh "a2" C 1.25 1.25 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 4.792 10.16
+$EndPAD
+$PAD
+Sh "a3" C 1.25 1.25 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 4.792 12.7
+$EndPAD
+$PAD
+Sh "" C 2 2 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17 -28
+$EndPAD
+$PAD
+Sh "" C 2 2 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17 -28
+$EndPAD
+$PAD
+Sh "" C 2 2 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17 18
+$EndPAD
+$PAD
+Sh "" C 2 2 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17 18
+$EndPAD
+$EndMODULE dboard_slot
+$EndLIBRARY
