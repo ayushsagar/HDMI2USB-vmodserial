@@ -40,6 +40,7 @@ LIBS:24AA014
 LIBS:AAT3221IGV-3V3-T1
 LIBS:CONN_16
 LIBS:csmall
+LIBS:dboard_slot
 LIBS:Motherboard-cache
 EELAYER 27 0
 EELAYER END
@@ -47,7 +48,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 7
 Title "Daughterboard interface"
-Date "4 jul 2014"
+Date "5 jul 2014"
 Rev ""
 Comp "TimVideos"
 Comment1 ""
@@ -55,124 +56,14 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 3100 2150 2    60   Output ~ 0
-CTS0_ISO
-Text HLabel 3100 2250 2    60   Input ~ 0
-TX0_ISO
-Text HLabel 2100 2350 0    60   Output ~ 0
-DSR0_ISO
-Text HLabel 3100 2350 2    60   Output ~ 0
-RX0_ISO
-Text HLabel 2100 2450 0    60   Input ~ 0
-DTR0_ISO
-Text HLabel 3100 2650 2    60   UnSpc ~ 0
-VCC_5V_ISO
-Text HLabel 3100 2550 2    60   UnSpc ~ 0
-GND_ISO
-Text HLabel 2100 2850 0    60   BiDi ~ 0
-SDA
 Text Notes 1000 1150 0    120  ~ 0
 To create customized design with preloaded daughterboards add the desired \ndaughterboard schematic as a hierarchical sheet and replace the slot connector with it.
-Text HLabel 2100 2750 0    60   BiDi ~ 0
-SCL
-Text HLabel 2100 3050 0    60   UnSpc ~ 0
-VCC_3V3
-Text HLabel 2100 2950 0    60   UnSpc ~ 0
-GND
 Text Notes 1550 6600 0    60   ~ 0
 Pins 1-6 and 15-20 are PMOD UART Type 4/4A compatible. Pins 14-11 are PMOD I2C compatible.\n\nPins 14, 15, 16 correspond to A0, A1, A2 address lines of daughterboard's \nID EEPROM. \n\nThe addresses are pre-assigned in the slots starting from 1 (001) through 5 (101).\n\nAddress 0 (000) is used by motherboard ID EEPROM\n\nNote that EEPROMs power and signal pins are electrically isolated from serial port pins
-Text Label 3100 2850 0    60   ~ 0
-SLOT-A_A0
-Text Label 3100 2950 0    60   ~ 0
-SLOT-A_A1
-Text Label 3100 3050 0    60   ~ 0
-SLOT-A_A2
 Text HLabel 6700 5900 0    60   Input ~ 0
 VCC_3V3
 Text HLabel 6700 6000 0    60   Input ~ 0
 GND
-NoConn ~ 2250 2650
-Text HLabel 5250 2850 0    60   BiDi ~ 0
-SDA
-Text HLabel 5250 2750 0    60   BiDi ~ 0
-SCL
-Text HLabel 5250 2950 0    60   UnSpc ~ 0
-GND
-Text Label 6250 2850 0    60   ~ 0
-SLOT-B_A0
-Text Label 6250 2950 0    60   ~ 0
-SLOT-B_A1
-Text Label 6250 3050 0    60   ~ 0
-SLOT-B_A2
-Text HLabel 8250 2850 0    60   BiDi ~ 0
-SDA
-Text HLabel 8250 2750 0    60   BiDi ~ 0
-SCL
-Text HLabel 8250 2950 0    60   Input ~ 0
-GND
-Text Label 9250 2850 0    60   ~ 0
-SLOT-C_A0
-Text Label 9250 2950 0    60   ~ 0
-SLOT-C_A1
-Text Label 9250 3050 0    60   ~ 0
-SLOT-C_A2
-$Comp
-L DIL20 P703
-U 1 1 53ABE51C
-P 8750 2600
-F 0 "P703" H 8750 3150 70  0000 C CNN
-F 1 "SLOT-C" V 8750 2600 70  0000 C CNN
-F 2 "" H 8750 2600 60  0000 C CNN
-F 3 "" H 8750 2600 60  0000 C CNN
-	1    8750 2600
-	-1   0    0    -1  
-$EndComp
-Text HLabel 2050 4750 0    60   BiDi ~ 0
-SDA
-Text HLabel 2050 4650 0    60   BiDi ~ 0
-SCL
-Text HLabel 2050 4850 0    60   UnSpc ~ 0
-GND
-Text Label 3050 4750 0    60   ~ 0
-SLOT-D_A0
-Text Label 3050 4850 0    60   ~ 0
-SLOT-D_A1
-Text Label 3050 4950 0    60   ~ 0
-SLOT-D_A2
-$Comp
-L DIL20 P704
-U 1 1 53ABE54F
-P 2550 4500
-F 0 "P704" H 2550 5050 70  0000 C CNN
-F 1 "SLOT-D" V 2550 4500 70  0000 C CNN
-F 2 "" H 2550 4500 60  0000 C CNN
-F 3 "" H 2550 4500 60  0000 C CNN
-	1    2550 4500
-	-1   0    0    -1  
-$EndComp
-Text HLabel 5200 4750 0    60   BiDi ~ 0
-SDA
-Text HLabel 5200 4650 0    60   BiDi ~ 0
-SCL
-Text HLabel 5200 4850 0    60   UnSpc ~ 0
-GND
-Text Label 6200 4750 0    60   ~ 0
-SLOT-E_A0
-Text Label 6200 4850 0    60   ~ 0
-SLOT-E_A1
-Text Label 6200 4950 0    60   ~ 0
-SLOT-E_A2
-$Comp
-L DIL20 P705
-U 1 1 53ABE579
-P 5700 4500
-F 0 "P705" H 5700 5050 70  0000 C CNN
-F 1 "SLOT-E" V 5700 4500 70  0000 C CNN
-F 2 "" H 5700 4500 60  0000 C CNN
-F 3 "" H 5700 4500 60  0000 C CNN
-	1    5700 4500
-	-1   0    0    -1  
-$EndComp
 Text Label 9150 6150 3    60   ~ 0
 SLOT-E_A0
 Text Label 9050 6150 3    60   ~ 0
@@ -204,85 +95,9 @@ SLOT-A_A1
 Text Label 6950 6150 3    60   ~ 0
 SLOT-A_A2
 Wire Wire Line
-	2950 2150 3100 2150
-Wire Wire Line
-	2250 2350 2100 2350
-Wire Wire Line
-	2950 2250 3100 2250
-Wire Wire Line
-	2250 2450 2100 2450
-Wire Wire Line
-	2950 2350 3100 2350
-Wire Wire Line
-	3100 2650 2950 2650
-Wire Wire Line
-	3100 2550 2950 2550
-Wire Wire Line
-	2100 2850 2250 2850
-Wire Wire Line
-	2100 2750 2250 2750
-Wire Wire Line
-	2100 2950 2250 2950
-Wire Wire Line
-	2100 3050 2250 3050
-Wire Wire Line
-	3100 2850 2950 2850
-Wire Wire Line
-	2950 2950 3100 2950
-Wire Wire Line
-	3100 3050 2950 3050
-Wire Wire Line
 	6700 5900 9750 5900
 Wire Wire Line
 	6700 6000 9750 6000
-Wire Wire Line
-	5250 2850 5400 2850
-Wire Wire Line
-	5250 2750 5400 2750
-Wire Wire Line
-	5250 2950 5400 2950
-Wire Wire Line
-	6250 2850 6100 2850
-Wire Wire Line
-	6100 2950 6250 2950
-Wire Wire Line
-	6250 3050 6100 3050
-Wire Wire Line
-	8250 2850 8400 2850
-Wire Wire Line
-	8250 2750 8400 2750
-Wire Wire Line
-	8250 2950 8400 2950
-Wire Wire Line
-	9250 2850 9100 2850
-Wire Wire Line
-	9100 2950 9250 2950
-Wire Wire Line
-	9250 3050 9100 3050
-Wire Wire Line
-	2050 4750 2200 4750
-Wire Wire Line
-	2050 4650 2200 4650
-Wire Wire Line
-	2050 4850 2200 4850
-Wire Wire Line
-	3050 4750 2900 4750
-Wire Wire Line
-	2900 4850 3050 4850
-Wire Wire Line
-	3050 4950 2900 4950
-Wire Wire Line
-	5200 4750 5350 4750
-Wire Wire Line
-	5200 4650 5350 4650
-Wire Wire Line
-	5200 4850 5350 4850
-Wire Wire Line
-	6200 4750 6050 4750
-Wire Wire Line
-	6050 4850 6200 4850
-Wire Wire Line
-	6200 4950 6050 4950
 Wire Wire Line
 	9050 6000 9050 6150
 Wire Wire Line
@@ -328,213 +143,409 @@ Connection ~ 8650 6000
 Connection ~ 8950 5900
 Connection ~ 9050 6000
 Connection ~ 9150 5900
-Text HLabel 3100 2450 2    60   Input ~ 0
+Text HLabel 1750 2050 0    60   Output ~ 0
+CTS0_ISO
+Text HLabel 1750 2150 0    60   Input ~ 0
+TX0_ISO
+Text HLabel 1750 2250 0    60   Output ~ 0
+RX0_ISO
+Text HLabel 1750 2550 0    60   UnSpc ~ 0
+VCC_5V_ISO
+Text HLabel 1750 2450 0    60   UnSpc ~ 0
+GND_ISO
+Wire Wire Line
+	1900 2050 1750 2050
+Wire Wire Line
+	1900 2150 1750 2150
+Wire Wire Line
+	1900 2250 1750 2250
+Wire Wire Line
+	1750 2550 1900 2550
+Wire Wire Line
+	1750 2450 1900 2450
+Text HLabel 1750 2350 0    60   Input ~ 0
 RTS0_ISO
 Wire Wire Line
-	2950 2450 3100 2450
-NoConn ~ 2950 2750
-$Comp
-L DIL20 P701
-U 1 1 53ABDD4A
-P 2600 2600
-F 0 "P701" H 2600 3150 70  0000 C CNN
-F 1 "SLOT-A" V 2600 2600 70  0000 C CNN
-F 2 "" H 2600 2600 60  0000 C CNN
-F 3 "" H 2600 2600 60  0000 C CNN
-	1    2600 2600
-	-1   0    0    -1  
-$EndComp
-NoConn ~ 2250 2150
-NoConn ~ 2250 2250
-Text HLabel 2100 2550 0    60   UnSpc ~ 0
+	1900 2350 1750 2350
+NoConn ~ 1900 2650
+NoConn ~ 1900 2750
+Text HLabel 1750 2850 0    60   Output ~ 0
+DSR0_ISO
+Text HLabel 1750 2950 0    60   Input ~ 0
+DTR0_ISO
+Wire Wire Line
+	1900 2850 1750 2850
+Wire Wire Line
+	1900 2950 1750 2950
+Text HLabel 1750 3050 0    60   UnSpc ~ 0
 GND_ISO
 Wire Wire Line
-	2100 2550 2250 2550
-$Comp
-L DIL20 P702
-U 1 1 53ABE4E4
-P 5750 2600
-F 0 "P702" H 5750 3150 70  0000 C CNN
-F 1 "SLOT-B" V 5750 2600 70  0000 C CNN
-F 2 "" H 5750 2600 60  0000 C CNN
-F 3 "" H 5750 2600 60  0000 C CNN
-	1    5750 2600
-	-1   0    0    -1  
-$EndComp
-Text HLabel 5250 2350 0    60   Output ~ 0
-DSR1_ISO
-Text HLabel 5250 2450 0    60   Input ~ 0
-DTR1_ISO
-Wire Wire Line
-	5400 2350 5250 2350
-Wire Wire Line
-	5400 2450 5250 2450
-Text HLabel 5250 2550 0    60   UnSpc ~ 0
-GND_ISO
-Wire Wire Line
-	5250 2550 5400 2550
-NoConn ~ 5400 2650
-NoConn ~ 5400 2150
-NoConn ~ 5400 2250
-Text HLabel 6250 2150 2    60   Output ~ 0
-CTS1_ISO
-Text HLabel 6250 2250 2    60   Input ~ 0
-TX1_ISO
-Text HLabel 6250 2350 2    60   Output ~ 0
-RX1_ISO
-Text HLabel 6250 2650 2    60   UnSpc ~ 0
+	1750 3050 1900 3050
+Text HLabel 1750 3150 0    60   UnSpc ~ 0
 VCC_5V_ISO
-Text HLabel 6250 2550 2    60   UnSpc ~ 0
+Wire Wire Line
+	1750 3150 1900 3150
+$Comp
+L DBOARD_SLOT X701
+U 1 1 53B81CBF
+P 2650 2600
+F 0 "X701" H 2200 3300 60  0000 L CNN
+F 1 "DBOARD_SLOT_1" H 2200 1900 60  0000 L CNN
+F 2 "~" H 2900 2700 60  0000 C CNN
+F 3 "~" H 2900 2700 60  0000 C CNN
+	1    2650 2600
+	1    0    0    -1  
+$EndComp
+Text Label 3550 2750 0    60   ~ 0
+SLOT-1_A0
+Text Label 3550 2850 0    60   ~ 0
+SLOT-1_A1
+Text Label 3550 2950 0    60   ~ 0
+SLOT-1_A2
+Wire Wire Line
+	3550 2750 3400 2750
+Wire Wire Line
+	3400 2850 3550 2850
+Wire Wire Line
+	3550 2950 3400 2950
+Text HLabel 3550 2250 2    60   BiDi ~ 0
+SDA
+Text HLabel 3550 2150 2    60   BiDi ~ 0
+SCL
+Text HLabel 3550 2350 2    60   UnSpc ~ 0
+GND
+Wire Wire Line
+	3550 2250 3400 2250
+Wire Wire Line
+	3550 2150 3400 2150
+Wire Wire Line
+	3550 2350 3400 2350
+Text HLabel 3550 2450 2    60   UnSpc ~ 0
+VCC_3V3
+Wire Wire Line
+	3550 2450 3400 2450
+Text HLabel 4900 2050 0    60   Output ~ 0
+CTS1_ISO
+Text HLabel 4900 2150 0    60   Input ~ 0
+TX1_ISO
+Text HLabel 4900 2250 0    60   Output ~ 0
+RX1_ISO
+Text HLabel 4900 2550 0    60   UnSpc ~ 0
+VCC_5V_ISO
+Text HLabel 4900 2450 0    60   UnSpc ~ 0
 GND_ISO
 Wire Wire Line
-	6100 2150 6250 2150
+	5050 2050 4900 2050
 Wire Wire Line
-	6100 2250 6250 2250
+	5050 2150 4900 2150
 Wire Wire Line
-	6100 2350 6250 2350
+	5050 2250 4900 2250
 Wire Wire Line
-	6250 2650 6100 2650
+	4900 2550 5050 2550
 Wire Wire Line
-	6250 2550 6100 2550
-Text HLabel 6250 2450 2    60   Input ~ 0
+	4900 2450 5050 2450
+Text HLabel 4900 2350 0    60   Input ~ 0
 RTS1_ISO
 Wire Wire Line
-	6100 2450 6250 2450
-Text HLabel 5250 3050 0    60   UnSpc ~ 0
-VCC_3V3
+	5050 2350 4900 2350
+NoConn ~ 5050 2650
+NoConn ~ 5050 2750
+Text HLabel 4900 2850 0    60   Output ~ 0
+DSR1_ISO
+Text HLabel 4900 2950 0    60   Input ~ 0
+DTR1_ISO
 Wire Wire Line
-	5250 3050 5400 3050
-NoConn ~ 6100 2750
-Text HLabel 9250 2150 2    60   Output ~ 0
-CTS2_ISO
-Text HLabel 9250 2250 2    60   Input ~ 0
-TX2_ISO
-Text HLabel 9250 2350 2    60   Output ~ 0
-RX2_ISO
-Text HLabel 9250 2650 2    60   UnSpc ~ 0
-VCC_5V_ISO
-Text HLabel 9250 2550 2    60   UnSpc ~ 0
+	5050 2850 4900 2850
+Wire Wire Line
+	5050 2950 4900 2950
+Text HLabel 4900 3050 0    60   UnSpc ~ 0
 GND_ISO
 Wire Wire Line
-	9100 2150 9250 2150
+	4900 3050 5050 3050
+Text HLabel 4900 3150 0    60   UnSpc ~ 0
+VCC_5V_ISO
 Wire Wire Line
-	9100 2250 9250 2250
+	4900 3150 5050 3150
+$Comp
+L DBOARD_SLOT X702
+U 1 1 53B81F27
+P 5800 2600
+F 0 "X702" H 5350 3300 60  0000 L CNN
+F 1 "DBOARD_SLOT_2" H 5350 1900 60  0000 L CNN
+F 2 "~" H 6050 2700 60  0000 C CNN
+F 3 "~" H 6050 2700 60  0000 C CNN
+	1    5800 2600
+	1    0    0    -1  
+$EndComp
+Text Label 6700 2750 0    60   ~ 0
+SLOT-2_A0
+Text Label 6700 2850 0    60   ~ 0
+SLOT-2_A1
+Text Label 6700 2950 0    60   ~ 0
+SLOT-2_A2
 Wire Wire Line
-	9100 2350 9250 2350
+	6700 2750 6550 2750
 Wire Wire Line
-	9250 2650 9100 2650
+	6550 2850 6700 2850
 Wire Wire Line
-	9250 2550 9100 2550
-Text HLabel 9250 2450 2    60   Input ~ 0
+	6700 2950 6550 2950
+Text HLabel 6700 2250 2    60   BiDi ~ 0
+SDA
+Text HLabel 6700 2150 2    60   BiDi ~ 0
+SCL
+Text HLabel 6700 2350 2    60   UnSpc ~ 0
+GND
+Wire Wire Line
+	6700 2250 6550 2250
+Wire Wire Line
+	6700 2150 6550 2150
+Wire Wire Line
+	6700 2350 6550 2350
+Text HLabel 6700 2450 2    60   UnSpc ~ 0
+VCC_3V3
+Wire Wire Line
+	6700 2450 6550 2450
+Text HLabel 8100 2050 0    60   Output ~ 0
+CTS2_ISO
+Text HLabel 8100 2150 0    60   Input ~ 0
+TX2_ISO
+Text HLabel 8100 2250 0    60   Output ~ 0
+RX2_ISO
+Text HLabel 8100 2550 0    60   UnSpc ~ 0
+VCC_5V_ISO
+Text HLabel 8100 2450 0    60   UnSpc ~ 0
+GND_ISO
+Wire Wire Line
+	8250 2050 8100 2050
+Wire Wire Line
+	8250 2150 8100 2150
+Wire Wire Line
+	8250 2250 8100 2250
+Wire Wire Line
+	8100 2550 8250 2550
+Wire Wire Line
+	8100 2450 8250 2450
+Text HLabel 8100 2350 0    60   Input ~ 0
 RTS2_ISO
 Wire Wire Line
-	9100 2450 9250 2450
-Text HLabel 8250 2350 0    60   Output ~ 0
+	8250 2350 8100 2350
+NoConn ~ 8250 2650
+NoConn ~ 8250 2750
+Text HLabel 8100 2850 0    60   Output ~ 0
 DSR2_ISO
-Text HLabel 8250 2450 0    60   Input ~ 0
+Text HLabel 8100 2950 0    60   Input ~ 0
 DTR2_ISO
 Wire Wire Line
-	8400 2350 8250 2350
+	8250 2850 8100 2850
 Wire Wire Line
-	8400 2450 8250 2450
-Text HLabel 8250 2550 0    60   UnSpc ~ 0
+	8250 2950 8100 2950
+Text HLabel 8100 3050 0    60   UnSpc ~ 0
 GND_ISO
 Wire Wire Line
-	8250 2550 8400 2550
-Text HLabel 8250 3050 0    60   UnSpc ~ 0
+	8100 3050 8250 3050
+Text HLabel 8100 3150 0    60   UnSpc ~ 0
+VCC_5V_ISO
+Wire Wire Line
+	8100 3150 8250 3150
+$Comp
+L DBOARD_SLOT X703
+U 1 1 53B81F6C
+P 9000 2600
+F 0 "X703" H 8550 3300 60  0000 L CNN
+F 1 "DBOARD_SLOT_3" H 8550 1900 60  0000 L CNN
+F 2 "~" H 9250 2700 60  0000 C CNN
+F 3 "~" H 9250 2700 60  0000 C CNN
+	1    9000 2600
+	1    0    0    -1  
+$EndComp
+Text Label 9900 2750 0    60   ~ 0
+SLOT-3_A0
+Text Label 9900 2850 0    60   ~ 0
+SLOT-3_A1
+Text Label 9900 2950 0    60   ~ 0
+SLOT-3_A2
+Wire Wire Line
+	9900 2750 9750 2750
+Wire Wire Line
+	9750 2850 9900 2850
+Wire Wire Line
+	9900 2950 9750 2950
+Text HLabel 9900 2250 2    60   BiDi ~ 0
+SDA
+Text HLabel 9900 2150 2    60   BiDi ~ 0
+SCL
+Text HLabel 9900 2350 2    60   UnSpc ~ 0
+GND
+Wire Wire Line
+	9900 2250 9750 2250
+Wire Wire Line
+	9900 2150 9750 2150
+Wire Wire Line
+	9900 2350 9750 2350
+Text HLabel 9900 2450 2    60   UnSpc ~ 0
 VCC_3V3
 Wire Wire Line
-	8250 3050 8400 3050
-NoConn ~ 8400 2650
-NoConn ~ 8400 2250
-NoConn ~ 8400 2150
-NoConn ~ 9100 2750
-Text HLabel 3050 4050 2    60   Output ~ 0
+	9900 2450 9750 2450
+Text HLabel 1750 3950 0    60   Output ~ 0
 CTS3_ISO
-Text HLabel 3050 4150 2    60   Input ~ 0
+Text HLabel 1750 4050 0    60   Input ~ 0
 TX3_ISO
-Text HLabel 3050 4250 2    60   Output ~ 0
+Text HLabel 1750 4150 0    60   Output ~ 0
 RX3_ISO
-Text HLabel 3050 4550 2    60   UnSpc ~ 0
+Text HLabel 1750 4450 0    60   UnSpc ~ 0
 VCC_5V_ISO
-Text HLabel 3050 4450 2    60   UnSpc ~ 0
+Text HLabel 1750 4350 0    60   UnSpc ~ 0
 GND_ISO
 Wire Wire Line
-	2900 4050 3050 4050
+	1900 3950 1750 3950
 Wire Wire Line
-	2900 4150 3050 4150
+	1900 4050 1750 4050
 Wire Wire Line
-	2900 4250 3050 4250
+	1900 4150 1750 4150
 Wire Wire Line
-	3050 4550 2900 4550
+	1750 4450 1900 4450
 Wire Wire Line
-	3050 4450 2900 4450
-Text HLabel 3050 4350 2    60   Input ~ 0
+	1750 4350 1900 4350
+Text HLabel 1750 4250 0    60   Input ~ 0
 RTS3_ISO
 Wire Wire Line
-	2900 4350 3050 4350
-Text HLabel 2050 4250 0    60   Output ~ 0
+	1900 4250 1750 4250
+NoConn ~ 1900 4550
+NoConn ~ 1900 4650
+Text HLabel 1750 4750 0    60   Output ~ 0
 DSR3_ISO
-Text HLabel 2050 4350 0    60   Input ~ 0
+Text HLabel 1750 4850 0    60   Input ~ 0
 DTR3_ISO
 Wire Wire Line
-	2200 4250 2050 4250
+	1900 4750 1750 4750
 Wire Wire Line
-	2200 4350 2050 4350
-Text HLabel 2050 4450 0    60   UnSpc ~ 0
+	1900 4850 1750 4850
+Text HLabel 1750 4950 0    60   UnSpc ~ 0
 GND_ISO
 Wire Wire Line
-	2050 4450 2200 4450
-NoConn ~ 2200 4150
-NoConn ~ 2200 4050
-NoConn ~ 2200 4550
-NoConn ~ 2900 4650
-Text HLabel 2050 4950 0    60   UnSpc ~ 0
+	1750 4950 1900 4950
+Text HLabel 1750 5050 0    60   UnSpc ~ 0
+VCC_5V_ISO
+Wire Wire Line
+	1750 5050 1900 5050
+$Comp
+L DBOARD_SLOT X704
+U 1 1 53B81FA4
+P 2650 4500
+F 0 "X704" H 2200 5200 60  0000 L CNN
+F 1 "DBOARD_SLOT_4" H 2200 3800 60  0000 L CNN
+F 2 "~" H 2900 4600 60  0000 C CNN
+F 3 "~" H 2900 4600 60  0000 C CNN
+	1    2650 4500
+	1    0    0    -1  
+$EndComp
+Text Label 3550 4650 0    60   ~ 0
+SLOT-4_A0
+Text Label 3550 4750 0    60   ~ 0
+SLOT-4_A1
+Text Label 3550 4850 0    60   ~ 0
+SLOT-4_A2
+Wire Wire Line
+	3550 4650 3400 4650
+Wire Wire Line
+	3400 4750 3550 4750
+Wire Wire Line
+	3550 4850 3400 4850
+Text HLabel 3550 4150 2    60   BiDi ~ 0
+SDA
+Text HLabel 3550 4050 2    60   BiDi ~ 0
+SCL
+Text HLabel 3550 4250 2    60   UnSpc ~ 0
+GND
+Wire Wire Line
+	3550 4150 3400 4150
+Wire Wire Line
+	3550 4050 3400 4050
+Wire Wire Line
+	3550 4250 3400 4250
+Text HLabel 3550 4350 2    60   UnSpc ~ 0
 VCC_3V3
 Wire Wire Line
-	2050 4950 2200 4950
-NoConn ~ 6050 4650
-NoConn ~ 5350 4550
-NoConn ~ 5350 4150
-NoConn ~ 5350 4050
-Text HLabel 6200 4050 2    60   Output ~ 0
+	3550 4350 3400 4350
+Text HLabel 4900 3950 0    60   Output ~ 0
 CTS4_ISO
-Text HLabel 6200 4150 2    60   Input ~ 0
+Text HLabel 4900 4050 0    60   Input ~ 0
 TX4_ISO
-Text HLabel 6200 4250 2    60   Output ~ 0
+Text HLabel 4900 4150 0    60   Output ~ 0
 RX4_ISO
-Text HLabel 6200 4550 2    60   UnSpc ~ 0
+Text HLabel 4900 4450 0    60   UnSpc ~ 0
 VCC_5V_ISO
-Text HLabel 6200 4450 2    60   UnSpc ~ 0
+Text HLabel 4900 4350 0    60   UnSpc ~ 0
 GND_ISO
 Wire Wire Line
-	6050 4050 6200 4050
+	5050 3950 4900 3950
 Wire Wire Line
-	6050 4150 6200 4150
+	5050 4050 4900 4050
 Wire Wire Line
-	6050 4250 6200 4250
+	5050 4150 4900 4150
 Wire Wire Line
-	6200 4550 6050 4550
+	4900 4450 5050 4450
 Wire Wire Line
-	6200 4450 6050 4450
-Text HLabel 6200 4350 2    60   Input ~ 0
+	4900 4350 5050 4350
+Text HLabel 4900 4250 0    60   Input ~ 0
 RTS4_ISO
 Wire Wire Line
-	6050 4350 6200 4350
-Text HLabel 5200 4250 0    60   Output ~ 0
+	5050 4250 4900 4250
+NoConn ~ 5050 4550
+NoConn ~ 5050 4650
+Text HLabel 4900 4750 0    60   Output ~ 0
 DSR4_ISO
-Text HLabel 5200 4350 0    60   Input ~ 0
+Text HLabel 4900 4850 0    60   Input ~ 0
 DTR4_ISO
 Wire Wire Line
-	5350 4250 5200 4250
+	5050 4750 4900 4750
 Wire Wire Line
-	5350 4350 5200 4350
-Text HLabel 5200 4450 0    60   UnSpc ~ 0
+	5050 4850 4900 4850
+Text HLabel 4900 4950 0    60   UnSpc ~ 0
 GND_ISO
 Wire Wire Line
-	5200 4450 5350 4450
-Text HLabel 5200 4950 0    60   UnSpc ~ 0
+	4900 4950 5050 4950
+Text HLabel 4900 5050 0    60   UnSpc ~ 0
+VCC_5V_ISO
+Wire Wire Line
+	4900 5050 5050 5050
+$Comp
+L DBOARD_SLOT X705
+U 1 1 53B81FCE
+P 5800 4500
+F 0 "X705" H 5350 5200 60  0000 L CNN
+F 1 "DBOARD_SLOT_5" H 5350 3800 60  0000 L CNN
+F 2 "~" H 6050 4600 60  0000 C CNN
+F 3 "~" H 6050 4600 60  0000 C CNN
+	1    5800 4500
+	1    0    0    -1  
+$EndComp
+Text Label 6700 4650 0    60   ~ 0
+SLOT-5_A0
+Text Label 6700 4750 0    60   ~ 0
+SLOT-5_A1
+Text Label 6700 4850 0    60   ~ 0
+SLOT-5_A2
+Wire Wire Line
+	6700 4650 6550 4650
+Wire Wire Line
+	6550 4750 6700 4750
+Wire Wire Line
+	6700 4850 6550 4850
+Text HLabel 6700 4150 2    60   BiDi ~ 0
+SDA
+Text HLabel 6700 4050 2    60   BiDi ~ 0
+SCL
+Text HLabel 6700 4250 2    60   UnSpc ~ 0
+GND
+Wire Wire Line
+	6700 4150 6550 4150
+Wire Wire Line
+	6700 4050 6550 4050
+Wire Wire Line
+	6700 4250 6550 4250
+Text HLabel 6700 4350 2    60   UnSpc ~ 0
 VCC_3V3
 Wire Wire Line
-	5200 4950 5350 4950
+	6700 4350 6550 4350
 $EndSCHEMATC

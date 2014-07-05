@@ -40,6 +40,7 @@ LIBS:24AA014
 LIBS:AAT3221IGV-3V3-T1
 LIBS:CONN_16
 LIBS:csmall
+LIBS:dboard_slot
 LIBS:Motherboard-cache
 EELAYER 27 0
 EELAYER END
@@ -47,7 +48,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 7
 Title "Serial Expansion Module and DTE interface"
-Date "4 jul 2014"
+Date "5 jul 2014"
 Rev ""
 Comp "TimVideos"
 Comment1 ""
@@ -56,7 +57,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Notes 950  7550 0    60   ~ 0
-The serial DTE (Data Terminal Equipment) is either Atlys VHDCI module or PIC18 USB module.\nWhile both of them are shown connected on schematic, only one of them should stay populated on PCB assembly.
+The serial DTE (Data Terminal Equipment) is either Atlys VHDCI module or PIC18 USB module.\nWhile both of them are shown connected on schematic, only one of them can stay populated on PCB assembly.
 Wire Wire Line
 	6750 2900 7050 2900
 Wire Wire Line

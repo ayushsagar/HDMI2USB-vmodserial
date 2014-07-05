@@ -40,6 +40,7 @@ LIBS:24AA014
 LIBS:AAT3221IGV-3V3-T1
 LIBS:CONN_16
 LIBS:csmall
+LIBS:dboard_slot
 LIBS:Motherboard-cache
 EELAYER 27 0
 EELAYER END
@@ -47,7 +48,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 7
 Title "Power isolation"
-Date "4 jul 2014"
+Date "5 jul 2014"
 Rev ""
 Comp "TimVideos"
 Comment1 ""
