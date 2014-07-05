@@ -35,6 +35,8 @@ LIBS:csmall
 LIBS:ISL83387E
 LIBS:pic16f1704
 LIBS:switchcraft_35rasmt2bhntrx
+LIBS:dboard_slot
+LIBS:RS232C daughterboard-cache
 LIBS:IR daughterboard-cache
 EELAYER 27 0
 EELAYER END

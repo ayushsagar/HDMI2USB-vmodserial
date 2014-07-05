@@ -1,6 +1,6 @@
-update=7/5/2014 12:21:32 PM
+update=7/5/2014 5:22:19 PM
 version=1
-last_client=cvpcb
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -43,6 +43,11 @@ LibName19=pin_array_10x2
 LibDir=../../libraries
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=../../libraries
@@ -88,8 +93,4 @@ LibName33=csmall
 LibName34=ISL83387E
 LibName35=pic16f1704
 LibName36=switchcraft_35rasmt2bhntrx
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName37=dboard_slot
