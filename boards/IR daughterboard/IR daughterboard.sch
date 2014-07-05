@@ -34,6 +34,7 @@ LIBS:CONN_16
 LIBS:csmall
 LIBS:ISL83387E
 LIBS:pic16f1704
+LIBS:switchcraft_35rasmt2bhntrx
 LIBS:IR daughterboard-cache
 EELAYER 27 0
 EELAYER END
@@ -41,7 +42,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title ""
-Date "3 jul 2014"
+Date "5 jul 2014"
 Rev ""
 Comp ""
 Comment1 ""

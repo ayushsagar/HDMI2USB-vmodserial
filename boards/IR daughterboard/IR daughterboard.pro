@@ -1,11 +1,6 @@
-update=7/1/2014 11:50:16 AM
+update=7/5/2014 12:17:42 PM
 version=1
 last_client=eeschema
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=
@@ -26,7 +21,6 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -43,8 +37,16 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
+LibName17=D:/Google Drive/TimVideos/HDMI2USB-vmodserial/libraries/Vishay_SMD_MiniLED
+LibName18=Switchcraft 35RASMT2BHNTRX
+LibDir=../../libraries
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=../../libraries
@@ -89,3 +91,4 @@ LibName32=CONN_16
 LibName33=csmall
 LibName34=ISL83387E
 LibName35=pic16f1704
+LibName36=switchcraft_35rasmt2bhntrx
