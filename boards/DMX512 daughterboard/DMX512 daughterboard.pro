@@ -1,6 +1,6 @@
-update=7/5/2014 12:45:41 AM
+update=7/5/2014 5:24:43 PM
 version=1
-last_client=cvpcb
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -42,6 +42,11 @@ LibName18=D:/Google Drive/TimVideos/HDMI2USB-vmodserial/libraries/pin_array_10x2
 LibDir=
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=../../libraries
@@ -87,8 +92,4 @@ LibName33=csmall
 LibName34=ISL83387E
 LibName35=ISL8491E
 LibName36=pic16f1704
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName37=dboard_slot
