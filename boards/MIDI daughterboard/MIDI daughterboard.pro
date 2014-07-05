@@ -1,6 +1,6 @@
-update=7/5/2014 2:03:24 PM
+update=7/5/2014 5:14:53 PM
 version=1
-last_client=cvpcb
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -43,6 +43,11 @@ LibName19=CUI_SDS-50J
 LibDir=../../libraries
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=../../libraries
@@ -87,8 +92,4 @@ LibName32=CONN_16
 LibName33=csmall
 LibName34=ISL83387E
 LibName35=din_5_modified
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName36=dboard_slot
