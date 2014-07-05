@@ -34,6 +34,7 @@ LIBS:CONN_16
 LIBS:csmall
 LIBS:ISL83387E
 LIBS:pic16f1704
+LIBS:dboard_slot
 LIBS:GPIO-16 DB25 daughterboard-cache
 EELAYER 27 0
 EELAYER END
@@ -41,7 +42,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
 Title ""
-Date "3 jul 2014"
+Date "5 jul 2014"
 Rev ""
 Comp ""
 Comment1 ""

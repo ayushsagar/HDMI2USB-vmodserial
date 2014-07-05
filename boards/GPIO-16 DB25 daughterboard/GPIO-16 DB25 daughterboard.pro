@@ -1,4 +1,4 @@
-update=7/3/2014 6:31:07 PM
+update=7/5/2014 5:18:20 PM
 version=1
 last_client=eeschema
 [cvpcb]
@@ -89,3 +89,4 @@ LibName32=CONN_16
 LibName33=csmall
 LibName34=ISL83387E
 LibName35=pic16f1704
+LibName36=dboard_slot
