@@ -1,4 +1,4 @@
-update=7/5/2014 6:46:37 PM
+update=7/6/2014 7:27:34 PM
 last_client=pcbnew
 [cvpcb]
 version=1
@@ -58,12 +58,12 @@ LibName41=csmall
 LibName42=dboard_slot
 [pcbnew]
 version=1
-LastNetListRead=
+LastNetListRead=Motherboard.net
 UseCmpFile=1
-PadDrill=0.800000000000
-PadDrillOvalY=0.800000000000
-PadSizeH=1.250000000000
-PadSizeV=1.250000000000
+PadDrill=4.500000000000
+PadDrillOvalY=4.500000000000
+PadSizeH=4.500000000000
+PadSizeV=4.500000000000
 PcbTextSizeV=1.500000000000
 PcbTextSizeH=1.500000000000
 PcbTextThickness=0.300000000000
@@ -100,3 +100,4 @@ LibName20=vhdci
 LibName21=Vishay_SMD_MiniLED
 LibName22=Murata_8200_SMD
 LibName23=dboard_slot
+LibName24=atlys_screw_hole
