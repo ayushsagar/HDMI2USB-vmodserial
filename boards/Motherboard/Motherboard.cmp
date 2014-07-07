@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 7/5/2014 7:35:06 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 7/5/2014 11:28:26 PM
 
 BeginCmp
 TimeStamp = /53A5B815/53A58839;
@@ -1018,7 +1018,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53A5B7C7/53A520F4/53B1FFAC;
 Reference = U603;
-ValeurCmp = SI8660;
+ValeurCmp = SI8630/SI8660;
 IdModule  = SO16N;
 EndCmp
 
