@@ -48,7 +48,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 7
 Title "Daughterboard interface"
-Date "5 jul 2014"
+Date "8 jul 2014"
 Rev ""
 Comp "TimVideos"
 Comment1 ""
