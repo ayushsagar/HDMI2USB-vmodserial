@@ -56,7 +56,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1800 1700 0    60   Input ~ 0
+Text HLabel 1800 1700 0    60   UnSpc ~ 0
 VCC_A
 Text HLabel 1800 1900 0    60   Input ~ 0
 IN0_A
@@ -178,19 +178,19 @@ Text HLabel 6950 5800 0    60   Output ~ 0
 OUT13_A
 Text HLabel 6950 5900 0    60   Output ~ 0
 OUT14_A
-Text HLabel 1800 6300 0    60   Input ~ 0
+Text HLabel 1800 6300 0    60   UnSpc ~ 0
 GND_A
-Text HLabel 4900 1700 2    60   Input ~ 0
+Text HLabel 4900 1700 2    60   UnSpc ~ 0
 VCC_B
-Text HLabel 10050 2600 2    60   Input ~ 0
+Text HLabel 10050 2600 2    60   UnSpc ~ 0
 GND_B
-Text HLabel 10050 1700 2    60   Input ~ 0
+Text HLabel 10050 1700 2    60   UnSpc ~ 0
 VCC_B
-Text HLabel 6950 1700 0    60   Input ~ 0
+Text HLabel 6950 1700 0    60   UnSpc ~ 0
 VCC_A
-Text HLabel 10050 6300 2    60   Input ~ 0
+Text HLabel 10050 6300 2    60   UnSpc ~ 0
 GND_B
-Text HLabel 6950 6300 0    60   Input ~ 0
+Text HLabel 6950 6300 0    60   UnSpc ~ 0
 GND_A
 $Comp
 L R R601
@@ -566,7 +566,7 @@ F 3 "~" H 8500 5700 60  0000 C CNN
 	1    8500 5850
 	-1   0    0    -1  
 $EndComp
-Text HLabel 1800 2600 0    60   Input ~ 0
+Text HLabel 1800 2600 0    60   UnSpc ~ 0
 GND_A
 $Comp
 L R R608
@@ -689,13 +689,13 @@ F 3 "~" H 2200 5900 30  0000 C CNN
 	1    2200 5900
 	0    -1   -1   0   
 $EndComp
-Text HLabel 1800 3450 0    60   Input ~ 0
+Text HLabel 1800 3450 0    60   UnSpc ~ 0
 VCC_A
-Text HLabel 1800 5400 0    60   Input ~ 0
+Text HLabel 1800 5400 0    60   UnSpc ~ 0
 VCC_A
-Text HLabel 1800 4350 0    60   Input ~ 0
+Text HLabel 1800 4350 0    60   UnSpc ~ 0
 GND_A
-Text HLabel 4900 2600 2    60   Input ~ 0
+Text HLabel 4900 2600 2    60   UnSpc ~ 0
 GND_B
 $Comp
 L R R629
@@ -818,13 +818,13 @@ F 3 "~" H 4500 5900 30  0000 C CNN
 	1    4500 5900
 	0    -1   -1   0   
 $EndComp
-Text HLabel 4900 4350 2    60   Input ~ 0
+Text HLabel 4900 4350 2    60   UnSpc ~ 0
 GND_B
-Text HLabel 4900 3450 2    60   Input ~ 0
+Text HLabel 4900 3450 2    60   UnSpc ~ 0
 VCC_B
-Text HLabel 4900 5400 2    60   Input ~ 0
+Text HLabel 4900 5400 2    60   UnSpc ~ 0
 VCC_B
-Text HLabel 4900 6300 2    60   Input ~ 0
+Text HLabel 4900 6300 2    60   UnSpc ~ 0
 GND_B
 $Comp
 L R R650
@@ -947,13 +947,13 @@ F 3 "~" H 9650 5900 30  0000 C CNN
 	1    9650 5900
 	0    1    -1   0   
 $EndComp
-Text HLabel 10050 3450 2    60   Input ~ 0
+Text HLabel 10050 3450 2    60   UnSpc ~ 0
 VCC_B
-Text HLabel 10050 5400 2    60   Input ~ 0
+Text HLabel 10050 5400 2    60   UnSpc ~ 0
 VCC_B
-Text HLabel 10050 4350 2    60   Input ~ 0
+Text HLabel 10050 4350 2    60   UnSpc ~ 0
 GND_B
-Text HLabel 6950 2600 0    60   Input ~ 0
+Text HLabel 6950 2600 0    60   UnSpc ~ 0
 GND_A
 $Comp
 L R R671
@@ -1076,11 +1076,11 @@ F 3 "~" H 7350 5900 30  0000 C CNN
 	1    7350 5900
 	0    1    -1   0   
 $EndComp
-Text HLabel 6950 4350 0    60   Input ~ 0
+Text HLabel 6950 4350 0    60   UnSpc ~ 0
 GND_A
-Text HLabel 6950 3450 0    60   Input ~ 0
+Text HLabel 6950 3450 0    60   UnSpc ~ 0
 VCC_A
-Text HLabel 6950 5400 0    60   Input ~ 0
+Text HLabel 6950 5400 0    60   UnSpc ~ 0
 VCC_A
 $Comp
 L CSMALL C601
@@ -1093,7 +1093,7 @@ F 3 "~" H 2200 1500 60  0000 C CNN
 	1    2200 1500
 	0    1    1    0   
 $EndComp
-Text HLabel 1800 1500 0    60   Input ~ 0
+Text HLabel 1800 1500 0    60   UnSpc ~ 0
 GND_A
 Wire Wire Line
 	1950 1700 1800 1700
@@ -1449,7 +1449,7 @@ F 3 "~" H 2200 3250 60  0000 C CNN
 	1    2200 3250
 	0    1    1    0   
 $EndComp
-Text HLabel 1800 3250 0    60   Input ~ 0
+Text HLabel 1800 3250 0    60   UnSpc ~ 0
 GND_A
 Wire Wire Line
 	2100 3250 1800 3250
@@ -1477,7 +1477,7 @@ F 3 "~" H 2200 5200 60  0000 C CNN
 	1    2200 5200
 	0    1    1    0   
 $EndComp
-Text HLabel 1800 5200 0    60   Input ~ 0
+Text HLabel 1800 5200 0    60   UnSpc ~ 0
 GND_A
 Wire Wire Line
 	2550 5200 2550 5400
@@ -1507,7 +1507,7 @@ F 3 "~" H 4500 1500 60  0000 C CNN
 	1    4500 1500
 	0    -1   1    0   
 $EndComp
-Text HLabel 4900 1500 2    60   Input ~ 0
+Text HLabel 4900 1500 2    60   UnSpc ~ 0
 GND_B
 Wire Wire Line
 	4150 1500 4150 1700
@@ -1537,7 +1537,7 @@ F 3 "~" H 4500 3250 60  0000 C CNN
 	1    4500 3250
 	0    -1   1    0   
 $EndComp
-Text HLabel 4900 3250 2    60   Input ~ 0
+Text HLabel 4900 3250 2    60   UnSpc ~ 0
 GND_B
 Wire Wire Line
 	4150 3250 4150 3450
@@ -1567,7 +1567,7 @@ F 3 "~" H 4500 5200 60  0000 C CNN
 	1    4500 5200
 	0    -1   1    0   
 $EndComp
-Text HLabel 4900 5200 2    60   Input ~ 0
+Text HLabel 4900 5200 2    60   UnSpc ~ 0
 GND_B
 Wire Wire Line
 	4150 5200 4150 5400
@@ -1597,7 +1597,7 @@ F 3 "~" H 9650 1500 60  0000 C CNN
 	1    9650 1500
 	0    -1   1    0   
 $EndComp
-Text HLabel 10050 1500 2    60   Input ~ 0
+Text HLabel 10050 1500 2    60   UnSpc ~ 0
 GND_B
 Wire Wire Line
 	9300 1500 9300 1700
@@ -1627,7 +1627,7 @@ F 3 "~" H 9650 3250 60  0000 C CNN
 	1    9650 3250
 	0    -1   1    0   
 $EndComp
-Text HLabel 10050 3250 2    60   Input ~ 0
+Text HLabel 10050 3250 2    60   UnSpc ~ 0
 GND_B
 Wire Wire Line
 	9300 3250 9300 3450
@@ -1657,7 +1657,7 @@ F 3 "~" H 9650 5200 60  0000 C CNN
 	1    9650 5200
 	0    -1   1    0   
 $EndComp
-Text HLabel 10050 5200 2    60   Input ~ 0
+Text HLabel 10050 5200 2    60   UnSpc ~ 0
 GND_B
 Wire Wire Line
 	9300 5200 9300 5400
@@ -1687,7 +1687,7 @@ F 3 "~" H 7350 5200 60  0000 C CNN
 	1    7350 5200
 	0    1    1    0   
 $EndComp
-Text HLabel 6950 5200 0    60   Input ~ 0
+Text HLabel 6950 5200 0    60   UnSpc ~ 0
 GND_A
 Wire Wire Line
 	7700 5200 7700 5400
@@ -1717,7 +1717,7 @@ F 3 "~" H 7350 3250 60  0000 C CNN
 	1    7350 3250
 	0    1    1    0   
 $EndComp
-Text HLabel 6950 3250 0    60   Input ~ 0
+Text HLabel 6950 3250 0    60   UnSpc ~ 0
 GND_A
 Wire Wire Line
 	7700 3250 7700 3450
@@ -1747,7 +1747,7 @@ F 3 "~" H 7350 1500 60  0000 C CNN
 	1    7350 1500
 	0    1    1    0   
 $EndComp
-Text HLabel 6950 1500 0    60   Input ~ 0
+Text HLabel 6950 1500 0    60   UnSpc ~ 0
 GND_A
 Wire Wire Line
 	7700 1500 7700 1700
